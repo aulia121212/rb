@@ -1,0 +1,1364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notifications.KatalogFragment">
+
+    <ImageView
+        android:id="@+id/image_favorit"
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/favorit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image_favorit">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="16dp"
+            android:paddingTop="16dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="16dp">
+
+            <!-- UMKM 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="205dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/card_background"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:id="@+id/image1"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/umkm_1_gothirty" />
+
+                    <TextView
+                        android:id="@+id/text1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginBottom="0dp"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Gothirty Handmade" />
+
+                    <TextView
+                        android:id="@+id/subtext1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="10sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginTop="0dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Hastari Kusumawardhani" />
+
+                    <Button
+                        android:id="@+id/button_lihat_detail1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/button_background"
+                        android:paddingStart="12dp"
+                        android:paddingTop="0dp"
+                        android:paddingEnd="2dp"
+                        android:layout_marginStart="30dp"
+                        android:paddingBottom="1dp"
+                        android:textSize="8sp"
+                        android:text="Lihat Detail"
+                        android:textColor="@android:color/white"
+                        android:drawableEnd="@drawable/baseline_right_24"
+                        android:fontFamily="@font/poppins_bold"
+                        android:gravity="center"
+                        android:onClick="onLihatDetailClicked" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="205dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="8dp"
+                    android:background="@drawable/card_background"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:id="@+id/image2"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/umkm_2_jahekoe" />
+
+                    <TextView
+                        android:id="@+id/text2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginBottom="0dp"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="JaheKoe" />
+
+                    <TextView
+                        android:id="@+id/subtext2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="10sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginTop="0dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Imroatun Sholihah Norah"
+                       />
+
+                    <Button
+                        android:id="@+id/button_lihat_detail2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/button_background"
+                        android:paddingStart="12dp"
+                        android:paddingTop="0dp"
+                        android:paddingEnd="2dp"
+                        android:layout_marginStart="30dp"
+                        android:paddingBottom="1dp"
+                        android:textSize="8sp"
+                        android:text="Lihat Detail"
+                        android:textColor="@android:color/white"
+                        android:drawableEnd="@drawable/baseline_right_24"
+                        android:fontFamily="@font/poppins_bold"
+                        android:gravity="center"
+                        android:onClick="onLihatDetailClicked"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- UMKM 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="205dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/card_background"
+                    android:padding="8dp">
+
+
+                    <ImageView
+                        android:id="@+id/image3"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/umkm_3_mucrova" />
+
+                    <TextView
+                        android:id="@+id/text3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginBottom="0dp"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Nova Rahmad Abadi"/>
+
+                    <TextView
+                        android:id="@+id/subtext3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="10sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginTop="0dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Asmita Nova Rachmayati"
+                        app:layout_constraintTop_toBottomOf="@id/text3" />
+
+
+                    <Button
+                        android:id="@+id/button_lihat_detail3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/button_background"
+                        android:paddingStart="12dp"
+                        android:paddingTop="0dp"
+                        android:paddingEnd="2dp"
+                        android:layout_marginStart="30dp"
+                        android:paddingBottom="1dp"
+                        android:textSize="8sp"
+                        android:text="Lihat Detail"
+                        android:textColor="@android:color/white"
+                        android:drawableEnd="@drawable/baseline_right_24"
+                        android:fontFamily="@font/poppins_bold"
+                        android:gravity="center"
+                        android:onClick="onLihatDetailClicked"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="205dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="8dp"
+                    android:background="@drawable/card_background"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:id="@+id/image4"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/umkm_4_kampoengtimur" />
+
+                    <TextView
+                        android:id="@+id/text4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginBottom="0dp"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Kampoeng Timur" />
+
+                    <TextView
+                        android:id="@+id/subtext4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="10sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginTop="0dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Gilang Ma’ruf Fauji"
+                         />
+
+                    <Button
+                        android:id="@+id/button_lihat_detail4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/button_background"
+                        android:paddingStart="12dp"
+                        android:paddingTop="0dp"
+                        android:paddingEnd="2dp"
+                        android:layout_marginStart="30dp"
+                        android:paddingBottom="1dp"
+                        android:textSize="8sp"
+                        android:text="Lihat Detail"
+                        android:textColor="@android:color/white"
+                        android:drawableEnd="@drawable/baseline_right_24"
+                        android:fontFamily="@font/poppins_bold"
+                        android:gravity="center"
+                        android:onClick="onLihatDetailClicked"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- UMKM 3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="205dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/card_background"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:id="@+id/image5"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/umkm_5" />
+
+                    <TextView
+                        android:id="@+id/text5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginBottom="0dp"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Kusuma Snack" />
+
+                    <TextView
+                        android:id="@+id/subtext5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="10sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginTop="0dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Kusniwati Wahyu"
+                      />
+
+                    <Button
+                        android:id="@+id/button_lihat_detail5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/button_background"
+                        android:paddingStart="12dp"
+                        android:paddingTop="0dp"
+                        android:paddingEnd="2dp"
+                        android:layout_marginStart="30dp"
+                        android:paddingBottom="1dp"
+                        android:textSize="8sp"
+                        android:text="Lihat Detail"
+                        android:textColor="@android:color/white"
+                        android:drawableEnd="@drawable/baseline_right_24"
+                        android:fontFamily="@font/poppins_bold"
+                        android:gravity="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="205dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="8dp"
+                    android:background="@drawable/card_background"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:id="@+id/image6"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/umkm_6"/>
+
+                    <TextView
+                        android:id="@+id/text6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginBottom="0dp"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Cimi Cimi Keju "/>
+
+                    <TextView
+                        android:id="@+id/subtext6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="10sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginTop="0dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Intan Sari" />
+
+                    <Button
+                        android:id="@+id/button_lihat_detail6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/button_background"
+                        android:paddingStart="12dp"
+                        android:paddingTop="0dp"
+                        android:paddingEnd="2dp"
+                        android:layout_marginStart="30dp"
+                        android:paddingBottom="1dp"
+                        android:textSize="8sp"
+                        android:text="Lihat Detail"
+                        android:textColor="@android:color/white"
+                        android:drawableEnd="@drawable/baseline_right_24"
+                        android:fontFamily="@font/poppins_bold"
+                        android:gravity="center" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- UMKM 4 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="205dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/card_background"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:id="@+id/image7"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/umkm_7" />
+
+                    <TextView
+                        android:id="@+id/text7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginBottom="0dp"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Edrusya snack"/>
+
+                    <TextView
+                        android:id="@+id/subtext7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="10sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginTop="0dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Endah Purwaning"/>
+
+                    <Button
+                        android:id="@+id/button_lihat_detail7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/button_background"
+                        android:paddingStart="12dp"
+                        android:paddingTop="0dp"
+                        android:paddingEnd="2dp"
+                        android:layout_marginStart="30dp"
+                        android:paddingBottom="1dp"
+                        android:textSize="8sp"
+                        android:text="Lihat Detail"
+                        android:textColor="@android:color/white"
+                        android:drawableEnd="@drawable/baseline_right_24"
+                        android:fontFamily="@font/poppins_bold"
+                        android:gravity="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="205dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="8dp"
+                    android:background="@drawable/card_background"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:id="@+id/image8"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/umkm_8" />
+
+                    <TextView
+                        android:id="@+id/text8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginBottom="0dp"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="DSR" />
+
+                    <TextView
+                        android:id="@+id/subtext8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="10sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginTop="0dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Ika SW Dikromo" />
+
+                    <Button
+                        android:id="@+id/button_lihat_detail8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/button_background"
+                        android:paddingStart="12dp"
+                        android:paddingTop="0dp"
+                        android:paddingEnd="2dp"
+                        android:layout_marginStart="30dp"
+                        android:paddingBottom="1dp"
+                        android:textSize="8sp"
+                        android:text="Lihat Detail"
+                        android:textColor="@android:color/white"
+                        android:drawableEnd="@drawable/baseline_right_24"
+                        android:fontFamily="@font/poppins_bold"
+                        android:gravity="center" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- UMKM 5 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="205dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/card_background"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:id="@+id/image9"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/umkm_9" />
+
+                    <TextView
+                        android:id="@+id/text9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginBottom="0dp"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Black Garlic" />
+
+                    <TextView
+                        android:id="@+id/subtext9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="10sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginTop="0dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Nikimie" />
+
+                    <Button
+                        android:id="@+id/button_lihat_detail9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/button_background"
+                        android:paddingStart="12dp"
+                        android:paddingTop="0dp"
+                        android:paddingEnd="2dp"
+                        android:layout_marginStart="30dp"
+                        android:paddingBottom="1dp"
+                        android:textSize="8sp"
+                        android:text="Lihat Detail"
+                        android:textColor="@android:color/white"
+                        android:drawableEnd="@drawable/baseline_right_24"
+                        android:fontFamily="@font/poppins_bold"
+                        android:gravity="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="205dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="8dp"
+                    android:background="@drawable/card_background"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:id="@+id/image10"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/umkm_10" />
+
+                    <TextView
+                        android:id="@+id/text10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginBottom="0dp"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Rintri kueku "/>
+
+                    <TextView
+                        android:id="@+id/subtext10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="10sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginTop="0dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Ririn Triyanawati "/>
+
+                    <Button
+                        android:id="@+id/button_lihat_detail10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/button_background"
+                        android:paddingStart="12dp"
+                        android:paddingTop="0dp"
+                        android:paddingEnd="2dp"
+                        android:layout_marginStart="30dp"
+                        android:paddingBottom="1dp"
+                        android:textSize="8sp"
+                        android:text="Lihat Detail"
+                        android:textColor="@android:color/white"
+                        android:drawableEnd="@drawable/baseline_right_24"
+                        android:fontFamily="@font/poppins_bold"
+                        android:gravity="center" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- UMKM 6 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="205dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/card_background"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:id="@+id/image11"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/umkm_11" />
+
+                    <TextView
+                        android:id="@+id/text11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginBottom="0dp"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Kribro" />
+
+                    <TextView
+                        android:id="@+id/subtext11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="10sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginTop="0dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Nera Ramadhani"/>
+
+                    <Button
+                        android:id="@+id/button_lihat_detail11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/button_background"
+                        android:paddingStart="12dp"
+                        android:paddingTop="0dp"
+                        android:paddingEnd="2dp"
+                        android:layout_marginStart="30dp"
+                        android:paddingBottom="1dp"
+                        android:textSize="8sp"
+                        android:text="Lihat Detail"
+                        android:textColor="@android:color/white"
+                        android:drawableEnd="@drawable/baseline_right_24"
+                        android:fontFamily="@font/poppins_bold"
+                        android:gravity="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="205dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="8dp"
+                    android:background="@drawable/card_background"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:id="@+id/image12"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/umkm_12" />
+
+                    <TextView
+                        android:id="@+id/text12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginBottom="0dp"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Bagelen Sikrispi"/>
+
+                    <TextView
+                        android:id="@+id/subtext12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="10sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginTop="0dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Muhammad Indrianto Rosani" />
+
+                    <Button
+                        android:id="@+id/button_lihat_detail12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/button_background"
+                        android:paddingStart="12dp"
+                        android:paddingTop="0dp"
+                        android:paddingEnd="2dp"
+                        android:layout_marginStart="30dp"
+                        android:paddingBottom="1dp"
+                        android:textSize="8sp"
+                        android:text="Lihat Detail"
+                        android:textColor="@android:color/white"
+                        android:drawableEnd="@drawable/baseline_right_24"
+                        android:fontFamily="@font/poppins_bold"
+                        android:gravity="center" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Add more UMKM rows as needed -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="205dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/card_background"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:id="@+id/image13"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/umkm_13" />
+
+                    <TextView
+                        android:id="@+id/text13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginBottom="0dp"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Dadosarto Bananavi"/>
+
+                    <TextView
+                        android:id="@+id/subtext13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="10sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginTop="0dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Nanik Herlina"/>
+
+                    <Button
+                        android:id="@+id/button_lihat_detail13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/button_background"
+                        android:paddingStart="12dp"
+                        android:paddingTop="0dp"
+                        android:paddingEnd="2dp"
+                        android:layout_marginStart="30dp"
+                        android:paddingBottom="1dp"
+                        android:textSize="8sp"
+                        android:text="Lihat Detail"
+                        android:textColor="@android:color/white"
+                        android:drawableEnd="@drawable/baseline_right_24"
+                        android:fontFamily="@font/poppins_bold"
+                        android:gravity="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="205dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="8dp"
+                    android:background="@drawable/card_background"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:id="@+id/image14"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/umkm_14" />
+
+                    <TextView
+                        android:id="@+id/text14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginBottom="0dp"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Bollena Balikpapan" />
+
+                    <TextView
+                        android:id="@+id/subtext14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="10sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginTop="0dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Septi Rahayu" />
+
+                    <Button
+                        android:id="@+id/button_lihat_detail14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/button_background"
+                        android:paddingStart="12dp"
+                        android:paddingTop="0dp"
+                        android:paddingEnd="2dp"
+                        android:layout_marginStart="30dp"
+                        android:paddingBottom="1dp"
+                        android:textSize="8sp"
+                        android:text="Lihat Detail"
+                        android:textColor="@android:color/white"
+                        android:drawableEnd="@drawable/baseline_right_24"
+                        android:fontFamily="@font/poppins_bold"
+                        android:gravity="center" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="205dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/card_background"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:id="@+id/image15"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/umkm_15" />
+
+                    <TextView
+                        android:id="@+id/text15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginBottom="0dp"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Syifaus Food (Pikkong)"/>
+
+                    <TextView
+                        android:id="@+id/subtext15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="10sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginTop="0dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Wahidah Sifa"/>
+
+                    <Button
+                        android:id="@+id/button_lihat_detail15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/button_background"
+                        android:paddingStart="12dp"
+                        android:paddingTop="0dp"
+                        android:paddingEnd="2dp"
+                        android:layout_marginStart="30dp"
+                        android:paddingBottom="1dp"
+                        android:textSize="8sp"
+                        android:text="Lihat Detail"
+                        android:textColor="@android:color/white"
+                        android:drawableEnd="@drawable/baseline_right_24"
+                        android:fontFamily="@font/poppins_bold"
+                        android:gravity="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="205dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="8dp"
+                    android:background="@drawable/card_background"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:id="@+id/image16"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/umkm_16" />
+
+                    <TextView
+                        android:id="@+id/text16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginBottom="0dp"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Kembang Goyang" />
+
+                    <TextView
+                        android:id="@+id/subtext16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="10sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginTop="0dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Lindawati"/>
+
+                    <Button
+                        android:id="@+id/button_lihat_detail16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/button_background"
+                        android:paddingStart="12dp"
+                        android:paddingTop="0dp"
+                        android:paddingEnd="2dp"
+                        android:layout_marginStart="30dp"
+                        android:paddingBottom="1dp"
+                        android:textSize="8sp"
+                        android:text="Lihat Detail"
+                        android:textColor="@android:color/white"
+                        android:drawableEnd="@drawable/baseline_right_24"
+                        android:fontFamily="@font/poppins_bold"
+                        android:gravity="center" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="205dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/card_background"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:id="@+id/image17"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/umkm_17" />
+
+                    <TextView
+                        android:id="@+id/text17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginBottom="0dp"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Zahra Cookies"/>
+
+                    <TextView
+                        android:id="@+id/subtext17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="10sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginTop="0dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Rabiah Vivo" />
+
+                    <Button
+                        android:id="@+id/button_lihat_detail17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/button_background"
+                        android:paddingStart="12dp"
+                        android:paddingTop="0dp"
+                        android:paddingEnd="2dp"
+                        android:layout_marginStart="30dp"
+                        android:paddingBottom="1dp"
+                        android:textSize="8sp"
+                        android:text="Lihat Detail"
+                        android:textColor="@android:color/white"
+                        android:drawableEnd="@drawable/baseline_right_24"
+                        android:fontFamily="@font/poppins_bold"
+                        android:gravity="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="205dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="8dp"
+                    android:background="@drawable/card_background"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:id="@+id/image18"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/umkm_18" />
+
+                    <TextView
+                        android:id="@+id/text18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginBottom="0dp"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Yen Yen" />
+
+                    <TextView
+                        android:id="@+id/subtext18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="10sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginTop="0dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Yenny Chulaila" />
+
+                    <Button
+                        android:id="@+id/button_lihat_detail18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/button_background"
+                        android:paddingStart="12dp"
+                        android:paddingTop="0dp"
+                        android:paddingEnd="2dp"
+                        android:layout_marginStart="30dp"
+                        android:paddingBottom="1dp"
+                        android:textSize="8sp"
+                        android:text="Lihat Detail"
+                        android:textColor="@android:color/white"
+                        android:drawableEnd="@drawable/baseline_right_24"
+                        android:fontFamily="@font/poppins_bold"
+                        android:gravity="center" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="205dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/card_background"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:id="@+id/image19"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/umkm_19" />
+
+                    <TextView
+                        android:id="@+id/text19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginBottom="0dp"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Kenali Kitchen" />
+
+                    <TextView
+                        android:id="@+id/subtext19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="10sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginTop="0dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Go Yunita" />
+
+                    <Button
+                        android:id="@+id/button_lihat_detail19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/button_background"
+                        android:paddingStart="12dp"
+                        android:paddingTop="0dp"
+                        android:paddingEnd="2dp"
+                        android:layout_marginStart="30dp"
+                        android:paddingBottom="1dp"
+                        android:textSize="8sp"
+                        android:text="Lihat Detail"
+                        android:textColor="@android:color/white"
+                        android:drawableEnd="@drawable/baseline_right_24"
+                        android:fontFamily="@font/poppins_bold"
+                        android:gravity="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="205dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="8dp"
+                    android:background="@drawable/card_background"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:id="@+id/image20"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/umkm_20" />
+
+                    <TextView
+                        android:id="@+id/text20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginBottom="0dp"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Chacaos.id Mangrove"/>
+
+                    <TextView
+                        android:id="@+id/subtext20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="10sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginTop="0dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Nurlinda" />
+
+                    <Button
+                        android:id="@+id/button_lihat_detail20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/button_background"
+                        android:paddingStart="12dp"
+                        android:paddingTop="0dp"
+                        android:paddingEnd="2dp"
+                        android:layout_marginStart="30dp"
+                        android:paddingBottom="1dp"
+                        android:textSize="8sp"
+                        android:text="Lihat Detail"
+                        android:textColor="@android:color/white"
+                        android:drawableEnd="@drawable/baseline_right_24"
+                        android:fontFamily="@font/poppins_bold"
+                        android:gravity="center" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/kosongkatalog_bpp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="58dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
