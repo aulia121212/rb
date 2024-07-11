@@ -373,7 +373,9 @@
                         android:textColor="@android:color/white"
                         android:drawableEnd="@drawable/baseline_right_24"
                         android:fontFamily="@font/poppins_bold"
-                        android:gravity="center" />
+                        android:gravity="center"
+                        android:onClick="onLihatDetailClicked" />
+
                 </LinearLayout>
 
                 <LinearLayout
@@ -434,7 +436,9 @@
                         android:textColor="@android:color/white"
                         android:drawableEnd="@drawable/baseline_right_24"
                         android:fontFamily="@font/poppins_bold"
-                        android:gravity="center" />
+                        android:gravity="center"
+                        android:onClick="onLihatDetailClicked" />
+
                 </LinearLayout>
             </LinearLayout>
 
@@ -503,7 +507,9 @@
                         android:textColor="@android:color/white"
                         android:drawableEnd="@drawable/baseline_right_24"
                         android:fontFamily="@font/poppins_bold"
-                        android:gravity="center" />
+                        android:gravity="center"
+                        android:onClick="onLihatDetailClicked" />
+
                 </LinearLayout>
 
                 <LinearLayout
@@ -564,7 +570,9 @@
                         android:textColor="@android:color/white"
                         android:drawableEnd="@drawable/baseline_right_24"
                         android:fontFamily="@font/poppins_bold"
-                        android:gravity="center" />
+                        android:gravity="center"
+                        android:onClick="onLihatDetailClicked" />
+
                 </LinearLayout>
             </LinearLayout>
 
@@ -633,7 +641,9 @@
                         android:textColor="@android:color/white"
                         android:drawableEnd="@drawable/baseline_right_24"
                         android:fontFamily="@font/poppins_bold"
-                        android:gravity="center" />
+                        android:gravity="center"
+                        android:onClick="onLihatDetailClicked" />
+
                 </LinearLayout>
 
                 <LinearLayout
@@ -694,7 +704,9 @@
                         android:textColor="@android:color/white"
                         android:drawableEnd="@drawable/baseline_right_24"
                         android:fontFamily="@font/poppins_bold"
-                        android:gravity="center" />
+                        android:gravity="center"
+                        android:onClick="onLihatDetailClicked" />
+
                 </LinearLayout>
             </LinearLayout>
 
@@ -763,7 +775,9 @@
                         android:textColor="@android:color/white"
                         android:drawableEnd="@drawable/baseline_right_24"
                         android:fontFamily="@font/poppins_bold"
-                        android:gravity="center" />
+                        android:gravity="center"
+                        android:onClick="onLihatDetailClicked" />
+
                 </LinearLayout>
 
                 <LinearLayout
@@ -824,7 +838,9 @@
                         android:textColor="@android:color/white"
                         android:drawableEnd="@drawable/baseline_right_24"
                         android:fontFamily="@font/poppins_bold"
-                        android:gravity="center" />
+                        android:gravity="center"
+                        android:onClick="onLihatDetailClicked" />
+
                 </LinearLayout>
             </LinearLayout>
 
@@ -893,7 +909,9 @@
                         android:textColor="@android:color/white"
                         android:drawableEnd="@drawable/baseline_right_24"
                         android:fontFamily="@font/poppins_bold"
-                        android:gravity="center" />
+                        android:gravity="center"
+                        android:onClick="onLihatDetailClicked" />
+
                 </LinearLayout>
 
                 <LinearLayout
@@ -954,7 +972,9 @@
                         android:textColor="@android:color/white"
                         android:drawableEnd="@drawable/baseline_right_24"
                         android:fontFamily="@font/poppins_bold"
-                        android:gravity="center" />
+                        android:gravity="center"
+                        android:onClick="onLihatDetailClicked" />
+
                 </LinearLayout>
             </LinearLayout>
 
@@ -1023,7 +1043,9 @@
                         android:textColor="@android:color/white"
                         android:drawableEnd="@drawable/baseline_right_24"
                         android:fontFamily="@font/poppins_bold"
-                        android:gravity="center" />
+                        android:gravity="center"
+                        android:onClick="onLihatDetailClicked" />
+
                 </LinearLayout>
 
                 <LinearLayout
@@ -1084,7 +1106,9 @@
                         android:textColor="@android:color/white"
                         android:drawableEnd="@drawable/baseline_right_24"
                         android:fontFamily="@font/poppins_bold"
-                        android:gravity="center" />
+                        android:gravity="center"
+                        android:onClick="onLihatDetailClicked" />
+
                 </LinearLayout>
             </LinearLayout>
 
@@ -1152,7 +1176,9 @@
                         android:textColor="@android:color/white"
                         android:drawableEnd="@drawable/baseline_right_24"
                         android:fontFamily="@font/poppins_bold"
-                        android:gravity="center" />
+                        android:gravity="center"
+                        android:onClick="onLihatDetailClicked" />
+
                 </LinearLayout>
 
                 <LinearLayout
@@ -1213,7 +1239,9 @@
                         android:textColor="@android:color/white"
                         android:drawableEnd="@drawable/baseline_right_24"
                         android:fontFamily="@font/poppins_bold"
-                        android:gravity="center" />
+                        android:gravity="center"
+                        android:onClick="onLihatDetailClicked" />
+
                 </LinearLayout>
             </LinearLayout>
 
@@ -1281,7 +1309,9 @@
                         android:textColor="@android:color/white"
                         android:drawableEnd="@drawable/baseline_right_24"
                         android:fontFamily="@font/poppins_bold"
-                        android:gravity="center" />
+                        android:gravity="center"
+                        android:onClick="onLihatDetailClicked" />
+
                 </LinearLayout>
 
                 <LinearLayout
@@ -1342,7 +1372,9 @@
                         android:textColor="@android:color/white"
                         android:drawableEnd="@drawable/baseline_right_24"
                         android:fontFamily="@font/poppins_bold"
-                        android:gravity="center" />
+                        android:gravity="center"
+                        android:onClick="onLihatDetailClicked" />
+
                 </LinearLayout>
             </LinearLayout>
 

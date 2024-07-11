@@ -183,18 +183,18 @@
         tools:layout="@layout/detail_umkm_17" />
 
     <fragment
-        android:id="@+id/navigation_detail_umkm_8"
-        android:name="com.example.myapplication.ui.notifications.DetailUMKMFragment8"
+        android:id="@+id/navigation_detail_umkm_18"
+        android:name="com.example.myapplication.ui.notifications.DetailUMKMFragment18"
         android:label="Detail UMKM"
-        tools:layout="@layout/detail_umkm_8" />
+        tools:layout="@layout/detail_umkm_18" />
     <fragment
-        android:id="@+id/navigation_detail_umkm_9"
-        android:name="com.example.myapplication.ui.notifications.DetailUMKMFragment9"
+        android:id="@+id/navigation_detail_umkm_19"
+        android:name="com.example.myapplication.ui.notifications.DetailUMKMFragment19"
         android:label="Detail UMKM"
-        tools:layout="@layout/detail_umkm_9" />
+        tools:layout="@layout/detail_umkm_19" />
     <fragment
-        android:id="@+id/navigation_detail_umkm_10"
-        android:name="com.example.myapplication.ui.notifications.DetailUMKMFragment10"
+        android:id="@+id/navigation_detail_umkm_20"
+        android:name="com.example.myapplication.ui.notifications.DetailUMKMFragment20"
         android:label="Detail UMKM"
-        tools:layout="@layout/detail_umkm_10" />
+        tools:layout="@layout/detail_umkm_20" />
 </navigation>
