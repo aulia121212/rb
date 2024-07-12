@@ -8,6 +8,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent">
@@ -60,10 +61,7 @@
                         android:layout_marginTop="5dp"
                         android:background="@drawable/wa_detail"
                         android:paddingStart="24dp"
-                        android:gravity="center"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent" />
+                        android:gravity="center" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -98,9 +96,7 @@
                 android:fontFamily="@font/poppins_bold"
                 android:text="Brownies Crispy Almond "
                 android:textColor="@color/blue"
-                android:textSize="16sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"/>
+                android:textSize="16sp"/>
 
             <TextView
                 android:id="@+id/text_umkm3"
@@ -111,8 +107,7 @@
                 android:textColor="@color/black"
                 android:justificationMode="inter_word"
                 android:fontFamily="@font/poppins_regular"
-                android:text="Camilan cookies coklat crispy"
-                app:layout_constraintTop_toBottomOf="@id/line_below_text" />
+                android:text="Camilan cookies coklat crispy" />
 
             <TextView
                 android:id="@+id/harga1"
@@ -124,19 +119,14 @@
                 android:fontFamily="@font/poppins_bold"
                 android:text="Berat Bersih Produk: 60gr\nHarga Jual Produk: 18.000"
                 android:textColor="@color/blue"
-                android:textSize="16sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
-
+                android:textSize="16sp" />
 
             <ImageView
                 android:id="@+id/image_line2"
                 android:layout_width="1000dp"
                 android:layout_height="20dp"
                 android:scaleType="fitCenter"
-                android:src="@drawable/line"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
+                android:src="@drawable/line" />
 
             <TextView
                 android:id="@+id/judul2"
@@ -148,9 +138,7 @@
                 android:fontFamily="@font/poppins_bold"
                 android:text="Stik seledri dan bayam "
                 android:textColor="@color/blue"
-                android:textSize="16sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"/>
+                android:textSize="16sp"/>
 
             <TextView
                 android:id="@+id/text_umkm3_2"
@@ -161,8 +149,7 @@
                 android:textColor="@color/black"
                 android:justificationMode="inter_word"
                 android:fontFamily="@font/poppins_regular"
-                android:text="Stik bawang bentuknya kecil panjang beda dari yang lain ada dua rasa seledri dan bayam"
-                app:layout_constraintTop_toBottomOf="@id/line_below_text" />
+                android:text="Stik bawang bentuknya kecil panjang beda dari yang lain ada dua rasa seledri dan bayam" />
 
             <TextView
                 android:id="@+id/harga2"
@@ -174,9 +161,7 @@
                 android:fontFamily="@font/poppins_bold"
                 android:text="Berat Bersih Produk: 70gr\nHarga Jual Produk: 16.000"
                 android:textColor="@color/blue"
-                android:textSize="16sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/kosongdetailkatalog_bpp"
@@ -185,11 +170,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="58dp"
                 android:layout_marginEnd="16dp"
-                android:textSize="16sp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
+                android:textSize="16sp" />
         </LinearLayout>
     </ScrollView>
 
