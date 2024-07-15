@@ -56,11 +56,53 @@
                 android:justificationMode="inter_word"
                 android:fontFamily="@font/poppins_regular"
                 android:text="Rumah BUMN Balikpapan adalah program yang dirancang oleh Badan Usaha Milik Negara (BUMN) untuk mendukung dan memberdayakan Usaha Mikro, Kecil, dan Menengah (UMKM) melalui pelatihan, pendampingan, dan akses ke berbagai sumber daya yang penting bagi perkembangan bisnis.\n\nRumah BUMN Balikpapan hadir untuk mendukung pertumbuhan UMKM lokal dengan memberikan pelatihan bisnis, pendampingan teknis, dan akses ke jaringan pemasaran. Dengan dukungan dari BUMN, UMKM di Balikpapan dapat meningkatkan kualitas produk, memperluas pasar, dan meningkatkan daya saing mereka di tingkat lokal maupun nasional.\n\nBergabunglah dengan Rumah BUMN Balikpapan dan jadilah bagian dari ekosistem yang mendorong kesuksesan bisnis Anda.\n\nRumah BUMN Balikpapan dinaungi oleh PT. Pertamina Persero."
-
                 app:layout_constraintTop_toBottomOf="@id/image_logo"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent" />
 
+            <ImageButton
+                android:id="@+id/image_narahubung"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/narahubung"
+                android:background="@null"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.501"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/text_balikpapan"
+                android:onClick="onLihatDetailClicked" />
+
+            <ImageButton
+                android:id="@+id/image_daftar"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="3dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/daftar"
+                android:background="@null"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.501"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/image_narahubung"
+                />
+
+            <TextView
+                android:id="@+id/tekskosong_balikpapan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"
+                android:fontFamily="@font/poppins_regular"
+                android:text=""
+                app:layout_constraintTop_toBottomOf="@id/image_daftar"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 

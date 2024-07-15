@@ -15,7 +15,29 @@
         android:id="@+id/navigation_dashboard"
         android:name="com.example.myapplication.ui.dashboard.DashboardFragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_dashboard">
+        <action
+            android:id="@+id/action_dashboardFragment_to_tentangKami"
+            app:destination="@id/navigation_tentang_kami" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_tentang_kami"
+        android:name="com.example.myapplication.ui.dashboard.TentangKami"
+        android:label="Tentang Kami"
+        tools:layout="@layout/tentang_kami">
+        <action
+            android:id="@+id/action_navigation_tentang"
+            app:destination="@id/navigation_rb_balikpapan" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/navigation_rb_balikpapan"
+        android:name="com.example.myapplication.ui.dashboard.RbBalikpapan"
+        android:label="Rumah BUMN Balikpapan"
+        tools:layout="@layout/rb_balikpapan" />
+
 
     <fragment
         android:id="@+id/navigation_notifications"
@@ -26,6 +48,13 @@
             android:id="@+id/action_notificationsFragment_to_katalogFragment"
             app:destination="@id/navigation_katalog" />
     </fragment>
+
+
+    <fragment
+        android:id="@+id/navigation_faq"
+        android:name="com.example.myapplication.ui.faq.FAQFragment"
+        android:label="@string/title_faq"
+        tools:layout="@layout/fragment_f_a_q" />
 
     <fragment
         android:id="@+id/navigation_katalog"

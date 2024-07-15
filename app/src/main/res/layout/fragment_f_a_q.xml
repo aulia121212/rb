@@ -28,7 +28,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
-            android:src="@drawable/tanya1"
+            android:src="@drawable/tanya_a"
             app:layout_constraintTop_toBottomOf="@id/image_faq"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
@@ -55,7 +55,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
-            android:src="@drawable/tanya2"
+            android:src="@drawable/tanya_b"
             app:layout_constraintTop_toBottomOf="@id/text_tanya1"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
@@ -82,7 +82,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
-            android:src="@drawable/tanya3"
+            android:src="@drawable/tanya_c"
             app:layout_constraintTop_toBottomOf="@id/text_tanya2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
@@ -109,7 +109,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
-            android:src="@drawable/tanya4"
+            android:src="@drawable/tanya_d"
             app:layout_constraintTop_toBottomOf="@id/text_tanya3"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
@@ -136,7 +136,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
-            android:src="@drawable/tanya5"
+            android:src="@drawable/tanya_e"
             app:layout_constraintTop_toBottomOf="@id/text_tanya4"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
@@ -163,7 +163,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
-            android:src="@drawable/tanya6"
+            android:src="@drawable/tanya_f"
             app:layout_constraintTop_toBottomOf="@id/text_tanya5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
@@ -190,7 +190,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
-            android:src="@drawable/tanya7"
+            android:src="@drawable/tanya_g"
             app:layout_constraintTop_toBottomOf="@id/text_tanya6"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />

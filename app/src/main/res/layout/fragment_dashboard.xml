@@ -38,7 +38,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.092"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/text_lokasi" />
+            app:layout_constraintTop_toBottomOf="@id/text_lokasi"
+            android:onClick="onLihatDetailClicked" />
 
 
         <ImageButton
@@ -51,7 +52,9 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.93"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/text_lokasi" />
+            app:layout_constraintTop_toBottomOf="@id/text_lokasi"
+            android:onClick="onLihatDetailClicked" />
+
 
         <ImageView
             android:id="@+id/image_line"

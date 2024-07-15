@@ -60,6 +60,50 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent" />
 
+            <ImageButton
+                android:id="@+id/image_narahubung"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/narahubung"
+                android:background="@null"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.501"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/text_samarinda"
+                android:onClick="onLihatDetailClicked" />
+
+            <ImageButton
+                android:id="@+id/image_daftar"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="3dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/daftar"
+                android:background="@null"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.501"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/image_narahubung"
+                />
+
+            <TextView
+                android:id="@+id/tekskosong_balikpapan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"
+                android:fontFamily="@font/poppins_regular"
+                android:text=""
+                app:layout_constraintTop_toBottomOf="@id/image_daftar"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 

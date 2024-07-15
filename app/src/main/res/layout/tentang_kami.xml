@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.dashboard.DashboardFragment">
+    tools:context=".ui.dashboard.TentangKami">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -30,7 +30,7 @@
 
         <ImageButton
             android:id="@+id/image_lokasi"
-            android:layout_width="180dp"
+            android:layout_width="170dp"
             android:layout_height="50dp"
             android:layout_marginTop="16dp"
             android:background="@drawable/putih_lokasi_button"
@@ -44,7 +44,7 @@
         <ImageButton
             android:id="@+id/image_btntentang"
             android:layout_width="180dp"
-            android:layout_height="50dp"
+            android:layout_height="58dp"
             android:layout_marginTop="16dp"
             android:background="@drawable/klik_tentang_kami_button"
             android:scaleType="fitCenter"
@@ -113,12 +113,12 @@
                     android:gravity="center_vertical" />
 
                 <Button
-                    android:id="@+id/button_lihat_katalog"
+                    android:id="@+id/button_rb_balikpapan"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dp"
                     android:background="@drawable/button_background"
-                    android:paddingStart="24dp"
+                    android:paddingStart="8dp"
                     android:paddingTop="1dp"
                     android:paddingEnd="24dp"
                     android:paddingBottom="1dp"
@@ -132,7 +132,8 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/alamat_bpp" />
+                    app:layout_constraintTop_toBottomOf="@id/alamat_bpp"
+                    android:onClick="onLihatDetailClicked" />
 
             </LinearLayout>
         </LinearLayout>
@@ -197,12 +198,12 @@
                     android:gravity="center_vertical" />
 
                 <Button
-                    android:id="@+id/button_lihat_katalog2"
+                    android:id="@+id/button_rb_samarinda"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="32dp"
                     android:background="@drawable/button_background"
-                    android:paddingStart="24dp"
+                    android:paddingStart="8dp"
                     android:paddingTop="1dp"
                     android:paddingEnd="24dp"
                     android:paddingBottom="1dp"
@@ -216,7 +217,8 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/alamat_smd" />
+                    app:layout_constraintTop_toBottomOf="@id/alamat_smd"
+                    android:onClick="onLihatDetailClicked"/>
 
             </LinearLayout>
         </LinearLayout>
@@ -281,12 +283,12 @@
                     android:gravity="center_vertical" />
 
                 <Button
-                    android:id="@+id/button_lihat_katalog3"
+                    android:id="@+id/button_rb_berau"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:background="@drawable/button_background"
-                    android:paddingStart="24dp"
+                    android:paddingStart="8dp"
                     android:paddingTop="1dp"
                     android:paddingEnd="24dp"
                     android:paddingBottom="1dp"
@@ -300,7 +302,8 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/alamat_berau" />
+                    app:layout_constraintTop_toBottomOf="@id/alamat_berau"
+                    android:onClick="onLihatDetailClicked"/>
 
 
 
@@ -367,12 +370,12 @@
                     android:gravity="center_vertical" />
 
                 <Button
-                    android:id="@+id/button_lihat_katalog4"
+                    android:id="@+id/button_rb_ppu"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dp"
                     android:background="@drawable/button_background"
-                    android:paddingStart="24dp"
+                    android:paddingStart="8dp"
                     android:paddingTop="1dp"
                     android:paddingEnd="24dp"
                     android:paddingBottom="1dp"
@@ -386,7 +389,8 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/alamat_ppu" />
+                    app:layout_constraintTop_toBottomOf="@id/alamat_ppu"
+                    android:onClick="onLihatDetailClicked"/>
 
             </LinearLayout>
         </LinearLayout>
@@ -451,16 +455,16 @@
                     android:gravity="center_vertical" />
 
                 <Button
-                    android:id="@+id/button_lihat_katalog5"
+                    android:id="@+id/button_rb_kukar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dp"
                     android:background="@drawable/button_background"
-                    android:paddingStart="24dp"
+                    android:paddingStart="8dp"
                     android:paddingTop="1dp"
                     android:paddingEnd="24dp"
                     android:paddingBottom="1dp"
-                    android:text="Tentang RB Kutai Kartanegara"
+                    android:text="Tentang RB Kukar"
                     android:drawableEnd="@drawable/baseline_right_24"
                     android:textColor="@android:color/white"
                     android:textStyle="bold"
@@ -470,7 +474,8 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/alamat_kutai" />
+                    app:layout_constraintTop_toBottomOf="@id/alamat_kutai"
+                    android:onClick="onLihatDetailClicked"/>
 
             </LinearLayout>
         </LinearLayout>
