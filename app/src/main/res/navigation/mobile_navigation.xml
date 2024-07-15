@@ -27,8 +27,20 @@
         android:label="Tentang Kami"
         tools:layout="@layout/tentang_kami">
         <action
-            android:id="@+id/action_navigation_tentang"
+            android:id="@+id/action_navigation_tentang_kami_to_rb_balikpapan"
             app:destination="@id/navigation_rb_balikpapan" />
+        <action
+            android:id="@+id/action_navigation_tentang_kami_to_rb_berau"
+            app:destination="@id/navigation_rb_berau" />
+        <action
+            android:id="@+id/action_navigation_tentang_kami_to_rb_samarinda"
+            app:destination="@id/navigation_rb_samarinda" />
+        <action
+            android:id="@+id/action_navigation_tentang_kami_to_rb_ppu"
+            app:destination="@id/navigation_rb_berau" />
+        <action
+            android:id="@+id/action_navigation_tentang_kami_to_rb_kukar"
+            app:destination="@id/navigation_rb_kukar" />
     </fragment>
 
 
@@ -37,6 +49,30 @@
         android:name="com.example.myapplication.ui.dashboard.RbBalikpapan"
         android:label="Rumah BUMN Balikpapan"
         tools:layout="@layout/rb_balikpapan" />
+
+    <fragment
+        android:id="@+id/navigation_rb_samarinda"
+        android:name="com.example.myapplication.ui.dashboard.RbSamarinda"
+        android:label="Rumah BUMN Samarinda"
+        tools:layout="@layout/rb_samarinda" />
+
+    <fragment
+        android:id="@+id/navigation_rb_ppu"
+        android:name="com.example.myapplication.ui.dashboard.RbPPU"
+        android:label="Rumah BUMN Penajam Paser Utara"
+        tools:layout="@layout/rb_ppu" />
+
+    <fragment
+        android:id="@+id/navigation_rb_kukar"
+        android:name="com.example.myapplication.ui.dashboard.RbKukar"
+        android:label="Rumah BUMN Kutai Kartanegara"
+        tools:layout="@layout/rb_kutai" />
+
+    <fragment
+        android:id="@+id/navigation_rb_berau"
+        android:name="com.example.myapplication.ui.dashboard.RbBerau"
+        android:label="Rumah BUMN Berau"
+        tools:layout="@layout/rb_berau" />
 
 
     <fragment

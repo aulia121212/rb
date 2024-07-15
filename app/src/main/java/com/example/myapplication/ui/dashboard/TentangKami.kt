@@ -19,7 +19,24 @@ class TentangKami : Fragment() {
 
         val buttonRbBalikpapan = view.findViewById<Button>(R.id.button_rb_balikpapan)
         buttonRbBalikpapan.setOnClickListener {
-            findNavController().navigate(R.id.action_dashboardFragment_to_tentangKami)
+            findNavController().navigate(R.id.action_navigation_tentang_kami_to_rb_balikpapan)
+        }
+
+        val buttonRbBerau = view.findViewById<Button>(R.id.button_rb_berau)
+        buttonRbBerau.setOnClickListener {
+            findNavController().navigate(R.id.action_navigation_tentang_kami_to_rb_berau)
+        }
+        val buttonRbKukar = view.findViewById<Button>(R.id.button_rb_kukar)
+        buttonRbKukar.setOnClickListener {
+            findNavController().navigate(R.id.action_navigation_tentang_kami_to_rb_kukar)
+        }
+        val buttonRbPPU = view.findViewById<Button>(R.id.button_rb_ppu)
+        buttonRbPPU.setOnClickListener {
+            findNavController().navigate(R.id.action_navigation_tentang_kami_to_rb_ppu)
+        }
+        val buttonRbSamarinda = view.findViewById<Button>(R.id.button_rb_samarinda)
+        buttonRbSamarinda.setOnClickListener {
+            findNavController().navigate(R.id.action_navigation_tentang_kami_to_rb_samarinda)
         }
         return view
 

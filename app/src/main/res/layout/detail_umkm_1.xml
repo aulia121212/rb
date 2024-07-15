@@ -60,13 +60,14 @@
                         android:layout_width="200dp"
                         android:layout_height="35dp"
                         android:layout_marginTop="5dp"
-                        android:background="@drawable/wa_detail"
+                        android:background="@drawable/button_wa"
                         android:paddingStart="24dp"
                         android:gravity="center"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/title_umkm1" />
+                        app:layout_constraintTop_toBottomOf="@id/title_umkm1"/>
+
                 </LinearLayout>
             </LinearLayout>
 
