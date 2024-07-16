@@ -8,45 +8,54 @@ import android.widget.ImageButton
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.myapplication.R
-import com.example.myapplication.databinding.FragmentDashboardBinding
+import com.example.myapplication.databinding.TentangKamiBinding
 
 class TentangKami : Fragment() {
 
-    private var _binding: FragmentDashboardBinding? = null
+    private var _binding: TentangKamiBinding? = null
     private val binding get() = _binding!!
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val view = inflater.inflate(R.layout.tentang_kami, container, false)
+        _binding = TentangKamiBinding.inflate(inflater, container, false)
+        val view = binding.root
 
         binding.imageLokasi.setOnClickListener {
-            findNavController().navigate(R.id.action_navigation_tentang_kami_to_dashboard)
+            findNavController().navigate(R.id.action_navigation_tentang_kami_to_navigation_dashboard)
         }
 
+        // Setup image button click listeners
+        setupImageButtons()
 
-        val buttonRbBalikpapan = view.findViewById<ImageButton>(R.id.button_rb_balikpapan)
-        buttonRbBalikpapan.setOnClickListener {
+        return view
+    }
+
+    private fun setupImageButtons() {
+        binding.buttonRbBalikpapan.setOnClickListener {
             findNavController().navigate(R.id.action_navigation_tentang_kami_to_rb_balikpapan)
         }
 
-        val buttonRbBerau = view.findViewById<ImageButton>(R.id.button_rb_berau)
-        buttonRbBerau.setOnClickListener {
+        binding.buttonRbBerau.setOnClickListener {
             findNavController().navigate(R.id.action_navigation_tentang_kami_to_rb_berau)
         }
-        val buttonRbKukar = view.findViewById<ImageButton>(R.id.button_rb_kukar)
-        buttonRbKukar.setOnClickListener {
+
+        binding.buttonRbKukar.setOnClickListener {
             findNavController().navigate(R.id.action_navigation_tentang_kami_to_rb_kukar)
         }
-        val buttonRbPPU = view.findViewById<ImageButton>(R.id.button_rb_ppu)
-        buttonRbPPU.setOnClickListener {
+
+        binding.buttonRbPpu.setOnClickListener {
             findNavController().navigate(R.id.action_navigation_tentang_kami_to_rb_ppu)
         }
-        val buttonRbSamarinda = view.findViewById<ImageButton>(R.id.button_rb_samarinda)
-        buttonRbSamarinda.setOnClickListener {
+
+        binding.buttonRbSamarinda.setOnClickListener {
             findNavController().navigate(R.id.action_navigation_tentang_kami_to_rb_samarinda)
         }
-        return view
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
     }
 }

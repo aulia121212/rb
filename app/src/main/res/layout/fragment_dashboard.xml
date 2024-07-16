@@ -116,7 +116,7 @@
                     android:gravity="center_vertical" />
 
                 <ImageButton
-                    android:id="@+id/button_lihat_katalog"
+                    android:id="@+id/button_lokasi_balikpapan"
                     android:layout_width="270dp"
                     android:layout_height="40dp"
                     android:layout_marginTop="2dp"
@@ -195,7 +195,7 @@
                     android:gravity="center_vertical" />
 
                 <ImageButton
-                    android:id="@+id/button_lihat_katalog2"
+                    android:id="@+id/button_lokasi_samarinda"
                     android:layout_width="270dp"
                     android:layout_height="40dp"
                     android:layout_marginTop="2dp"
@@ -274,7 +274,7 @@
                     android:gravity="center_vertical" />
 
                 <ImageButton
-                    android:id="@+id/button_lihat_katalog3"
+                    android:id="@+id/button_lokasi_berau"
                     android:layout_width="270dp"
                     android:layout_height="40dp"
                     android:layout_marginTop="2dp"
@@ -355,7 +355,7 @@
                     android:gravity="center_vertical" />
 
                 <ImageButton
-                    android:id="@+id/button_lihat_katalog4"
+                    android:id="@+id/button_lokasi_ppu"
                     android:layout_width="270dp"
                     android:layout_height="40dp"
                     android:layout_marginTop="2dp"
@@ -434,7 +434,7 @@
                     android:gravity="center_vertical" />
 
                 <ImageButton
-                    android:id="@+id/button_lihat_katalog5"
+                    android:id="@+id/button_lokasi_kukar"
                     android:layout_width="270dp"
                     android:layout_height="40dp"
                     android:layout_marginTop="2dp"

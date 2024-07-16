@@ -14,13 +14,13 @@
         <ImageView
             android:id="@+id/image_home"
             android:layout_width="0dp"
-            android:layout_height="220dp"
-            android:layout_marginStart="2dp"
+            android:layout_height="230dp"
+            android:layout_marginStart="1dp"
             android:layout_marginEnd="2dp"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            android:src="@drawable/atas3" />
+            android:src="@drawable/home" />
 
         <TextView
             android:id="@+id/text_title"
@@ -102,7 +102,7 @@
             android:textColor="@color/black"
             android:justificationMode="inter_word"
             android:fontFamily="@font/poppins_regular"
-            android:text="Menjadi pelopor dan pemimpin dalam pengembangan UMKM di Kota Kalimantan Timur, mewujudkan keberlanjutan bisnis masyarakat lokal dan lingkungan serta berperan dalam media koordinasi satgas bencana."
+            android:text="Menjadi pelopor dan pemimpin dalam pengembangan UMKM di Provinsi Kalimantan Timur, mewujudkan keberlanjutan bisnis masyarakat lokal dan lingkungan serta berperan dalam media koordinasi satgas bencana."
             app:layout_constraintTop_toBottomOf="@id/text_vision"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
@@ -180,9 +180,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center_vertical"
-                    android:textStyle="bold"
                     android:text="HITLER SIJABAT"
-                    android:fontFamily="@font/poppins_regular"
+                    android:fontFamily="@font/poppins_bold"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
 
@@ -192,6 +191,7 @@
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:text="Chief Executive Officer (CEO)"
+                    android:layout_marginEnd="16dp"
                     android:fontFamily="@font/poppins_regular"
                     android:textColor="@color/black"
                     android:gravity="center_vertical" />
@@ -246,8 +246,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center_vertical"
                     android:text="RACHMAT WAHID"
-                    android:textStyle="bold"
-                    android:fontFamily="@font/poppins_regular"
+                    android:fontFamily="@font/poppins_bold"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
 
@@ -259,6 +258,7 @@
                     android:textStyle="bold"
                     android:fontFamily="@font/poppins_regular"
                     android:text="Chief Financial Officer (CFO)"
+                    android:layout_marginEnd="12dp"
                     android:gravity="center_vertical" />
 
             </LinearLayout>
