@@ -24,7 +24,7 @@ class RbKukar : Fragment() {
         // Menginisialisasi ImageButton untuk narahubung
         btnNarahubung = view.findViewById(R.id.image_narahubung)
         btnNarahubung.setOnClickListener {
-            val wpurl = "https://wa.me/+6282298565774?text=Hai, saya tertarik untuk bergabung dengan Rumah BUMN Kutai Kartanegara. \n" +
+            val wpurl = "https://wa.me/+6283140540525?text=Hai, saya tertarik untuk bergabung dengan Rumah BUMN Kutai Kartanegara. \n" +
                     "\n" +
                     "Saya memiliki produk yang bernama (Nama UMKM) dan produk saya bergerak dibidang (sebutkan bidang) dan memiliki keunikan berupa (sebutkan keunikan opsional). \n" +
                     "\n" +
@@ -38,7 +38,7 @@ class RbKukar : Fragment() {
         // Menginisialisasi ImageButton untuk formulir pendaftaran
         btnDaftar = view.findViewById(R.id.image_daftar)
         btnDaftar.setOnClickListener {
-            val formUrl = "https://bit.ly/FormRegistrasiRB_Berau"
+            val formUrl = "https://forms.gle/8XhmK4No735SukyMA"
 
             val intent = Intent(Intent.ACTION_VIEW)
             intent.data = Uri.parse(formUrl)
