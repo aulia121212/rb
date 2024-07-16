@@ -38,7 +38,7 @@
                 android:layout_marginTop="15dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Edrusya snack"
+                android:text="Edrusya Snack"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:textColor="@color/blue"

@@ -30,7 +30,7 @@
 
         <ImageButton
             android:id="@+id/image_lokasi"
-            android:layout_width="170dp"
+            android:layout_width="180dp"
             android:layout_height="50dp"
             android:layout_marginTop="16dp"
             android:background="@drawable/putih_lokasi_button"
@@ -38,15 +38,16 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.092"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/text_lokasi" />
+            app:layout_constraintTop_toBottomOf="@id/text_lokasi"
+            android:onClick="onClickListener"/>
 
 
         <ImageButton
             android:id="@+id/image_btntentang"
             android:layout_width="180dp"
-            android:layout_height="58dp"
+            android:layout_height="50dp"
             android:layout_marginTop="16dp"
-            android:background="@drawable/klik_tentang_kami_button"
+            android:background="@drawable/tentang_kami"
             android:scaleType="fitCenter"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.93"
@@ -112,23 +113,18 @@
                     android:textColor="@color/black"
                     android:gravity="center_vertical" />
 
-                <Button
+                <ImageButton
                     android:id="@+id/button_rb_balikpapan"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="270dp"
+                    android:layout_height="32dp"
                     android:layout_marginTop="2dp"
-                    android:background="@drawable/button_background"
+                    android:background="@drawable/tentang_rb_balikpapan"
                     android:paddingStart="8dp"
                     android:paddingTop="1dp"
                     android:paddingEnd="24dp"
                     android:paddingBottom="1dp"
-                    android:text="Tentang RB Balikpapan"
-                    android:textColor="@android:color/white"
-                    android:drawableEnd="@drawable/baseline_right_24"
                     android:textStyle="bold"
                     android:gravity="center"
-                    android:minHeight="30dp"
-                    android:minWidth="150dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -197,23 +193,18 @@
                     android:textColor="@color/black"
                     android:gravity="center_vertical" />
 
-                <Button
+                <ImageButton
                     android:id="@+id/button_rb_samarinda"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="270dp"
+                    android:layout_height="32dp"
                     android:layout_marginTop="32dp"
-                    android:background="@drawable/button_background"
+                    android:background="@drawable/tentang_rb_samarinda"
                     android:paddingStart="8dp"
                     android:paddingTop="1dp"
                     android:paddingEnd="24dp"
                     android:paddingBottom="1dp"
-                    android:text="Tentang RB Samarinda"
-                    android:drawableEnd="@drawable/baseline_right_24"
-                    android:textColor="@android:color/white"
                     android:textStyle="bold"
                     android:gravity="center"
-                    android:minHeight="30dp"
-                    android:minWidth="150dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -282,23 +273,18 @@
                     android:textColor="@color/black"
                     android:gravity="center_vertical" />
 
-                <Button
+                <ImageButton
                     android:id="@+id/button_rb_berau"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="270dp"
+                    android:layout_height="32dp"
                     android:layout_marginTop="20dp"
-                    android:background="@drawable/button_background"
+                    android:background="@drawable/tentang_rb_berau"
                     android:paddingStart="8dp"
                     android:paddingTop="1dp"
                     android:paddingEnd="24dp"
                     android:paddingBottom="1dp"
-                    android:text="Tentang RB Berau"
-                    android:drawableEnd="@drawable/baseline_right_24"
-                    android:textColor="@android:color/white"
                     android:textStyle="bold"
                     android:gravity="center"
-                    android:minHeight="30dp"
-                    android:minWidth="150dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -369,23 +355,18 @@
                     android:textColor="@color/black"
                     android:gravity="center_vertical" />
 
-                <Button
+                <ImageButton
                     android:id="@+id/button_rb_ppu"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="270dp"
+                    android:layout_height="32dp"
                     android:layout_marginTop="2dp"
-                    android:background="@drawable/button_background"
+                    android:background="@drawable/tentang_rb_ppu"
                     android:paddingStart="8dp"
                     android:paddingTop="1dp"
                     android:paddingEnd="24dp"
                     android:paddingBottom="1dp"
-                    android:text="Tentang RB PPU"
-                    android:drawableEnd="@drawable/baseline_right_24"
-                    android:textColor="@android:color/white"
                     android:textStyle="bold"
                     android:gravity="center"
-                    android:minHeight="30dp"
-                    android:minWidth="150dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -437,6 +418,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center_vertical"
                     android:textStyle="bold"
+                    android:layout_marginEnd="12dp"
                     android:text="Rumah BUMN Kutai Kartanegara"
                     android:fontFamily="@font/poppins_regular"
                     android:textColor="@color/green"
@@ -454,23 +436,18 @@
                     android:textColor="@color/black"
                     android:gravity="center_vertical" />
 
-                <Button
+                <ImageButton
                     android:id="@+id/button_rb_kukar"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="270dp"
+                    android:layout_height="32dp"
                     android:layout_marginTop="2dp"
-                    android:background="@drawable/button_background"
+                    android:background="@drawable/tentang_rb_kukar"
                     android:paddingStart="8dp"
                     android:paddingTop="1dp"
                     android:paddingEnd="24dp"
                     android:paddingBottom="1dp"
-                    android:text="Tentang RB Kukar"
-                    android:drawableEnd="@drawable/baseline_right_24"
-                    android:textColor="@android:color/white"
                     android:textStyle="bold"
                     android:gravity="center"
-                    android:minHeight="30dp"
-                    android:minWidth="150dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"

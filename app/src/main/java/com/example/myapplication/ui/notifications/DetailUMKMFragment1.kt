@@ -23,7 +23,7 @@ class DetailUMKMFragment1 : Fragment() {
         // Menginisialisasi ImageButton
         btn = view.findViewById(R.id.button_wa)
         btn.setOnClickListener {
-            val wpurl = "https://wa.me/+6285179758586?text=Hi, saya mau pesan"
+            val wpurl = "https://wa.me/+6285179758586?text=Halo kak, saya ingin memesan Gothirty Handmade apakah masih tersedia?"
 
             val intent = Intent(Intent.ACTION_VIEW)
             intent.data = Uri.parse(wpurl)

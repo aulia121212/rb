@@ -27,6 +27,10 @@
         android:label="Tentang Kami"
         tools:layout="@layout/tentang_kami">
         <action
+            android:id="@+id/action_navigation_tentang_kami_to_navigation_dashboard"
+            app:destination="@id/navigation_dashboard"
+            />
+        <action
             android:id="@+id/action_navigation_tentang_kami_to_rb_balikpapan"
             app:destination="@id/navigation_rb_balikpapan" />
         <action
@@ -37,10 +41,11 @@
             app:destination="@id/navigation_rb_samarinda" />
         <action
             android:id="@+id/action_navigation_tentang_kami_to_rb_ppu"
-            app:destination="@id/navigation_rb_berau" />
+            app:destination="@id/navigation_rb_ppu" />
         <action
             android:id="@+id/action_navigation_tentang_kami_to_rb_kukar"
             app:destination="@id/navigation_rb_kukar" />
+
     </fragment>
 
 
