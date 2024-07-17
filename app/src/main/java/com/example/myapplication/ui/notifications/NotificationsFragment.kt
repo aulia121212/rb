@@ -23,6 +23,11 @@ class NotificationsFragment : Fragment() {
             findNavController().navigate(R.id.action_notificationsFragment_to_katalogFragment)
         }
 
+        val buttonLihatKatalog2 = view.findViewById<ImageButton>(R.id.button_lihat_katalog2)
+        buttonLihatKatalog2.setOnClickListener {
+            findNavController().navigate(R.id.action_notificationsFragment_to_samarindaKatalog)
+        }
+
         return view
     }
 }

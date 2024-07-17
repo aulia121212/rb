@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.notifications.DetailUMKMFragment2">
+    tools:context=".ui.notifications.SmdDetail3">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -50,7 +50,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppins_bold"
                         android:gravity="center_vertical"
-                        android:text="JaheKoe"
+                        android:text="Teh Jahe Merah Rempah"
                         android:textColor="@color/blue"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -99,7 +99,7 @@
                 android:textColor="@color/black"
                 android:justificationMode="inter_word"
                 android:fontFamily="@font/poppins_regular"
-                android:text="Jahekoe merupakan minuman herbal serbuk instan terbuat dr bahan2 alami tanpa pengawet dan pemanis buatan yg sangat praktis dalam penyajiannya tinggal seduh air panas saja. Jahekoe dikemas dalam kemasan botol plastik yg dapat digunakan lg shg bs mengurangi sampah plastik. Jahekoe tersedia dalam 5 varian rasa yaitu jahe merah+serai, jahe merah+kencur, kunyit + jahe merah, kunyit. asem dan kunyit sirih.\n\nKomposisi produk : jahe merah, kunyit, kencur, asem jawa, daun sirih, gula pasir dan gula aren\n\nBerat bersih : 200 gr"
+                android:text="Jahe Merah (Alpinia purpurata) termasuk dalam famili zingiberaceae (temu-temuan) yang nama ilmiahnya diberikan oleh william roxburgh. manfaat jahe merah sendiri banyak sekali untuk kesehatan tubuh kita, salah satunya gangguan pencernaan, gangguan tenggorokan, demam dan lain-lain."
                 app:layout_constraintTop_toBottomOf="@id/line_below_text"
                 />
             <TextView
@@ -110,7 +110,7 @@
                 android:layout_marginTop="18dp"
                 android:layout_marginEnd="16dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="Harga Produk\nRp25.000,00"
+                android:text="Harga Produk\nRp25.000,00/100gr \nRp60.000,00/250gr \nRp110.000,00/500gr	"
                 android:textColor="@color/blue"
                 android:textSize="16sp"
                 app:layout_constraintEnd_toEndOf="parent"

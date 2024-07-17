@@ -88,6 +88,9 @@
         <action
             android:id="@+id/action_notificationsFragment_to_katalogFragment"
             app:destination="@id/navigation_katalog" />
+        <action
+            android:id="@+id/action_notificationsFragment_to_samarindaKatalog"
+            app:destination="@id/navigation_katalog_samarinda" />
     </fragment>
 
 
@@ -96,6 +99,52 @@
         android:name="com.example.myapplication.ui.faq.FAQFragment"
         android:label="@string/title_faq"
         tools:layout="@layout/fragment_f_a_q" />
+
+    <fragment
+        android:id="@+id/navigation_katalog_samarinda"
+        android:name="com.example.myapplication.ui.notifications.SamarindaFragment"
+        android:label="@string/title_katalog"
+        tools:layout="@layout/fragment_samarinda" >
+        <action
+            android:id="@+id/action_samarindaKatalog_to_smdDetail1"
+            app:destination="@id/navigation_smd_detail_1" />
+        <action
+            android:id="@+id/action_samarindaKatalog_to_smdDetail2"
+            app:destination="@id/navigation_smd_detail_2" />
+        <action
+            android:id="@+id/action_samarindaKatalog_to_smdDetail3"
+            app:destination="@id/navigation_smd_detail_3" />
+        <action
+            android:id="@+id/action_samarindaKatalog_to_smdDetail4"
+            app:destination="@id/navigation_smd_detail_4" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_smd_detail_1"
+        android:name="com.example.myapplication.ui.notifications.SmdDetail1"
+        android:label="Detail UMKM"
+        tools:layout="@layout/smd_detail1" />
+
+    <fragment
+        android:id="@+id/navigation_smd_detail_2"
+        android:name="com.example.myapplication.ui.notifications.SmdDetail2"
+        android:label="Detail UMKM"
+        tools:layout="@layout/smd_detail2" />
+
+    <fragment
+        android:id="@+id/navigation_smd_detail_3"
+        android:name="com.example.myapplication.ui.notifications.SmdDetail3"
+        android:label="Detail UMKM"
+        tools:layout="@layout/smd_detail3" />
+
+    <fragment
+        android:id="@+id/navigation_smd_detail_4"
+        android:name="com.example.myapplication.ui.notifications.SmdDetail4"
+        android:label="Detail UMKM"
+        tools:layout="@layout/smd_detail4" />
+
+
 
     <fragment
         android:id="@+id/navigation_katalog"

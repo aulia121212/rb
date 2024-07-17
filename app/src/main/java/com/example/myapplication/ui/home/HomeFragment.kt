@@ -34,8 +34,7 @@ class HomeFragment : Fragment() {
         // If you need to set the images programmatically, you can do it here
         val imageHome: ImageView = binding.imageHome
         val imageBersama: ImageView = binding.imageBersama
-        // Example: imageHome.setImageResource(R.drawable.atas)
-        // Example: imageBersama.setImageResource(R.drawable.fotobersama)
+
 
         return root
     }
