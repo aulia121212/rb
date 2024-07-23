@@ -217,103 +217,208 @@
         android:id="@+id/navigation_detail_umkm_1"
         android:name="com.example.myapplication.ui.notifications.DetailUMKMFragment1"
         android:label="Detail UMKM"
-        tools:layout="@layout/detail_umkm_1" />
+        tools:layout="@layout/detail_umkm_1">
+        <action
+            android:id="@+id/action_detailUMKMFragment1_to_katalogFragment"
+            app:destination="@id/navigation_katalog"/>
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_detail_umkm_2"
         android:name="com.example.myapplication.ui.notifications.DetailUMKMFragment2"
         android:label="Detail UMKM"
-        tools:layout="@layout/detail_umkm_2" />
+        tools:layout="@layout/detail_umkm_2" >
+        <action
+            android:id="@+id/action_detailUMKMFragment2_to_katalogFragment"
+            app:destination="@id/navigation_katalog"/>
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_detail_umkm_3"
         android:name="com.example.myapplication.ui.notifications.DetailUMKMFragment3"
         android:label="Detail UMKM"
-        tools:layout="@layout/detail_umkm_3" />
+        tools:layout="@layout/detail_umkm_3" >
+        <action
+            android:id="@+id/action_detailUMKMFragment3_to_katalogFragment"
+            app:destination="@id/navigation_katalog"/>
+    </fragment>
+
     <fragment
         android:id="@+id/navigation_detail_umkm_4"
         android:name="com.example.myapplication.ui.notifications.DetailUMKMFragment4"
         android:label="Detail UMKM"
-        tools:layout="@layout/detail_umkm_4" />
+        tools:layout="@layout/detail_umkm_4" >
+        <action
+            android:id="@+id/action_detailUMKMFragment4_to_katalogFragment"
+            app:destination="@id/navigation_katalog"/>
+    </fragment>
+
     <fragment
         android:id="@+id/navigation_detail_umkm_5"
         android:name="com.example.myapplication.ui.notifications.DetailUMKMFragment5"
         android:label="Detail UMKM"
-        tools:layout="@layout/detail_umkm_5" />
+        tools:layout="@layout/detail_umkm_5" >
+        <action
+            android:id="@+id/action_detailUMKMFragment5_to_katalogFragment"
+            app:destination="@id/navigation_katalog"/>
+    </fragment>
+
+
     <fragment
         android:id="@+id/navigation_detail_umkm_6"
         android:name="com.example.myapplication.ui.notifications.DetailUMKMFragment6"
         android:label="Detail UMKM"
-        tools:layout="@layout/detail_umkm_6" />
+        tools:layout="@layout/detail_umkm_6" >
+        <action
+            android:id="@+id/action_detailUMKMFragment6_to_katalogFragment"
+            app:destination="@id/navigation_katalog"/>
+    </fragment>
+
+
     <fragment
         android:id="@+id/navigation_detail_umkm_7"
         android:name="com.example.myapplication.ui.notifications.DetailUMKMFragment7"
         android:label="Detail UMKM"
-        tools:layout="@layout/detail_umkm_7" />
+        tools:layout="@layout/detail_umkm_7" >
+        <action
+            android:id="@+id/action_detailUMKMFragment7_to_katalogFragment"
+            app:destination="@id/navigation_katalog"/>
+    </fragment>
+
+
     <fragment
         android:id="@+id/navigation_detail_umkm_8"
         android:name="com.example.myapplication.ui.notifications.DetailUMKMFragment8"
         android:label="Detail UMKM"
-        tools:layout="@layout/detail_umkm_8" />
+        tools:layout="@layout/detail_umkm_8" >
+        <action
+            android:id="@+id/action_detailUMKMFragment8_to_katalogFragment"
+            app:destination="@id/navigation_katalog"/>
+    </fragment>
+
+
     <fragment
         android:id="@+id/navigation_detail_umkm_9"
         android:name="com.example.myapplication.ui.notifications.DetailUMKMFragment9"
         android:label="Detail UMKM"
-        tools:layout="@layout/detail_umkm_9" />
+        tools:layout="@layout/detail_umkm_9" >
+        <action
+            android:id="@+id/action_detailUMKMFragment9_to_katalogFragment"
+            app:destination="@id/navigation_katalog"/>
+    </fragment>
+
+
     <fragment
         android:id="@+id/navigation_detail_umkm_10"
         android:name="com.example.myapplication.ui.notifications.DetailUMKMFragment10"
         android:label="Detail UMKM"
-        tools:layout="@layout/detail_umkm_10" />
+        tools:layout="@layout/detail_umkm_10" >
+        <action
+            android:id="@+id/action_detailUMKMFragment10_to_katalogFragment"
+            app:destination="@id/navigation_katalog"/>
+    </fragment>
+
+
     <fragment
         android:id="@+id/navigation_detail_umkm_11"
         android:name="com.example.myapplication.ui.notifications.DetailUMKMFragment11"
         android:label="Detail UMKM"
-        tools:layout="@layout/detail_umkm_11" />
+        tools:layout="@layout/detail_umkm_11" >
+        <action
+            android:id="@+id/action_detailUMKMFragment11_to_katalogFragment"
+            app:destination="@id/navigation_katalog"/>
+    </fragment>
+
     <fragment
         android:id="@+id/navigation_detail_umkm_12"
         android:name="com.example.myapplication.ui.notifications.DetailUMKMFragment12"
         android:label="Detail UMKM"
-        tools:layout="@layout/detail_umkm_12" />
+        tools:layout="@layout/detail_umkm_12" >
+        <action
+            android:id="@+id/action_detailUMKMFragment12_to_katalogFragment"
+            app:destination="@id/navigation_katalog"/>
+    </fragment>
+
+
     <fragment
         android:id="@+id/navigation_detail_umkm_13"
         android:name="com.example.myapplication.ui.notifications.DetailUMKMFragment13"
         android:label="Detail UMKM"
-        tools:layout="@layout/detail_umkm_13" />
+        tools:layout="@layout/detail_umkm_13" >
+        <action
+            android:id="@+id/action_detailUMKMFragment13_to_katalogFragment"
+            app:destination="@id/navigation_katalog"/>
+    </fragment>
+
     <fragment
         android:id="@+id/navigation_detail_umkm_14"
         android:name="com.example.myapplication.ui.notifications.DetailUMKMFragment14"
         android:label="Detail UMKM"
-        tools:layout="@layout/detail_umkm_14" />
+        tools:layout="@layout/detail_umkm_14" >
+        <action
+            android:id="@+id/action_detailUMKMFragment14_to_katalogFragment"
+            app:destination="@id/navigation_katalog"/>
+    </fragment>
+
     <fragment
         android:id="@+id/navigation_detail_umkm_15"
         android:name="com.example.myapplication.ui.notifications.DetailUMKMFragment15"
         android:label="Detail UMKM"
-        tools:layout="@layout/detail_umkm_15" />
+        tools:layout="@layout/detail_umkm_15" >
+        <action
+            android:id="@+id/action_detailUMKMFragment15_to_katalogFragment"
+            app:destination="@id/navigation_katalog"/>
+    </fragment>
+
+
     <fragment
         android:id="@+id/navigation_detail_umkm_16"
         android:name="com.example.myapplication.ui.notifications.DetailUMKMFragment16"
         android:label="Detail UMKM"
-        tools:layout="@layout/detail_umkm_16" />
+        tools:layout="@layout/detail_umkm_16" >
+        <action
+            android:id="@+id/action_detailUMKMFragment16_to_katalogFragment"
+            app:destination="@id/navigation_katalog"/>
+    </fragment>
+
+
     <fragment
         android:id="@+id/navigation_detail_umkm_17"
         android:name="com.example.myapplication.ui.notifications.DetailUMKMFragment17"
         android:label="Detail UMKM"
-        tools:layout="@layout/detail_umkm_17" />
+        tools:layout="@layout/detail_umkm_17" >
+        <action
+            android:id="@+id/action_detailUMKMFragment17_to_katalogFragment"
+            app:destination="@id/navigation_katalog"/>
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_detail_umkm_18"
         android:name="com.example.myapplication.ui.notifications.DetailUMKMFragment18"
         android:label="Detail UMKM"
-        tools:layout="@layout/detail_umkm_18" />
+        tools:layout="@layout/detail_umkm_18" >
+        <action
+            android:id="@+id/action_detailUMKMFragment18_to_katalogFragment"
+            app:destination="@id/navigation_katalog"/>
+    </fragment>
+
     <fragment
         android:id="@+id/navigation_detail_umkm_19"
         android:name="com.example.myapplication.ui.notifications.DetailUMKMFragment19"
         android:label="Detail UMKM"
-        tools:layout="@layout/detail_umkm_19" />
+        tools:layout="@layout/detail_umkm_19" >
+        <action
+            android:id="@+id/action_detailUMKMFragment19_to_katalogFragment"
+            app:destination="@id/navigation_katalog"/>
+    </fragment>
+
     <fragment
         android:id="@+id/navigation_detail_umkm_20"
         android:name="com.example.myapplication.ui.notifications.DetailUMKMFragment20"
         android:label="Detail UMKM"
-        tools:layout="@layout/detail_umkm_20" />
+        tools:layout="@layout/detail_umkm_20" >
+        <action
+            android:id="@+id/action_detailUMKMFragment20_to_katalogFragment"
+            app:destination="@id/navigation_katalog"/>
+    </fragment>
 </navigation>
