@@ -8,11 +8,13 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageButton
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.example.myapplication.R
 
 class DetailUMKMFragment15 : Fragment() {
 
-    lateinit var btn: ImageButton // Menggunakan ImageButton untuk AppCompatImageButton
+    private lateinit var btn: ImageButton
+    private lateinit var btnBack: ImageButton
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -27,6 +29,11 @@ class DetailUMKMFragment15 : Fragment() {
             val intent = Intent(Intent.ACTION_VIEW)
             intent.data = Uri.parse(wpurl)
             startActivity(intent)
+        }
+
+        btnBack = view.findViewById(R.id.button_back)
+        btnBack.setOnClickListener {
+            findNavController().navigate(R.id.action_detailUMKMFragment15_to_katalogFragment)
         }
 
         return view

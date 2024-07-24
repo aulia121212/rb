@@ -38,5 +38,6 @@ class DetailUMKMFragment1 : Fragment() {
         }
 
         return view
+
     }
 }

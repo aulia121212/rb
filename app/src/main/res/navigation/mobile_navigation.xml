@@ -53,31 +53,51 @@
         android:id="@+id/navigation_rb_balikpapan"
         android:name="com.example.myapplication.ui.dashboard.RbBalikpapan"
         android:label="Rumah BUMN Balikpapan"
-        tools:layout="@layout/rb_balikpapan" />
+        tools:layout="@layout/rb_balikpapan" >
+        <action
+            android:id="@+id/action_navigation_rb_balikpapan_to_navigation_tentang_kami"
+            app:destination="@id/navigation_tentang_kami" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_rb_samarinda"
         android:name="com.example.myapplication.ui.dashboard.RbSamarinda"
         android:label="Rumah BUMN Samarinda"
-        tools:layout="@layout/rb_samarinda" />
+        tools:layout="@layout/rb_samarinda" >
+        <action
+            android:id="@+id/action_navigation_rb_samarinda_to_navigation_tentang_kami"
+            app:destination="@id/navigation_tentang_kami" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_rb_ppu"
         android:name="com.example.myapplication.ui.dashboard.RbPPU"
         android:label="Rumah BUMN Penajam Paser Utara"
-        tools:layout="@layout/rb_ppu" />
+        tools:layout="@layout/rb_ppu" >
+        <action
+            android:id="@+id/action_navigation_rb_ppu_to_navigation_tentang_kami"
+            app:destination="@id/navigation_tentang_kami" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_rb_kukar"
         android:name="com.example.myapplication.ui.dashboard.RbKukar"
         android:label="Rumah BUMN Kutai Kartanegara"
-        tools:layout="@layout/rb_kutai" />
+        tools:layout="@layout/rb_kutai" >
+        <action
+            android:id="@+id/action_navigation_rb_kukar_to_navigation_tentang_kami"
+            app:destination="@id/navigation_tentang_kami" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_rb_berau"
         android:name="com.example.myapplication.ui.dashboard.RbBerau"
         android:label="Rumah BUMN Berau"
-        tools:layout="@layout/rb_berau" />
+        tools:layout="@layout/rb_berau" >
+        <action
+            android:id="@+id/action_navigation_rb_berau_to_navigation_tentang_kami"
+            app:destination="@id/navigation_tentang_kami" />
+    </fragment>
 
 
     <fragment
@@ -117,6 +137,9 @@
         <action
             android:id="@+id/action_samarindaKatalog_to_smdDetail4"
             app:destination="@id/navigation_smd_detail_4" />
+        <action
+            android:id="@+id/action_navigation_katalog_samarinda_to_navigation_notifications"
+            app:destination="@id/navigation_notifications" />
 
     </fragment>
 
@@ -124,26 +147,43 @@
         android:id="@+id/navigation_smd_detail_1"
         android:name="com.example.myapplication.ui.notifications.SmdDetail1"
         android:label="Detail UMKM"
-        tools:layout="@layout/smd_detail1" />
+        tools:layout="@layout/smd_detail1"  >
+        <action
+            android:id="@+id/action_navigation_smd_detail_1_to_navigation_katalog_samarinda"
+            app:destination="@id/navigation_katalog_samarinda" />
+    </fragment>
+
 
     <fragment
         android:id="@+id/navigation_smd_detail_2"
         android:name="com.example.myapplication.ui.notifications.SmdDetail2"
         android:label="Detail UMKM"
-        tools:layout="@layout/smd_detail2" />
+        tools:layout="@layout/smd_detail2"  >
+        <action
+            android:id="@+id/action_navigation_smd_detail_2_to_navigation_katalog_samarinda"
+            app:destination="@id/navigation_katalog_samarinda" />
+    </fragment>
+
 
     <fragment
         android:id="@+id/navigation_smd_detail_3"
         android:name="com.example.myapplication.ui.notifications.SmdDetail3"
         android:label="Detail UMKM"
-        tools:layout="@layout/smd_detail3" />
+        tools:layout="@layout/smd_detail3" >
+        <action
+            android:id="@+id/action_navigation_smd_detail_3_to_navigation_katalog_samarinda"
+            app:destination="@id/navigation_katalog_samarinda" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_smd_detail_4"
         android:name="com.example.myapplication.ui.notifications.SmdDetail4"
         android:label="Detail UMKM"
-        tools:layout="@layout/smd_detail4" />
-
+        tools:layout="@layout/smd_detail4"  >
+        <action
+            android:id="@+id/action_navigation_smd_detail_4_to_navigation_katalog_samarinda"
+            app:destination="@id/navigation_katalog_samarinda" />
+    </fragment>
 
 
     <fragment
@@ -211,6 +251,9 @@
         <action
             android:id="@+id/action_katalogFragment_to_detailUMKMFragment20"
             app:destination="@id/navigation_detail_umkm_20" />
+        <action
+            android:id="@+id/action_navigation_katalog_to_navigation_notifications"
+            app:destination="@id/navigation_notifications" />
     </fragment>
 
     <fragment

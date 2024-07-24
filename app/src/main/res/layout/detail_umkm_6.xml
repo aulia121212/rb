@@ -6,113 +6,154 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!-- Header Section -->
-    <LinearLayout
-        android:id="@+id/umkm1_section"
+    <!-- Toolbar dengan Tombol Back -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="16dp"
-        android:gravity="center_vertical">
+        android:layout_height="130dp"
+        android:background="@color/white"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:layout_collapseMode="pin"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
 
-        <ImageView
-            android:id="@+id/image_rb"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/logorb"
-            android:paddingStart="37dp" />
+        <!-- Tombol Back di dalam Toolbar -->
+        <ImageButton
+            android:id="@+id/button_back"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="8dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/baseline_arrow_back_24"
+            android:layout_gravity="start"/>
 
         <LinearLayout
-            android:layout_width="0dp"
+            android:id="@+id/umkm1_section"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image_rb"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="2dp"
+                android:paddingStart="1dp"
+                android:src="@drawable/umkm_6" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:id="@+id/title_umkm1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="center_vertical"
+                    android:text="Cimi Cimi Keju (Thalitha Bakery)"                    android:layout_marginEnd="6dp"
+                    android:textColor="@color/blue"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/button_wa"
+                    android:layout_width="200dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/button_wa"
+                    android:paddingStart="24dp"
+                    android:gravity="center"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/title_umkm1" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- ScrollView -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="1dp"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:gravity="center_vertical"
-            android:layout_marginStart="16dp">
+            android:padding="16dp">
 
             <TextView
-                android:id="@+id/title_umkm2"
+                android:id="@+id/description_title"
+                android:layout_marginTop="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Deskripsi Produk"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal" />
+            <!-- Garis Biru di Bawah Title -->
+            <View
+                android:id="@+id/line_below_text"
+                android:layout_width="160dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="1dp"
+                android:background="@color/blue"
+                android:layout_gravity="center_horizontal" />
+
+            <!-- Deskripsi Produk -->
+            <TextView
+                android:id="@+id/text_umkm3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Cimi Cimi Keju (Thalitha Bakery)"
-                android:textSize="20sp"
-                android:textStyle="bold"
+                android:layout_marginTop="14dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="10dp"
+                android:text="Cimi-cimi Keju adalah olahan rumahan di Balikpapan cemilan yang dikombinasikan antara tepung ketan, telur, keju, dan mentega, menciptakan kres kriuk dan rasa yang sedap. Ciptakan senyum dan tawa bahagia..."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_regular"
+                android:justificationMode="inter_word" />
+
+            <TextView
+                android:id="@+id/harga1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="10dp"
+                android:text="Komposisi: Tepung ketan, telur, mentega, keju, dan air\nBerat Bersih Produk: 90gr\nHarga Jual Produk: Rp 25.000"
+                android:textSize="16sp"
                 android:textColor="@color/blue"
                 android:fontFamily="@font/poppins_bold" />
 
-            <ImageButton
-                android:id="@+id/button_wa"
-                android:layout_width="200dp"
-                android:layout_height="35dp"
-                android:layout_marginTop="5dp"
-                android:background="@drawable/wa_detail"
-                android:gravity="center"
-                android:paddingStart="24dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
+            <TextView
+                android:id="@+id/kosongdetailkatalog_bpp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="58dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="16sp" />
+
         </LinearLayout>
-    </LinearLayout>
-
-    <!-- Deskripsi Produk Title -->
-    <TextView
-        android:id="@+id/description_title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:text="Deskripsi Produk"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:textColor="@color/blue"
-        android:fontFamily="@font/poppins_bold"
-        android:gravity="center_horizontal"
-        app:layout_constraintTop_toBottomOf="@id/umkm1_section"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <!-- Garis Biru di Bawah Title -->
-    <View
-        android:id="@+id/line_below_text"
-        android:layout_width="160dp"
-        android:layout_height="1dp"
-        android:layout_marginTop="1dp"
-        android:background="@color/blue"
-        android:layout_gravity="center_horizontal"
-        app:layout_constraintTop_toBottomOf="@id/description_title"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <!-- Deskripsi Produk -->
-    <TextView
-        android:id="@+id/text_umkm3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="14dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="10dp"
-        android:text="Cimi-cimi Keju adalah olahan rumahan di Balikpapan cemilan yang dikombinasikan antara tepung ketan, telur, keju, dan mentega, menciptakan kres kriuk dan rasa yang sedap. Ciptakan senyum dan tawa bahagia..."
-        android:textSize="16sp"
-        android:textColor="@color/black"
-        android:fontFamily="@font/poppins_regular"
-        android:justificationMode="inter_word"
-        app:layout_constraintTop_toBottomOf="@id/line_below_text"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <!-- Informasi Komposisi, Berat Bersih, dan Harga -->
-    <TextView
-        android:id="@+id/harga1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="10dp"
-        android:text="Komposisi: Tepung ketan, telur, mentega, keju, dan air\nBerat Bersih Produk: 90gr\nHarga Jual Produk: Rp 25.000"
-        android:textSize="16sp"
-        android:textColor="@color/blue"
-        android:fontFamily="@font/poppins_bold"
-        app:layout_constraintTop_toBottomOf="@id/text_umkm3"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

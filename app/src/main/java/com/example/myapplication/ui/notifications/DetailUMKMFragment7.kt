@@ -12,7 +12,9 @@ import com.example.myapplication.R
 
 class DetailUMKMFragment7 : Fragment() {
 
-    lateinit var btn: ImageButton // Menggunakan ImageButton untuk AppCompatImageButton
+    private lateinit var btn: ImageButton
+    private lateinit var btnBack: ImageButton
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
