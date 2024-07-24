@@ -29,7 +29,7 @@ class RbSamarinda : Fragment() {
         btnNarahubung.setOnClickListener {
             val wpurl = "https://wa.me/+6285250803633?text=Hai, saya tertarik untuk bergabung dengan Rumah BUMN Samarinda. \n" +
                     "\n" +
-                    "Nama Pemilik :\n Nama Usaha : \n Jenis Usaha : \n Alasan Bergabung : \n" +
+                    "Nama Pemilik :\nNama Usaha :\nJenis Usaha :\nAlasan Bergabung : \n" +
                     "\n" +
                     "Mohon informasi lebih lanjut mengenai informasinya dan cara pendaftarannya "
 

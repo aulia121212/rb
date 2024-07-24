@@ -29,7 +29,7 @@ class RbPPU : Fragment() {
         btnNarahubung.setOnClickListener {
             val wpurl = "https://wa.me/+6285246609645?text=Hai, saya tertarik untuk bergabung dengan Rumah BUMN Penajam Paser Utara. \n" +
                     "\n" +
-                    "Saya memiliki produk yang bernama (Nama UMKM) dan produk saya bergerak dibidang (sebutkan bidang) dan memiliki keunikan berupa (sebutkan keunikan opsional). \n" +
+                    "Nama Pemilik :\nNama Usaha :\nJenis Usaha :\nAlasan Bergabung : \n" +
                     "\n" +
                     "Mohon informasi lebih lanjut mengenai informasinya dan cara pendaftarannya "
 

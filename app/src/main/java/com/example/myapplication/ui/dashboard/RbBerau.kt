@@ -29,7 +29,7 @@ class RbBerau : Fragment() {
         btnNarahubung.setOnClickListener {
             val wpurl = "https://wa.me/+6282298565774?text=Hai, saya tertarik untuk bergabung dengan Rumah BUMN Berau. \n" +
                     "\n" +
-                    "Saya memiliki produk yang bernama (Nama UMKM) dan produk saya bergerak dibidang (sebutkan bidang) dan memiliki keunikan berupa (sebutkan keunikan opsional). \n" +
+                    "Nama Pemilik :\nNama Usaha :\nJenis Usaha :\nAlasan Bergabung : \n" +
                     "\n" +
                     "Mohon informasi lebih lanjut mengenai informasinya dan cara pendaftarannya "
 

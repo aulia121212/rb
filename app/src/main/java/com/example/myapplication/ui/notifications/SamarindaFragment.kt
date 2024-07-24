@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.ImageButton
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.myapplication.R
@@ -16,6 +17,14 @@ class SamarindaFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         val view = inflater.inflate(R.layout.fragment_samarinda, container, false)
+
+        // Tombol Back
+        val buttonBack = view.findViewById<ImageButton>(R.id.button_back)
+        buttonBack.setOnClickListener {
+            requireActivity().onBackPressed() // Kembali ke aktivitas sebelumnya
+            // atau
+            // findNavController().navigateUp() // Kembali menggunakan NavController jika menggunakan Navigation Component
+        }
 
         val smdLihatDetail1 = view.findViewById<Button>(R.id.smd_lihat_detail1)
         smdLihatDetail1.setOnClickListener {

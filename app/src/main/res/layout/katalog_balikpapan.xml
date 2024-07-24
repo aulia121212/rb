@@ -6,25 +6,58 @@
     android:layout_height="match_parent"
     tools:context=".ui.notifications.KatalogFragment">
 
-    <ImageView
-        android:id="@+id/image_favorit"
-        android:layout_width="280dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="2dp"
-        android:scaleType="fitCenter"
-        android:src="@drawable/favorit"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+
+    <!-- Toolbar dengan Tombol Back dan Text -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <!-- Tombol Back di dalam Toolbar -->
+            <ImageButton
+                android:id="@+id/button_back"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/baseline_arrow_back_24" />
+
+            <!-- Text di sebelah Tombol Back -->
+
+
+            <ImageView
+                android:id="@+id/image_favorit"
+                android:layout_width="280dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/favorit"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/image_favorit">
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -44,7 +77,7 @@
 
                 <LinearLayout
                     android:layout_width="0dp"
-                    android:layout_height="205dp"
+                    android:layout_height="265dp"
                     android:layout_weight="1"
                     android:orientation="vertical"
                     android:layout_marginEnd="8dp"
@@ -54,7 +87,7 @@
                     <ImageView
                         android:id="@+id/image1"
                         android:layout_width="match_parent"
-                        android:layout_height="120dp"
+                        android:layout_height="155dp"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
                         android:src="@drawable/umkm_1_gothirty" />
@@ -78,7 +111,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppins_regular"
                         android:textColor="@android:color/darker_gray"
-                        android:textSize="10sp"
+                        android:textSize="12sp"
                         android:paddingTop="0dp"
                         android:layout_marginTop="0dp"
                         app:layout_constraintStart_toStartOf="parent"
@@ -86,16 +119,16 @@
 
                     <Button
                         android:id="@+id/button_lihat_detail1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="130dp"
+                        android:layout_height="27dp"
                         android:layout_marginTop="2dp"
                         android:background="@drawable/button_background"
                         android:paddingStart="12dp"
                         android:paddingTop="0dp"
                         android:paddingEnd="2dp"
-                        android:layout_marginStart="30dp"
+                        android:layout_marginStart="17dp"
                         android:paddingBottom="1dp"
-                        android:textSize="8sp"
+                        android:textSize="10sp"
                         android:text="Lihat Detail"
                         android:textColor="@android:color/white"
                         android:drawableEnd="@drawable/baseline_right_24"
@@ -108,7 +141,7 @@
 
                 <LinearLayout
                     android:layout_width="0dp"
-                    android:layout_height="205dp"
+                    android:layout_height="265dp"
                     android:layout_weight="1"
                     android:orientation="vertical"
                     android:layout_marginStart="8dp"
@@ -118,7 +151,7 @@
                     <ImageView
                         android:id="@+id/image2"
                         android:layout_width="match_parent"
-                        android:layout_height="120dp"
+                        android:layout_height="155dp"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
                         android:src="@drawable/umkm_2_jahekoe" />
@@ -142,7 +175,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppins_regular"
                         android:textColor="@android:color/darker_gray"
-                        android:textSize="10sp"
+                        android:textSize="12sp"
                         android:paddingTop="0dp"
                         android:layout_marginTop="0dp"
                         app:layout_constraintStart_toStartOf="parent"
@@ -151,16 +184,16 @@
 
                     <Button
                         android:id="@+id/button_lihat_detail2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="130dp"
+                        android:layout_height="27dp"
                         android:layout_marginTop="2dp"
                         android:background="@drawable/button_background"
                         android:paddingStart="12dp"
                         android:paddingTop="0dp"
                         android:paddingEnd="2dp"
-                        android:layout_marginStart="30dp"
+                        android:layout_marginStart="17dp"
                         android:paddingBottom="1dp"
-                        android:textSize="8sp"
+                        android:textSize="10sp"
                         android:text="Lihat Detail"
                         android:textColor="@android:color/white"
                         android:drawableEnd="@drawable/baseline_right_24"
@@ -179,7 +212,7 @@
 
                 <LinearLayout
                     android:layout_width="0dp"
-                    android:layout_height="205dp"
+                    android:layout_height="265dp"
                     android:layout_weight="1"
                     android:orientation="vertical"
                     android:layout_marginEnd="8dp"
@@ -190,7 +223,7 @@
                     <ImageView
                         android:id="@+id/image3"
                         android:layout_width="match_parent"
-                        android:layout_height="120dp"
+                        android:layout_height="155dp"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
                         android:src="@drawable/umkm_3_mucrova" />
@@ -214,7 +247,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppins_regular"
                         android:textColor="@android:color/darker_gray"
-                        android:textSize="10sp"
+                        android:textSize="12sp"
                         android:paddingTop="0dp"
                         android:layout_marginTop="0dp"
                         app:layout_constraintStart_toStartOf="parent"
@@ -233,7 +266,7 @@
                         android:paddingEnd="2dp"
                         android:layout_marginStart="30dp"
                         android:paddingBottom="1dp"
-                        android:textSize="8sp"
+                        android:textSize="10sp"
                         android:text="Lihat Detail"
                         android:textColor="@android:color/white"
                         android:drawableEnd="@drawable/baseline_right_24"
