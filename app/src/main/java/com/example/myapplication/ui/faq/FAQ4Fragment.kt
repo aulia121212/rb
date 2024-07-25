@@ -1,4 +1,4 @@
-package com.example.myapplication.ui.notifications
+package com.example.myapplication.ui.faq
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,14 +10,13 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.myapplication.R
 
-class KukarFragment : Fragment() {
+class FAQ4Fragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-
     ): View {
-        val view = inflater.inflate(R.layout.fragment_kukar, container, false)
+        val view = inflater.inflate(R.layout.fragment_f_a_q4, container, false)
 
         // Tombol Back
         val buttonBack = view.findViewById<ImageButton>(R.id.button_back)

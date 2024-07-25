@@ -257,14 +257,14 @@
 
                     <Button
                         android:id="@+id/button_lihat_detail3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="130dp"
+                        android:layout_height="27dp"
                         android:layout_marginTop="2dp"
                         android:background="@drawable/button_background"
                         android:paddingStart="12dp"
                         android:paddingTop="0dp"
                         android:paddingEnd="2dp"
-                        android:layout_marginStart="30dp"
+                        android:layout_marginStart="17dp"
                         android:paddingBottom="1dp"
                         android:textSize="10sp"
                         android:text="Lihat Detail"
@@ -277,7 +277,7 @@
 
                 <LinearLayout
                     android:layout_width="0dp"
-                    android:layout_height="205dp"
+                    android:layout_height="265dp"
                     android:layout_weight="1"
                     android:orientation="vertical"
                     android:layout_marginStart="8dp"
@@ -287,7 +287,7 @@
                     <ImageView
                         android:id="@+id/image4"
                         android:layout_width="match_parent"
-                        android:layout_height="120dp"
+                        android:layout_height="155dp"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
                         android:src="@drawable/umkm_4_kampoengtimur" />
@@ -311,7 +311,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppins_regular"
                         android:textColor="@android:color/darker_gray"
-                        android:textSize="10sp"
+                        android:textSize="12sp"
                         android:paddingTop="0dp"
                         android:layout_marginTop="0dp"
                         app:layout_constraintStart_toStartOf="parent"
@@ -320,16 +320,16 @@
 
                     <Button
                         android:id="@+id/button_lihat_detail4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="2dp"
+                        android:layout_width="130dp"
+                        android:layout_height="27dp"
+                        android:layout_marginTop="18dp"
                         android:background="@drawable/button_background"
                         android:paddingStart="12dp"
                         android:paddingTop="0dp"
                         android:paddingEnd="2dp"
-                        android:layout_marginStart="30dp"
+                        android:layout_marginStart="17dp"
                         android:paddingBottom="1dp"
-                        android:textSize="8sp"
+                        android:textSize="10sp"
                         android:text="Lihat Detail"
                         android:textColor="@android:color/white"
                         android:drawableEnd="@drawable/baseline_right_24"
@@ -348,7 +348,7 @@
 
                 <LinearLayout
                     android:layout_width="0dp"
-                    android:layout_height="205dp"
+                    android:layout_height="265dp"
                     android:layout_weight="1"
                     android:orientation="vertical"
                     android:layout_marginEnd="8dp"
@@ -358,7 +358,7 @@
                     <ImageView
                         android:id="@+id/image5"
                         android:layout_width="match_parent"
-                        android:layout_height="120dp"
+                        android:layout_height="155dp"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
                         android:src="@drawable/umkm_5" />
@@ -382,7 +382,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppins_regular"
                         android:textColor="@android:color/darker_gray"
-                        android:textSize="10sp"
+                        android:textSize="12sp"
                         android:paddingTop="0dp"
                         android:layout_marginTop="0dp"
                         app:layout_constraintStart_toStartOf="parent"
@@ -391,16 +391,16 @@
 
                     <Button
                         android:id="@+id/button_lihat_detail5"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="2dp"
+                        android:layout_width="130dp"
+                        android:layout_height="27dp"
+                        android:layout_marginTop="18dp"
                         android:background="@drawable/button_background"
                         android:paddingStart="12dp"
                         android:paddingTop="0dp"
                         android:paddingEnd="2dp"
-                        android:layout_marginStart="30dp"
+                        android:layout_marginStart="17dp"
                         android:paddingBottom="1dp"
-                        android:textSize="8sp"
+                        android:textSize="10sp"
                         android:text="Lihat Detail"
                         android:textColor="@android:color/white"
                         android:drawableEnd="@drawable/baseline_right_24"
@@ -412,7 +412,7 @@
 
                 <LinearLayout
                     android:layout_width="0dp"
-                    android:layout_height="205dp"
+                    android:layout_height="265dp"
                     android:layout_weight="1"
                     android:orientation="vertical"
                     android:layout_marginStart="8dp"
@@ -422,7 +422,7 @@
                     <ImageView
                         android:id="@+id/image6"
                         android:layout_width="match_parent"
-                        android:layout_height="120dp"
+                        android:layout_height="155dp"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
                         android:src="@drawable/umkm_6"/>
@@ -446,7 +446,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppins_regular"
                         android:textColor="@android:color/darker_gray"
-                        android:textSize="10sp"
+                        android:textSize="12sp"
                         android:paddingTop="0dp"
                         android:layout_marginTop="0dp"
                         app:layout_constraintStart_toStartOf="parent"
@@ -454,16 +454,16 @@
 
                     <Button
                         android:id="@+id/button_lihat_detail6"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="2dp"
+                        android:layout_width="130dp"
+                        android:layout_height="27dp"
+                        android:layout_marginTop="18dp"
                         android:background="@drawable/button_background"
                         android:paddingStart="12dp"
                         android:paddingTop="0dp"
                         android:paddingEnd="2dp"
-                        android:layout_marginStart="30dp"
+                        android:layout_marginStart="17dp"
                         android:paddingBottom="1dp"
-                        android:textSize="8sp"
+                        android:textSize="10sp"
                         android:text="Lihat Detail"
                         android:textColor="@android:color/white"
                         android:drawableEnd="@drawable/baseline_right_24"
@@ -483,7 +483,7 @@
 
                 <LinearLayout
                     android:layout_width="0dp"
-                    android:layout_height="205dp"
+                    android:layout_height="265dp"
                     android:layout_weight="1"
                     android:orientation="vertical"
                     android:layout_marginEnd="8dp"
@@ -493,7 +493,7 @@
                     <ImageView
                         android:id="@+id/image7"
                         android:layout_width="match_parent"
-                        android:layout_height="120dp"
+                        android:layout_height="155dp"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
                         android:src="@drawable/umkm_7" />
@@ -517,7 +517,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppins_regular"
                         android:textColor="@android:color/darker_gray"
-                        android:textSize="10sp"
+                        android:textSize="12sp"
                         android:paddingTop="0dp"
                         android:layout_marginTop="0dp"
                         app:layout_constraintStart_toStartOf="parent"
@@ -525,16 +525,16 @@
 
                     <Button
                         android:id="@+id/button_lihat_detail7"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="2dp"
+                        android:layout_width="130dp"
+                        android:layout_height="27dp"
+                        android:layout_marginTop="18dp"
                         android:background="@drawable/button_background"
                         android:paddingStart="12dp"
                         android:paddingTop="0dp"
                         android:paddingEnd="2dp"
-                        android:layout_marginStart="30dp"
+                        android:layout_marginStart="17dp"
                         android:paddingBottom="1dp"
-                        android:textSize="8sp"
+                        android:textSize="10sp"
                         android:text="Lihat Detail"
                         android:textColor="@android:color/white"
                         android:drawableEnd="@drawable/baseline_right_24"
@@ -546,7 +546,7 @@
 
                 <LinearLayout
                     android:layout_width="0dp"
-                    android:layout_height="205dp"
+                    android:layout_height="265dp"
                     android:layout_weight="1"
                     android:orientation="vertical"
                     android:layout_marginStart="8dp"
@@ -556,7 +556,7 @@
                     <ImageView
                         android:id="@+id/image8"
                         android:layout_width="match_parent"
-                        android:layout_height="120dp"
+                        android:layout_height="155dp"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
                         android:src="@drawable/umkm_8" />
@@ -580,7 +580,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppins_regular"
                         android:textColor="@android:color/darker_gray"
-                        android:textSize="10sp"
+                        android:textSize="12sp"
                         android:paddingTop="0dp"
                         android:layout_marginTop="0dp"
                         app:layout_constraintStart_toStartOf="parent"
@@ -588,16 +588,16 @@
 
                     <Button
                         android:id="@+id/button_lihat_detail8"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="2dp"
+                        android:layout_width="130dp"
+                        android:layout_height="27dp"
+                        android:layout_marginTop="18dp"
                         android:background="@drawable/button_background"
                         android:paddingStart="12dp"
                         android:paddingTop="0dp"
                         android:paddingEnd="2dp"
-                        android:layout_marginStart="30dp"
+                        android:layout_marginStart="17dp"
                         android:paddingBottom="1dp"
-                        android:textSize="8sp"
+                        android:textSize="10sp"
                         android:text="Lihat Detail"
                         android:textColor="@android:color/white"
                         android:drawableEnd="@drawable/baseline_right_24"
@@ -617,7 +617,7 @@
 
                 <LinearLayout
                     android:layout_width="0dp"
-                    android:layout_height="205dp"
+                    android:layout_height="265dp"
                     android:layout_weight="1"
                     android:orientation="vertical"
                     android:layout_marginEnd="8dp"
@@ -627,7 +627,7 @@
                     <ImageView
                         android:id="@+id/image9"
                         android:layout_width="match_parent"
-                        android:layout_height="120dp"
+                        android:layout_height="155dp"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
                         android:src="@drawable/umkm_9" />
@@ -651,7 +651,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppins_regular"
                         android:textColor="@android:color/darker_gray"
-                        android:textSize="10sp"
+                        android:textSize="12sp"
                         android:paddingTop="0dp"
                         android:layout_marginTop="0dp"
                         app:layout_constraintStart_toStartOf="parent"
@@ -659,16 +659,16 @@
 
                     <Button
                         android:id="@+id/button_lihat_detail9"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="2dp"
+                        android:layout_width="130dp"
+                        android:layout_height="27dp"
+                        android:layout_marginTop="18dp"
                         android:background="@drawable/button_background"
                         android:paddingStart="12dp"
                         android:paddingTop="0dp"
                         android:paddingEnd="2dp"
-                        android:layout_marginStart="30dp"
+                        android:layout_marginStart="17dp"
                         android:paddingBottom="1dp"
-                        android:textSize="8sp"
+                        android:textSize="10sp"
                         android:text="Lihat Detail"
                         android:textColor="@android:color/white"
                         android:drawableEnd="@drawable/baseline_right_24"
@@ -680,7 +680,7 @@
 
                 <LinearLayout
                     android:layout_width="0dp"
-                    android:layout_height="205dp"
+                    android:layout_height="265dp"
                     android:layout_weight="1"
                     android:orientation="vertical"
                     android:layout_marginStart="8dp"
@@ -690,7 +690,7 @@
                     <ImageView
                         android:id="@+id/image10"
                         android:layout_width="match_parent"
-                        android:layout_height="120dp"
+                        android:layout_height="155dp"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
                         android:src="@drawable/umkm_10" />
@@ -714,7 +714,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppins_regular"
                         android:textColor="@android:color/darker_gray"
-                        android:textSize="10sp"
+                        android:textSize="12sp"
                         android:paddingTop="0dp"
                         android:layout_marginTop="0dp"
                         app:layout_constraintStart_toStartOf="parent"
@@ -722,16 +722,16 @@
 
                     <Button
                         android:id="@+id/button_lihat_detail10"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="2dp"
+                        android:layout_width="130dp"
+                        android:layout_height="27dp"
+                        android:layout_marginTop="18dp"
                         android:background="@drawable/button_background"
                         android:paddingStart="12dp"
                         android:paddingTop="0dp"
                         android:paddingEnd="2dp"
-                        android:layout_marginStart="30dp"
+                        android:layout_marginStart="17dp"
                         android:paddingBottom="1dp"
-                        android:textSize="8sp"
+                        android:textSize="10sp"
                         android:text="Lihat Detail"
                         android:textColor="@android:color/white"
                         android:drawableEnd="@drawable/baseline_right_24"
@@ -751,7 +751,7 @@
 
                 <LinearLayout
                     android:layout_width="0dp"
-                    android:layout_height="205dp"
+                    android:layout_height="265dp"
                     android:layout_weight="1"
                     android:orientation="vertical"
                     android:layout_marginEnd="8dp"
@@ -761,7 +761,7 @@
                     <ImageView
                         android:id="@+id/image11"
                         android:layout_width="match_parent"
-                        android:layout_height="120dp"
+                        android:layout_height="155dp"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
                         android:src="@drawable/umkm_11" />
@@ -785,7 +785,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppins_regular"
                         android:textColor="@android:color/darker_gray"
-                        android:textSize="10sp"
+                        android:textSize="12sp"
                         android:paddingTop="0dp"
                         android:layout_marginTop="0dp"
                         app:layout_constraintStart_toStartOf="parent"
@@ -793,16 +793,16 @@
 
                     <Button
                         android:id="@+id/button_lihat_detail11"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="2dp"
+                        android:layout_width="130dp"
+                        android:layout_height="27dp"
+                        android:layout_marginTop="18dp"
                         android:background="@drawable/button_background"
                         android:paddingStart="12dp"
                         android:paddingTop="0dp"
                         android:paddingEnd="2dp"
-                        android:layout_marginStart="30dp"
+                        android:layout_marginStart="17dp"
                         android:paddingBottom="1dp"
-                        android:textSize="8sp"
+                        android:textSize="10sp"
                         android:text="Lihat Detail"
                         android:textColor="@android:color/white"
                         android:drawableEnd="@drawable/baseline_right_24"
@@ -814,7 +814,7 @@
 
                 <LinearLayout
                     android:layout_width="0dp"
-                    android:layout_height="205dp"
+                    android:layout_height="265dp"
                     android:layout_weight="1"
                     android:orientation="vertical"
                     android:layout_marginStart="8dp"
@@ -824,7 +824,7 @@
                     <ImageView
                         android:id="@+id/image12"
                         android:layout_width="match_parent"
-                        android:layout_height="120dp"
+                        android:layout_height="155dp"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
                         android:src="@drawable/umkm_12" />
@@ -848,7 +848,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppins_regular"
                         android:textColor="@android:color/darker_gray"
-                        android:textSize="10sp"
+                        android:textSize="12sp"
                         android:paddingTop="0dp"
                         android:layout_marginTop="0dp"
                         app:layout_constraintStart_toStartOf="parent"
@@ -856,16 +856,16 @@
 
                     <Button
                         android:id="@+id/button_lihat_detail12"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="130dp"
+                        android:layout_height="27dp"
                         android:layout_marginTop="2dp"
                         android:background="@drawable/button_background"
                         android:paddingStart="12dp"
                         android:paddingTop="0dp"
                         android:paddingEnd="2dp"
-                        android:layout_marginStart="30dp"
+                        android:layout_marginStart="17dp"
                         android:paddingBottom="1dp"
-                        android:textSize="8sp"
+                        android:textSize="10sp"
                         android:text="Lihat Detail"
                         android:textColor="@android:color/white"
                         android:drawableEnd="@drawable/baseline_right_24"
@@ -885,7 +885,7 @@
 
                 <LinearLayout
                     android:layout_width="0dp"
-                    android:layout_height="205dp"
+                    android:layout_height="265dp"
                     android:layout_weight="1"
                     android:orientation="vertical"
                     android:layout_marginEnd="8dp"
@@ -895,7 +895,7 @@
                     <ImageView
                         android:id="@+id/image13"
                         android:layout_width="match_parent"
-                        android:layout_height="120dp"
+                        android:layout_height="155dp"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
                         android:src="@drawable/umkm_13" />
@@ -919,7 +919,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppins_regular"
                         android:textColor="@android:color/darker_gray"
-                        android:textSize="10sp"
+                        android:textSize="12sp"
                         android:paddingTop="0dp"
                         android:layout_marginTop="0dp"
                         app:layout_constraintStart_toStartOf="parent"
@@ -927,16 +927,16 @@
 
                     <Button
                         android:id="@+id/button_lihat_detail13"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="2dp"
+                        android:layout_width="130dp"
+                        android:layout_height="27dp"
+                        android:layout_marginTop="18dp"
                         android:background="@drawable/button_background"
                         android:paddingStart="12dp"
                         android:paddingTop="0dp"
                         android:paddingEnd="2dp"
-                        android:layout_marginStart="30dp"
+                        android:layout_marginStart="17dp"
                         android:paddingBottom="1dp"
-                        android:textSize="8sp"
+                        android:textSize="10sp"
                         android:text="Lihat Detail"
                         android:textColor="@android:color/white"
                         android:drawableEnd="@drawable/baseline_right_24"
@@ -948,7 +948,7 @@
 
                 <LinearLayout
                     android:layout_width="0dp"
-                    android:layout_height="205dp"
+                    android:layout_height="265dp"
                     android:layout_weight="1"
                     android:orientation="vertical"
                     android:layout_marginStart="8dp"
@@ -958,7 +958,7 @@
                     <ImageView
                         android:id="@+id/image14"
                         android:layout_width="match_parent"
-                        android:layout_height="120dp"
+                        android:layout_height="155dp"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
                         android:src="@drawable/umkm_14" />
@@ -982,7 +982,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppins_regular"
                         android:textColor="@android:color/darker_gray"
-                        android:textSize="10sp"
+                        android:textSize="12sp"
                         android:paddingTop="0dp"
                         android:layout_marginTop="0dp"
                         app:layout_constraintStart_toStartOf="parent"
@@ -990,16 +990,16 @@
 
                     <Button
                         android:id="@+id/button_lihat_detail14"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="2dp"
+                        android:layout_width="130dp"
+                        android:layout_height="27dp"
+                        android:layout_marginTop="18dp"
                         android:background="@drawable/button_background"
                         android:paddingStart="12dp"
                         android:paddingTop="0dp"
                         android:paddingEnd="2dp"
-                        android:layout_marginStart="30dp"
+                        android:layout_marginStart="17dp"
                         android:paddingBottom="1dp"
-                        android:textSize="8sp"
+                        android:textSize="10sp"
                         android:text="Lihat Detail"
                         android:textColor="@android:color/white"
                         android:drawableEnd="@drawable/baseline_right_24"
@@ -1019,7 +1019,7 @@
 
                 <LinearLayout
                     android:layout_width="0dp"
-                    android:layout_height="205dp"
+                    android:layout_height="265dp"
                     android:layout_weight="1"
                     android:orientation="vertical"
                     android:layout_marginEnd="8dp"
@@ -1029,7 +1029,7 @@
                     <ImageView
                         android:id="@+id/image15"
                         android:layout_width="match_parent"
-                        android:layout_height="120dp"
+                        android:layout_height="155dp"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
                         android:src="@drawable/umkm_15" />
@@ -1053,7 +1053,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppins_regular"
                         android:textColor="@android:color/darker_gray"
-                        android:textSize="10sp"
+                        android:textSize="12sp"
                         android:paddingTop="0dp"
                         android:layout_marginTop="0dp"
                         app:layout_constraintStart_toStartOf="parent"
@@ -1061,16 +1061,16 @@
 
                     <Button
                         android:id="@+id/button_lihat_detail15"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="2dp"
+                        android:layout_width="130dp"
+                        android:layout_height="27dp"
+                        android:layout_marginTop="18dp"
                         android:background="@drawable/button_background"
                         android:paddingStart="12dp"
                         android:paddingTop="0dp"
                         android:paddingEnd="2dp"
-                        android:layout_marginStart="30dp"
+                        android:layout_marginStart="17dp"
                         android:paddingBottom="1dp"
-                        android:textSize="8sp"
+                        android:textSize="10sp"
                         android:text="Lihat Detail"
                         android:textColor="@android:color/white"
                         android:drawableEnd="@drawable/baseline_right_24"
@@ -1082,7 +1082,7 @@
 
                 <LinearLayout
                     android:layout_width="0dp"
-                    android:layout_height="205dp"
+                    android:layout_height="265dp"
                     android:layout_weight="1"
                     android:orientation="vertical"
                     android:layout_marginStart="8dp"
@@ -1092,7 +1092,7 @@
                     <ImageView
                         android:id="@+id/image16"
                         android:layout_width="match_parent"
-                        android:layout_height="120dp"
+                        android:layout_height="155dp"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
                         android:src="@drawable/umkm_16" />
@@ -1116,7 +1116,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppins_regular"
                         android:textColor="@android:color/darker_gray"
-                        android:textSize="10sp"
+                        android:textSize="12sp"
                         android:paddingTop="0dp"
                         android:layout_marginTop="0dp"
                         app:layout_constraintStart_toStartOf="parent"
@@ -1124,16 +1124,16 @@
 
                     <Button
                         android:id="@+id/button_lihat_detail16"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="2dp"
+                        android:layout_width="130dp"
+                        android:layout_height="27dp"
+                        android:layout_marginTop="18dp"
                         android:background="@drawable/button_background"
                         android:paddingStart="12dp"
                         android:paddingTop="0dp"
                         android:paddingEnd="2dp"
-                        android:layout_marginStart="30dp"
+                        android:layout_marginStart="17dp"
                         android:paddingBottom="1dp"
-                        android:textSize="8sp"
+                        android:textSize="10sp"
                         android:text="Lihat Detail"
                         android:textColor="@android:color/white"
                         android:drawableEnd="@drawable/baseline_right_24"
@@ -1152,7 +1152,7 @@
 
                 <LinearLayout
                     android:layout_width="0dp"
-                    android:layout_height="205dp"
+                    android:layout_height="265dp"
                     android:layout_weight="1"
                     android:orientation="vertical"
                     android:layout_marginEnd="8dp"
@@ -1162,7 +1162,7 @@
                     <ImageView
                         android:id="@+id/image17"
                         android:layout_width="match_parent"
-                        android:layout_height="120dp"
+                        android:layout_height="155dp"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
                         android:src="@drawable/umkm_17" />
@@ -1186,7 +1186,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppins_regular"
                         android:textColor="@android:color/darker_gray"
-                        android:textSize="10sp"
+                        android:textSize="12sp"
                         android:paddingTop="0dp"
                         android:layout_marginTop="0dp"
                         app:layout_constraintStart_toStartOf="parent"
@@ -1194,16 +1194,16 @@
 
                     <Button
                         android:id="@+id/button_lihat_detail17"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="2dp"
+                        android:layout_width="130dp"
+                        android:layout_height="27dp"
+                        android:layout_marginTop="18dp"
                         android:background="@drawable/button_background"
                         android:paddingStart="12dp"
                         android:paddingTop="0dp"
                         android:paddingEnd="2dp"
-                        android:layout_marginStart="30dp"
+                        android:layout_marginStart="17dp"
                         android:paddingBottom="1dp"
-                        android:textSize="8sp"
+                        android:textSize="10sp"
                         android:text="Lihat Detail"
                         android:textColor="@android:color/white"
                         android:drawableEnd="@drawable/baseline_right_24"
@@ -1215,7 +1215,7 @@
 
                 <LinearLayout
                     android:layout_width="0dp"
-                    android:layout_height="205dp"
+                    android:layout_height="265dp"
                     android:layout_weight="1"
                     android:orientation="vertical"
                     android:layout_marginStart="8dp"
@@ -1225,7 +1225,7 @@
                     <ImageView
                         android:id="@+id/image18"
                         android:layout_width="match_parent"
-                        android:layout_height="120dp"
+                        android:layout_height="155dp"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
                         android:src="@drawable/umkm_18" />
@@ -1249,7 +1249,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppins_regular"
                         android:textColor="@android:color/darker_gray"
-                        android:textSize="10sp"
+                        android:textSize="12sp"
                         android:paddingTop="0dp"
                         android:layout_marginTop="0dp"
                         app:layout_constraintStart_toStartOf="parent"
@@ -1257,16 +1257,16 @@
 
                     <Button
                         android:id="@+id/button_lihat_detail18"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="2dp"
+                        android:layout_width="130dp"
+                        android:layout_height="27dp"
+                        android:layout_marginTop="18dp"
                         android:background="@drawable/button_background"
                         android:paddingStart="12dp"
                         android:paddingTop="0dp"
                         android:paddingEnd="2dp"
-                        android:layout_marginStart="30dp"
+                        android:layout_marginStart="17dp"
                         android:paddingBottom="1dp"
-                        android:textSize="8sp"
+                        android:textSize="10sp"
                         android:text="Lihat Detail"
                         android:textColor="@android:color/white"
                         android:drawableEnd="@drawable/baseline_right_24"
@@ -1285,7 +1285,7 @@
 
                 <LinearLayout
                     android:layout_width="0dp"
-                    android:layout_height="205dp"
+                    android:layout_height="265dp"
                     android:layout_weight="1"
                     android:orientation="vertical"
                     android:layout_marginEnd="8dp"
@@ -1295,7 +1295,7 @@
                     <ImageView
                         android:id="@+id/image19"
                         android:layout_width="match_parent"
-                        android:layout_height="120dp"
+                        android:layout_height="155dp"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
                         android:src="@drawable/umkm_19" />
@@ -1319,7 +1319,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppins_regular"
                         android:textColor="@android:color/darker_gray"
-                        android:textSize="10sp"
+                        android:textSize="12sp"
                         android:paddingTop="0dp"
                         android:layout_marginTop="0dp"
                         app:layout_constraintStart_toStartOf="parent"
@@ -1327,16 +1327,16 @@
 
                     <Button
                         android:id="@+id/button_lihat_detail19"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="2dp"
+                        android:layout_width="130dp"
+                        android:layout_height="27dp"
+                        android:layout_marginTop="18dp"
                         android:background="@drawable/button_background"
                         android:paddingStart="12dp"
                         android:paddingTop="0dp"
                         android:paddingEnd="2dp"
-                        android:layout_marginStart="30dp"
+                        android:layout_marginStart="17dp"
                         android:paddingBottom="1dp"
-                        android:textSize="8sp"
+                        android:textSize="10sp"
                         android:text="Lihat Detail"
                         android:textColor="@android:color/white"
                         android:drawableEnd="@drawable/baseline_right_24"
@@ -1348,7 +1348,7 @@
 
                 <LinearLayout
                     android:layout_width="0dp"
-                    android:layout_height="205dp"
+                    android:layout_height="265dp"
                     android:layout_weight="1"
                     android:orientation="vertical"
                     android:layout_marginStart="8dp"
@@ -1358,7 +1358,7 @@
                     <ImageView
                         android:id="@+id/image20"
                         android:layout_width="match_parent"
-                        android:layout_height="120dp"
+                        android:layout_height="155dp"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
                         android:src="@drawable/umkm_20" />
@@ -1382,7 +1382,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppins_regular"
                         android:textColor="@android:color/darker_gray"
-                        android:textSize="10sp"
+                        android:textSize="12sp"
                         android:paddingTop="0dp"
                         android:layout_marginTop="0dp"
                         app:layout_constraintStart_toStartOf="parent"
@@ -1390,16 +1390,16 @@
 
                     <Button
                         android:id="@+id/button_lihat_detail20"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="2dp"
+                        android:layout_width="130dp"
+                        android:layout_height="27dp"
+                        android:layout_marginTop="18dp"
                         android:background="@drawable/button_background"
                         android:paddingStart="12dp"
                         android:paddingTop="0dp"
                         android:paddingEnd="2dp"
-                        android:layout_marginStart="30dp"
+                        android:layout_marginStart="17dp"
                         android:paddingBottom="1dp"
-                        android:textSize="8sp"
+                        android:textSize="10sp"
                         android:text="Lihat Detail"
                         android:textColor="@android:color/white"
                         android:drawableEnd="@drawable/baseline_right_24"

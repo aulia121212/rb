@@ -28,6 +28,21 @@ class NotificationsFragment : Fragment() {
             findNavController().navigate(R.id.action_notificationsFragment_to_samarindaKatalog)
         }
 
+        val buttonLihatKatalog3 = view.findViewById<ImageButton>(R.id.button_lihat_katalog3)
+        buttonLihatKatalog3.setOnClickListener {
+            findNavController().navigate(R.id.action_notificationsFragment_to_berauKatalog)
+        }
+
+        val buttonLihatKatalog4 = view.findViewById<ImageButton>(R.id.button_lihat_katalog4)
+        buttonLihatKatalog4.setOnClickListener {
+            findNavController().navigate(R.id.action_notificationsFragment_to_penajamKatalog)
+        }
+
+        val buttonLihatKatalog5 = view.findViewById<ImageButton>(R.id.button_lihat_katalog5)
+        buttonLihatKatalog5.setOnClickListener {
+            findNavController().navigate(R.id.action_notificationsFragment_to_kukarKatalog)
+        }
+
         return view
     }
 }

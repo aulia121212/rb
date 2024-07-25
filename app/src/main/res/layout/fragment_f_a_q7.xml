@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.faq.FAQ7Fragment">
+
+    <!-- Toolbar dengan Tombol Back dan Text -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <!-- Tombol Back di dalam Toolbar -->
+            <ImageButton
+                android:id="@+id/button_back"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/baseline_arrow_back_24" />
+
+            <!-- Text di sebelah Tombol Back -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Frequently Asked Questions"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:paddingStart="8dp" />
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/image_logo"
+                android:layout_width="380dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tanya_g" />
+
+            <TextView
+                android:id="@+id/text_balikpapan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Menggunakan aplikasi Rumah BUMN menawarkan berbagai keuntungan bagi UMKM. Pertama, UMKM mendapatkan akses ke berbagai program pelatihan dan workshop yang dapat meningkatkan keterampilan serta pengetahuan bisnis mereka. Selain itu, aplikasi ini memungkinkan UMKM untuk terhubung dengan jaringan bisnis yang lebih luas, termasuk mitra usaha, pemasok, dan pelanggan potensial. Melalui aplikasi ini, UMKM dapat memanfaatkan platform promosi dan pemasaran untuk menjangkau lebih banyak konsumen. Rumah BUMN juga menyediakan layanan pendampingan dan konsultasi bisnis untuk membantu UMKM mengatasi berbagai tantangan yang dihadapi.\n\nAplikasi ini memberikan akses lebih mudah ke berbagai program pembiayaan yang ditawarkan oleh pemerintah dan lembaga keuangan. Dengan fasilitas pembayaran yang mudah dan aman, baik melalui transfer bank atau pembayaran tunai, serta integrasi dengan WhatsApp untuk pemesanan, transaksi menjadi lebih efisien. Selain itu, UMKM dapat memperoleh informasi terkini tentang kebijakan pemerintah, peluang pasar, dan perkembangan industri yang relevan. Aplikasi ini juga mendorong kolaborasi antar pelaku UMKM dan inovasi dalam produk serta layanan mereka. Dengan semua keuntungan ini, aplikasi Rumah BUMN menjadi alat yang sangat bermanfaat bagi UMKM dalam mengembangkan dan memperluas usaha mereka."
+                />
+
+            <TextView
+                android:id="@+id/tekskosong_balikpapan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"
+                android:fontFamily="@font/poppins_regular"
+                android:text="" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

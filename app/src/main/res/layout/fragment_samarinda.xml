@@ -72,22 +72,22 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
 
                 <LinearLayout
                     android:layout_width="0dp"
-                    android:layout_height="205dp"
-                    android:layout_marginEnd="8dp"
+                    android:layout_height="265dp"
                     android:layout_weight="1"
-                    android:background="@drawable/card_background"
                     android:orientation="vertical"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/card_background"
                     android:padding="8dp">
 
                     <ImageView
                         android:id="@+id/image1"
                         android:layout_width="match_parent"
-                        android:layout_height="120dp"
+                        android:layout_height="155dp"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
                         android:src="@drawable/kemangi" />
@@ -96,62 +96,62 @@
                         android:id="@+id/text1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="0dp"
                         android:fontFamily="@font/poppins_regular"
-                        android:paddingTop="0dp"
-                        android:text="Teh Rempah Kemangi"
                         android:textColor="@android:color/black"
                         android:textSize="12sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginBottom="0dp"
+                        app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
+                        android:text="Teh Rempah Kemangi" />
 
                     <TextView
                         android:id="@+id/subtext1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/poppins_regular"
-                        android:paddingTop="0dp"
-                        android:text="Rempah Sakti"
                         android:textColor="@android:color/darker_gray"
-                        android:textSize="10sp"
-                        app:layout_constraintStart_toStartOf="parent" />
+                        android:textSize="12sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginTop="0dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Rempah Sakti" />
 
                     <Button
                         android:id="@+id/smd_lihat_detail1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="30dp"
+                        android:layout_width="130dp"
+                        android:layout_height="27dp"
                         android:layout_marginTop="2dp"
                         android:background="@drawable/button_background"
-                        android:drawableEnd="@drawable/baseline_right_24"
-                        android:fontFamily="@font/poppins_bold"
-                        android:gravity="center"
-                        android:onClick="onLihatDetailClicked"
                         android:paddingStart="12dp"
                         android:paddingTop="0dp"
                         android:paddingEnd="2dp"
+                        android:layout_marginStart="17dp"
                         android:paddingBottom="1dp"
+                        android:textSize="10sp"
                         android:text="Lihat Detail"
                         android:textColor="@android:color/white"
-                        android:textSize="8sp" />
+                        android:drawableEnd="@drawable/baseline_right_24"
+                        android:fontFamily="@font/poppins_bold"
+                        android:gravity="center"
+                        android:onClick="onLihatDetailClicked" />
 
 
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="0dp"
-                    android:layout_height="205dp"
-                    android:layout_marginStart="8dp"
+                    android:layout_height="265dp"
                     android:layout_weight="1"
-                    android:background="@drawable/card_background"
                     android:orientation="vertical"
+                    android:layout_marginStart="8dp"
+                    android:background="@drawable/card_background"
                     android:padding="8dp">
 
                     <ImageView
                         android:id="@+id/image2"
                         android:layout_width="match_parent"
-                        android:layout_height="120dp"
+                        android:layout_height="155dp"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
                         android:src="@drawable/tiwai_dayak" />
@@ -160,45 +160,46 @@
                         android:id="@+id/text2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="0dp"
                         android:fontFamily="@font/poppins_regular"
-                        android:paddingTop="0dp"
-                        android:text="Teh Bawang Tiwai"
                         android:textColor="@android:color/black"
                         android:textSize="12sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginBottom="0dp"
+                        app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
+                        android:text="Teh Bawang Tiwai" />
 
                     <TextView
                         android:id="@+id/subtext2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/poppins_regular"
-                        android:paddingTop="0dp"
-                        android:text="Rempah Sakti"
                         android:textColor="@android:color/darker_gray"
-                        android:textSize="10sp"
-                        app:layout_constraintStart_toStartOf="parent" />
+                        android:textSize="12sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginTop="0dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Rempah Sakti" />
+
 
                     <Button
                         android:id="@+id/smd_lihat_detail2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="30dp"
+                        android:layout_width="130dp"
+                        android:layout_height="27dp"
                         android:layout_marginTop="2dp"
                         android:background="@drawable/button_background"
-                        android:drawableEnd="@drawable/baseline_right_24"
-                        android:fontFamily="@font/poppins_bold"
-                        android:gravity="center"
-                        android:onClick="onLihatDetailClicked"
                         android:paddingStart="12dp"
                         android:paddingTop="0dp"
                         android:paddingEnd="2dp"
+                        android:layout_marginStart="17dp"
                         android:paddingBottom="1dp"
+                        android:textSize="10sp"
                         android:text="Lihat Detail"
                         android:textColor="@android:color/white"
-                        android:textSize="8sp" />
+                        android:drawableEnd="@drawable/baseline_right_24"
+                        android:fontFamily="@font/poppins_bold"
+                        android:gravity="center"
+                        android:onClick="onLihatDetailClicked"/>
                 </LinearLayout>
             </LinearLayout>
 
@@ -206,23 +207,23 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
 
                 <LinearLayout
                     android:layout_width="0dp"
-                    android:layout_height="205dp"
-                    android:layout_marginEnd="8dp"
+                    android:layout_height="265dp"
                     android:layout_weight="1"
-                    android:background="@drawable/card_background"
                     android:orientation="vertical"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/card_background"
                     android:padding="8dp">
 
 
                     <ImageView
                         android:id="@+id/image3"
                         android:layout_width="match_parent"
-                        android:layout_height="120dp"
+                        android:layout_height="155dp"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
                         android:src="@drawable/jahe_merah" />
@@ -231,62 +232,62 @@
                         android:id="@+id/text3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="0dp"
                         android:fontFamily="@font/poppins_regular"
-                        android:paddingTop="0dp"
-                        android:text="Teh Jahe Merah"
                         android:textColor="@android:color/black"
                         android:textSize="12sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginBottom="0dp"
+                        app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
+                        android:text="Teh Jahe Merah"/>
 
                     <TextView
                         android:id="@+id/subtext3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/poppins_regular"
-                        android:paddingTop="0dp"
-                        android:text="Rempah Sakti"
                         android:textColor="@android:color/darker_gray"
-                        android:textSize="10sp"
+                        android:textSize="12sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginTop="0dp"
                         app:layout_constraintStart_toStartOf="parent"
+                        android:text="Rempah Sakti"
                         app:layout_constraintTop_toBottomOf="@id/text3" />
 
 
                     <Button
                         android:id="@+id/smd_lihat_detail3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="30dp"
-                        android:layout_marginTop="2dp"
+                        android:layout_width="130dp"
+                        android:layout_height="27dp"
+                        android:layout_marginTop="18dp"
                         android:background="@drawable/button_background"
-                        android:drawableEnd="@drawable/baseline_right_24"
-                        android:fontFamily="@font/poppins_bold"
-                        android:gravity="center"
-                        android:onClick="onLihatDetailClicked"
                         android:paddingStart="12dp"
                         android:paddingTop="0dp"
                         android:paddingEnd="2dp"
+                        android:layout_marginStart="17dp"
                         android:paddingBottom="1dp"
+                        android:textSize="10sp"
                         android:text="Lihat Detail"
                         android:textColor="@android:color/white"
-                        android:textSize="8sp" />
+                        android:drawableEnd="@drawable/baseline_right_24"
+                        android:fontFamily="@font/poppins_bold"
+                        android:gravity="center"
+                        android:onClick="onLihatDetailClicked"/>
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="0dp"
-                    android:layout_height="205dp"
-                    android:layout_marginStart="8dp"
+                    android:layout_height="265dp"
                     android:layout_weight="1"
-                    android:background="@drawable/card_background"
                     android:orientation="vertical"
+                    android:layout_marginStart="8dp"
+                    android:background="@drawable/card_background"
                     android:padding="8dp">
 
                     <ImageView
                         android:id="@+id/image4"
                         android:layout_width="match_parent"
-                        android:layout_height="120dp"
+                        android:layout_height="155dp"
                         android:adjustViewBounds="true"
                         android:scaleType="centerCrop"
                         android:src="@drawable/rosella" />
@@ -295,47 +296,50 @@
                         android:id="@+id/text4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="0dp"
                         android:fontFamily="@font/poppins_regular"
-                        android:paddingTop="0dp"
-                        android:text="Teh Rosella"
                         android:textColor="@android:color/black"
                         android:textSize="12sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginBottom="0dp"
+                        app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
+                        android:text="Teh Rosella" />
 
                     <TextView
                         android:id="@+id/subtext4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/poppins_regular"
-                        android:paddingTop="0dp"
-                        android:text="Rempah Sakti"
                         android:textColor="@android:color/darker_gray"
-                        android:textSize="10sp"
-                        app:layout_constraintStart_toStartOf="parent" />
+                        android:textSize="12sp"
+                        android:paddingTop="0dp"
+                        android:layout_marginTop="0dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="Rempah Sakti" />
+
 
                     <Button
                         android:id="@+id/smd_lihat_detail4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="30dp"
-                        android:layout_marginTop="2dp"
+                        android:layout_width="130dp"
+                        android:layout_height="27dp"
+                        android:layout_marginTop="18dp"
                         android:background="@drawable/button_background"
-                        android:drawableEnd="@drawable/baseline_right_24"
-                        android:fontFamily="@font/poppins_bold"
-                        android:gravity="center"
-                        android:onClick="onLihatDetailClicked"
                         android:paddingStart="12dp"
                         android:paddingTop="0dp"
                         android:paddingEnd="2dp"
+                        android:layout_marginStart="17dp"
                         android:paddingBottom="1dp"
+                        android:textSize="10sp"
                         android:text="Lihat Detail"
                         android:textColor="@android:color/white"
-                        android:textSize="8sp" />
+                        android:drawableEnd="@drawable/baseline_right_24"
+                        android:fontFamily="@font/poppins_bold"
+                        android:gravity="center"
+                        android:onClick="onLihatDetailClicked"/>
                 </LinearLayout>
             </LinearLayout>
+
+            <!-- UMKM 3 -->
 
 
             <TextView
@@ -346,8 +350,8 @@
                 android:layout_marginTop="58dp"
                 android:layout_marginEnd="16dp"
                 android:textSize="16sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
 
         </LinearLayout>
     </ScrollView>
