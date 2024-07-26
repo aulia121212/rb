@@ -15,6 +15,11 @@
 
     </style>
 
+    <style name="ShapeAppearanceOverlay.App.CornerFamilyRounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">46dp</item>
+    </style>
+
     <!-- res/values/styles.xml -->
 
 

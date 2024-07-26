@@ -139,17 +139,23 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
-        <ImageView
+        <TextView
             android:id="@+id/image_ceodancfo"
-            android:layout_width="400dp"
-            android:layout_height="40dp"
-            android:layout_marginTop="16dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="center"
+
+            android:text="Struktur Organisasi Rumah BUMN\nKalimantan Timur"
             app:layout_constraintTop_toBottomOf="@id/text_mission_detail"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:src="@drawable/text_tulisan" />
+            app:layout_constraintEnd_toEndOf="parent" />
 
         <LinearLayout
             android:id="@+id/ceo_section"
@@ -163,11 +169,13 @@
 
             <ImageView
                 android:id="@+id/image_ceo"
-                android:layout_width="200dp"
-                android:layout_height="200dp"
-                android:src="@drawable/hitler_sijabat" />
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="14dp"
+                android:src="@drawable/hitler" />
 
             <LinearLayout
+
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -180,9 +188,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center_vertical"
+                    android:layout_marginTop="28dp"
                     android:text="HITLER SIJABAT"
                     android:fontFamily="@font/poppins_bold"
-                    android:textColor="@color/black"
+                    android:textColor="@color/blue"
                     android:textSize="16sp" />
 
                 <TextView
@@ -190,30 +199,25 @@
                     android:layout_height="wrap_content"
                     android:textSize="16sp"
                     android:textStyle="bold"
-                    android:text="Chief Executive Officer (CEO)"
+                    android:text="Chief Executive Officer"
                     android:layout_marginEnd="16dp"
                     android:fontFamily="@font/poppins_regular"
-                    android:textColor="@color/black"
+                    android:textColor="@color/blue"
                     android:gravity="center_vertical" />
+
+                <ImageButton
+                    android:id="@+id/klik"
+                    android:layout_width="35dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="6dp"
+                    android:src="@drawable/next"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:scaleType="centerInside" />
 
             </LinearLayout>
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/text_ceo_detail"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="16dp"
-            android:textSize="16sp"
-            android:justificationMode="inter_word"
-            android:textColor="@color/black"
-            android:text="Hitler Sijabat menjabat sebagai CEO Rumah BUMN Kalimantan Timur berdasarkan Surat Kementrian Badan Usaha Milik Negara Nomor: S-152/DSI.MBU/11/2023, tanggal 28 November 2023 tentang Penugasan CEO dan CFO Muda Rumah BUMN Batch-2\n\nHitler Sijabat lulus dari Jurusan Teknik Geologi di Universitas Padjadjaran (2011) dan melanjutkan pendidikan Magister Petroleum Geoscience di Institut Teknologi Bandung (2021).\n\nKarir Hitler Sijabat antara lain MLWD Field Engineer di Schlumberger Indonesia (2012-2013), Regional Exploration Geoscientist di Pertamina EP (2013-2014), Appraisal Geoscientist di Pertamina EP (2015-2017), Development Geoscientist di Pertamina EP (2017-2020), Exploration Geoscientist di Pertamina Hulu Rokan (2020-2021) dan New Venture Exploration Geoscientist di Pertamina Hulu Energi (2022-2024)."
-            android:fontFamily="@font/poppins_regular"
-            app:layout_constraintTop_toBottomOf="@id/ceo_section"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+
 
 
         <LinearLayout
@@ -222,15 +226,17 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="26dp"
             android:orientation="horizontal"
-            app:layout_constraintTop_toBottomOf="@id/text_ceo_detail"
+            app:layout_constraintTop_toBottomOf="@id/ceo_section"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent">
 
             <ImageView
                 android:id="@+id/image_cfo"
-                android:layout_width="200dp"
-                android:layout_height="200dp"
-                android:src="@drawable/rachmat_wahid" />
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="14dp"
+
+                android:src="@drawable/rachmat" />
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -245,50 +251,48 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center_vertical"
+                    android:layout_marginTop="28dp"
+
                     android:text="RACHMAT WAHID"
                     android:fontFamily="@font/poppins_bold"
-                    android:textColor="@color/black"
+                    android:textColor="@color/blue"
                     android:textSize="16sp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="16sp"
-                    android:textColor="@color/black"
+                    android:textColor="@color/blue"
                     android:textStyle="bold"
                     android:fontFamily="@font/poppins_regular"
-                    android:text="Chief Financial Officer (CFO)"
+                    android:text="Chief Financial Officer"
                     android:layout_marginEnd="12dp"
                     android:gravity="center_vertical" />
 
+                <ImageButton
+                    android:id="@+id/klikcfo"
+                    android:layout_width="35dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="6dp"
+                    android:src="@drawable/next"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:scaleType="centerInside" />
             </LinearLayout>
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/text_cfo_detail"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="16dp"
-            android:textSize="16sp"
-            android:justificationMode="inter_word"
-            android:fontFamily="@font/poppins_regular"
-            android:text="Rachmat Wahid menjabat sebagai CFO Rumah BUMN Kalimantan Timur berdasarkan Surat Kementrian Badan Usaha Milik Negara Nomor: S-152/DSI.MBU/11/2023, tanggal 28 November 2023 tentang Penugasan CEO dan CFO Muda Rumah BUMN Batch-2\n\nRachmat Wahid lulus dari Jurusan Akuntansi di Universitas Trisakti (2010) dan melanjutkan pendidikan Magister Management di Universitas Trisakti (2020).\n\nKarir Rachmat Wahid antara lain Finance dan Accounting di PT. Padi Energi Nusantara (2010 – 2012), Account Payable Analyst di PT. Pertamina Hulu Energi West Madura Offshore (2012 – 2018), East Area Account Payable Sr Analyst I di PT. Pertamina Hulu Energi (2018 – 2019), Officer Joint Interest Accounting di PT. Pertamina Hulu Energi (2019 – 2022), Sr Analyst Segment Report Data di PT. Pertamina Hulu Energi (2022-2023), Sr Analyst Consolidation Data di PT Pertamina Hulu Energi (2023)."
-            android:textColor="@color/black"
-            app:layout_constraintTop_toBottomOf="@id/cfo_section"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+
 
         <ImageView
+
             android:id="@+id/image_strukturall"
             android:layout_width="0dp"
             android:layout_height="270dp"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
-            app:layout_constraintTop_toBottomOf="@id/text_cfo_detail"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cfo_section"
+
             android:src="@drawable/bagan" />
 
         <TextView

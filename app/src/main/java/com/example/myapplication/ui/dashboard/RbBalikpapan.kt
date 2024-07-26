@@ -41,7 +41,7 @@ class RbBalikpapan : Fragment() {
         // Menginisialisasi ImageButton untuk formulir pendaftaran
         btnDaftar = view.findViewById(R.id.image_daftar)
         btnDaftar.setOnClickListener {
-            val formUrl = "https://bit.ly/FormulirPendaftaranUMKM-RB2024"
+            val formUrl = "https://bit.ly/FormulirPendaftaranUMKMRB-2024"
 
             val intent = Intent(Intent.ACTION_VIEW)
             intent.data = Uri.parse(formUrl)

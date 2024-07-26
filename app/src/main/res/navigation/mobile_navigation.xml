@@ -9,7 +9,34 @@
         android:id="@+id/navigation_home"
         android:name="com.example.myapplication.ui.home.HomeFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_home_ceo"
+            app:destination="@id/navigation_home_ceo" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_home_cfo"
+            app:destination="@id/navigation_home_cfo" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_home_ceo"
+        android:name="com.example.myapplication.ui.home.CEOFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_c_e_o" >
+        <action
+            android:id="@+id/action_navigation_home_ceo_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_home_cfo"
+        android:name="com.example.myapplication.ui.home.CFOFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_c_f_o" >
+        <action
+            android:id="@+id/action_navigation_home_cfo_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_dashboard"
@@ -240,6 +267,110 @@
         <action
             android:id="@+id/action_navigation_katalog_penajam_to_navigation_notifications"
             app:destination="@id/navigation_notifications" />
+        <action
+            android:id="@+id/action_navigation_katalog_penajam_to_navigation_penajam1"
+            app:destination="@id/navigation_penajam1" />
+        <action
+            android:id="@+id/action_navigation_katalog_penajam_to_navigation_penajam2"
+            app:destination="@id/navigation_penajam2" />
+        <action
+            android:id="@+id/action_navigation_katalog_penajam_to_navigation_penajam6"
+            app:destination="@id/navigation_penajam6" />
+        <action
+            android:id="@+id/action_navigation_katalog_penajam_to_navigation_penajam7"
+            app:destination="@id/navigation_penajam7" />
+        <action
+            android:id="@+id/action_navigation_katalog_penajam_to_navigation_penajam4"
+            app:destination="@id/navigation_penajam4" />
+        <action
+            android:id="@+id/action_navigation_katalog_penajam_to_navigation_penajam5"
+            app:destination="@id/navigation_penajam5" />
+        <action
+            android:id="@+id/action_navigation_katalog_penajam_to_navigation_penajam8"
+            app:destination="@id/navigation_penajam8" />
+        <action
+            android:id="@+id/action_navigation_katalog_penajam_to_navigation_penajam3"
+            app:destination="@id/navigation_penajam3" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_penajam1"
+        android:name="com.example.myapplication.ui.notifications.PenajamDetail1Fragment"
+        android:label="Detail UMKM"
+        tools:layout="@layout/fragment_penajam_detail1" >
+        <action
+            android:id="@+id/action_navigation_penajam1_to_navigation_katalog_penajam"
+            app:destination="@id/navigation_katalog_penajam" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_penajam2"
+        android:name="com.example.myapplication.ui.notifications.PenajamDetail1Fragment"
+        android:label="Detail UMKM"
+        tools:layout="@layout/fragment_penajam_detail2" >
+        <action
+            android:id="@+id/action_navigation_penajam2_to_navigation_katalog_penajam"
+            app:destination="@id/navigation_katalog_penajam" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_penajam3"
+        android:name="com.example.myapplication.ui.notifications.PenajamDetail3Fragment"
+        android:label="Detail UMKM"
+        tools:layout="@layout/fragment_penajam_detail3" >
+        <action
+            android:id="@+id/action_navigation_penajam3_to_navigation_katalog_penajam"
+            app:destination="@id/navigation_katalog_penajam" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_penajam4"
+        android:name="com.example.myapplication.ui.notifications.PenajamDetail4Fragment"
+        android:label="Detail UMKM"
+        tools:layout="@layout/fragment_penajam_detail4" >
+        <action
+            android:id="@+id/action_navigation_penajam4_to_navigation_katalog_penajam"
+            app:destination="@id/navigation_katalog_penajam" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_penajam5"
+        android:name="com.example.myapplication.ui.notifications.PenajamDetail5Fragment"
+        android:label="Detail UMKM"
+        tools:layout="@layout/fragment_penajam_detail5" >
+        <action
+            android:id="@+id/action_navigation_penajam5_to_navigation_katalog_penajam"
+            app:destination="@id/navigation_katalog_penajam" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_penajam6"
+        android:name="com.example.myapplication.ui.notifications.PenajamDetail6Fragment"
+        android:label="Detail UMKM"
+        tools:layout="@layout/fragment_penajam_detail6" >
+        <action
+            android:id="@+id/action_navigation_penajam6_to_navigation_katalog_penajam"
+            app:destination="@id/navigation_katalog_penajam" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_penajam7"
+        android:name="com.example.myapplication.ui.notifications.PenajamDetail7Fragment"
+        android:label="Detail UMKM"
+        tools:layout="@layout/fragment_penajam_detail7" >
+        <action
+            android:id="@+id/action_navigation_penajam7_to_navigation_katalog_penajam"
+            app:destination="@id/navigation_katalog_penajam" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_penajam8"
+        android:name="com.example.myapplication.ui.notifications.PenajamDetail8Fragment"
+        android:label="Detail UMKM"
+        tools:layout="@layout/fragment_penajam_detail8" >
+        <action
+            android:id="@+id/action_navigation_penajam8_to_navigation_katalog_penajam"
+            app:destination="@id/navigation_katalog_penajam" />
     </fragment>
 
     <fragment
