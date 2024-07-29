@@ -257,6 +257,58 @@
         <action
             android:id="@+id/action_navigation_katalog_berau_to_navigation_notifications"
             app:destination="@id/navigation_notifications" />
+        <action
+            android:id="@+id/action_navigation_katalog_berau_to_navigation_berau1"
+            app:destination="@id/navigation_berau1" />
+        <action
+            android:id="@+id/action_navigation_katalog_berau_to_navigation_berau2"
+            app:destination="@id/navigation_berau2" />
+        <action
+            android:id="@+id/action_navigation_katalog_berau_to_navigation_berau3"
+            app:destination="@id/navigation_berau3" />
+        <action
+            android:id="@+id/action_navigation_katalog_berau_to_navigation_berau4"
+            app:destination="@id/navigation_berau4" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_berau1"
+        android:name="com.example.myapplication.ui.notifications.Berau1Fragment"
+        android:label="Detail UMKM"
+        tools:layout="@layout/fragment_berau1" >
+        <action
+            android:id="@+id/action_navigation_berau1_to_navigation_katalog_berau"
+            app:destination="@id/navigation_katalog_berau" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_berau2"
+        android:name="com.example.myapplication.ui.notifications.Berau2Fragment"
+        android:label="Detail UMKM"
+        tools:layout="@layout/fragment_berau2" >
+        <action
+            android:id="@+id/action_navigation_berau2_to_navigation_katalog_berau"
+            app:destination="@id/navigation_katalog_berau" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_berau3"
+        android:name="com.example.myapplication.ui.notifications.Berau3Fragment"
+        android:label="Detail UMKM"
+        tools:layout="@layout/fragment_berau3" >
+        <action
+            android:id="@+id/action_navigation_berau3_to_navigation_katalog_berau"
+            app:destination="@id/navigation_katalog_berau" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_berau4"
+        android:name="com.example.myapplication.ui.notifications.Berau4Fragment"
+        android:label="Detail UMKM"
+        tools:layout="@layout/fragment_berau4" >
+        <action
+            android:id="@+id/action_navigation_berau4_to_navigation_katalog_berau"
+            app:destination="@id/navigation_katalog_berau" />
     </fragment>
 
     <fragment
@@ -381,6 +433,136 @@
         <action
             android:id="@+id/action_navigation_katalog_kukar_to_navigation_notifications"
             app:destination="@id/navigation_notifications" />
+        <action
+            android:id="@+id/action_navigation_katalog_kukar_to_navigation_kukar3"
+            app:destination="@id/navigation_kukar3" />
+        <action
+            android:id="@+id/action_navigation_katalog_kukar_to_navigation_kukar2"
+            app:destination="@id/navigation_kukar2" />
+        <action
+            android:id="@+id/action_navigation_katalog_kukar_to_navigation_kukar4"
+            app:destination="@id/navigation_kukar4" />
+        <action
+            android:id="@+id/action_navigation_katalog_kukar_to_navigation_kukar1"
+            app:destination="@id/navigation_kukar1" />
+        <action
+            android:id="@+id/action_navigation_katalog_kukar_to_navigation_kukar7"
+            app:destination="@id/navigation_kukar7" />
+        <action
+            android:id="@+id/action_navigation_katalog_kukar_to_navigation_kukar5"
+            app:destination="@id/navigation_kukar5" />
+        <action
+            android:id="@+id/action_navigation_katalog_kukar_to_navigation_kukar8"
+            app:destination="@id/navigation_kukar8" />
+        <action
+            android:id="@+id/action_navigation_katalog_kukar_to_navigation_kukar10"
+            app:destination="@id/navigation_kukar10" />
+        <action
+            android:id="@+id/action_navigation_katalog_kukar_to_navigation_kukar6"
+            app:destination="@id/navigation_kukar6" />
+        <action
+            android:id="@+id/action_navigation_katalog_kukar_to_navigation_kukar9"
+            app:destination="@id/navigation_kukar9" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_kukar1"
+        android:name="com.example.myapplication.ui.notifications.Kukar1Fragment"
+        android:label="Detail UMKM"
+        tools:layout="@layout/fragment_kukar1" >
+        <action
+            android:id="@+id/action_navigation_kukar1_to_navigation_katalog_kukar"
+            app:destination="@id/navigation_katalog_kukar" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_kukar2"
+        android:name="com.example.myapplication.ui.notifications.Kukar2Fragment"
+        android:label="Detail UMKM"
+        tools:layout="@layout/fragment_kukar2" >
+        <action
+            android:id="@+id/action_navigation_kukar2_to_navigation_katalog_kukar"
+            app:destination="@id/navigation_katalog_kukar" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_kukar3"
+        android:name="com.example.myapplication.ui.notifications.Kukar3Fragment"
+        android:label="Detail UMKM"
+        tools:layout="@layout/fragment_kukar3" >
+        <action
+            android:id="@+id/action_navigation_kukar3_to_navigation_katalog_kukar"
+            app:destination="@id/navigation_katalog_kukar" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_kukar4"
+        android:name="com.example.myapplication.ui.notifications.Kukar4Fragment"
+        android:label="Detail UMKM"
+        tools:layout="@layout/fragment_kukar4" >
+        <action
+            android:id="@+id/action_navigation_kukar4_to_navigation_katalog_kukar"
+            app:destination="@id/navigation_katalog_kukar" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_kukar5"
+        android:name="com.example.myapplication.ui.notifications.Kukar5Fragment"
+        android:label="Detail UMKM"
+        tools:layout="@layout/fragment_kukar5" >
+        <action
+            android:id="@+id/action_navigation_kukar5_to_navigation_katalog_kukar"
+            app:destination="@id/navigation_katalog_kukar" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_kukar6"
+        android:name="com.example.myapplication.ui.notifications.Kukar6Fragment"
+        android:label="Detail UMKM"
+        tools:layout="@layout/fragment_kukar6" >
+        <action
+            android:id="@+id/action_navigation_kukar6_to_navigation_katalog_kukar"
+            app:destination="@id/navigation_katalog_kukar" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_kukar7"
+        android:name="com.example.myapplication.ui.notifications.Kukar7Fragment"
+        android:label="Detail UMKM"
+        tools:layout="@layout/fragment_kukar7" >
+        <action
+            android:id="@+id/action_navigation_kukar7_to_navigation_katalog_kukar"
+            app:destination="@id/navigation_katalog_kukar" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_kukar8"
+        android:name="com.example.myapplication.ui.notifications.Kukar8Fragment"
+        android:label="Detail UMKM"
+        tools:layout="@layout/fragment_kukar8" >
+        <action
+            android:id="@+id/action_navigation_kukar8_to_navigation_katalog_kukar"
+            app:destination="@id/navigation_katalog_kukar" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_kukar9"
+        android:name="com.example.myapplication.ui.notifications.Kukar9Fragment"
+        android:label="Detail UMKM"
+        tools:layout="@layout/fragment_kukar9" >
+        <action
+            android:id="@+id/action_navigation_kukar9_to_navigation_katalog_kukar"
+            app:destination="@id/navigation_katalog_kukar" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_kukar10"
+        android:name="com.example.myapplication.ui.notifications.Kukar10Fragment"
+        android:label="Detail UMKM"
+        tools:layout="@layout/fragment_kukar10" >
+        <action
+            android:id="@+id/action_navigation_kukar10_to_navigation_katalog_kukar"
+            app:destination="@id/navigation_katalog_kukar" />
     </fragment>
 
     <fragment

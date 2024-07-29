@@ -11,7 +11,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.myapplication.R
 
-class Berau1Fragment : Fragment() {
+class Berau4Fragment : Fragment() {
 
     private lateinit var btn: ImageButton
     private lateinit var btnBack: ImageButton
@@ -20,7 +20,7 @@ class Berau1Fragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val view = inflater.inflate(R.layout.fragment_berau1, container, false)
+        val view = inflater.inflate(R.layout.fragment_berau4, container, false)
 
         // Menginisialisasi ImageButton
         btn = view.findViewById(R.id.button_wa)
@@ -34,7 +34,7 @@ class Berau1Fragment : Fragment() {
 
         btnBack = view.findViewById(R.id.button_back)
         btnBack.setOnClickListener {
-            findNavController().navigate(R.id.action_navigation_berau1_to_navigation_katalog_berau)
+            findNavController().navigate(R.id.action_navigation_berau4_to_navigation_katalog_berau)
         }
 
         return view

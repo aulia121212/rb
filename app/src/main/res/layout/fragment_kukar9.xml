@@ -4,7 +4,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.notifications.Berau1Fragment">
+    tools:context=".ui.notifications.Kukar9Fragment">
+
 
     <!-- Toolbar dengan Tombol Back -->
     <androidx.appcompat.widget.Toolbar
@@ -42,7 +43,7 @@
                 android:layout_height="100dp"
                 android:layout_marginTop="2dp"
                 android:paddingStart="1dp"
-                android:src="@drawable/putih" />
+                android:src="@drawable/kukar12" />
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -59,7 +60,7 @@
                     android:layout_marginTop="15dp"
                     android:fontFamily="@font/poppins_bold"
                     android:gravity="center_vertical"
-                    android:text=""
+                    android:text="Yr's Cake N Bakerry"
                     android:layout_marginEnd="6dp"
                     android:textColor="@color/blue"
                     android:textSize="20sp"
@@ -121,7 +122,21 @@
                 android:layout_gravity="center_horizontal" />
 
             <TextView
-                android:id="@+id/text_umkm2"
+                android:id="@+id/judul1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="6dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Cookies Milo Nutela"
+                android:textColor="@color/blue"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+            <TextView
+                android:id="@+id/text_umkm3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="14dp"
@@ -129,22 +144,23 @@
                 android:textColor="@color/black"
                 android:justificationMode="inter_word"
                 android:fontFamily="@font/poppins_regular"
-                android:text=""
-                app:layout_constraintTop_toBottomOf="@id/line_below_text"
-                />
+                android:text="Cookies Milo Nutela adalah produk cemilan dari YR’S Cake n Bakerry yang bisa di nikmati oleh semua umur dari anak2 hingga dewasa dan terbuat dari bahan bahan pilihan.
+\n\nProduk ini juga sudah memiliki sertifikat halal dan izin edar. \n\nKomposisi : Telur, gula, tepung, garam, margarin, butter, maizena, milo bubuk, milo cereal, baking soda, Nuttela"
+                app:layout_constraintTop_toBottomOf="@id/line_below_text" />
+
             <TextView
-                android:id="@+id/harga"
+                android:id="@+id/harga1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="2dp"
-                android:layout_marginTop="18dp"
+                android:layout_marginTop="1dp"
                 android:layout_marginEnd="16dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text=""
+                android:text="Berat Bersih Produk : 80gr\nHarga Jual Produk: 19.000"
                 android:textColor="@color/blue"
                 android:textSize="16sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"/>
+                app:layout_constraintStart_toStartOf="parent" />
 
             <TextView
                 android:id="@+id/kosongdetailkatalog_bpp"
@@ -157,7 +173,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
-
         </LinearLayout>
     </ScrollView>
 
