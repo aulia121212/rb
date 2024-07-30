@@ -25,7 +25,7 @@ class PenajamDetail8Fragment : Fragment() {
         // Menginisialisasi ImageButton
         btn = view.findViewById(R.id.button_wa)
         btn.setOnClickListener {
-            val wpurl = "https://wa.me/+6285246609645?text=Halo kak, saya ingin memesan Stik Kates apakah masih tersedia?"
+            val wpurl = "https://wa.me/+6285346293404?text=Halo kak, saya ingin memesan Stik Kates apakah masih tersedia?"
 
             val intent = Intent(Intent.ACTION_VIEW)
             intent.data = Uri.parse(wpurl)

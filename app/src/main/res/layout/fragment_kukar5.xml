@@ -135,17 +135,6 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"/>
 
-            <TextView
-                android:id="@+id/text_umkm3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="14dp"
-                android:textSize="16sp"
-                android:textColor="@color/black"
-                android:justificationMode="inter_word"
-                android:fontFamily="@font/poppins_regular"
-                android:text="Produk Tewai ini merupakan produk herbal dari UKM Solaindo berbasis manufaktur pertanian berbahan original dari tumbuhan endemik Kalimantan yaitu bawang dayak yang bisa di gunakan sebagai obat tradisional diantaranya, kangker, tumor, diabetes, tekanan, jantung dan lain sebagainya, kearifan lokal suku dayak ini , kini telah hadir dalam kemasan Praktis dan ekonomis."
-                app:layout_constraintTop_toBottomOf="@id/line_below_text" />
 
             <TextView
                 android:id="@+id/harga1"

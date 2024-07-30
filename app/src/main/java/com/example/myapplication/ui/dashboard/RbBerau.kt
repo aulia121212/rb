@@ -27,7 +27,7 @@ class RbBerau : Fragment() {
         // Menginisialisasi ImageButton untuk narahubung
         btnNarahubung = view.findViewById(R.id.image_narahubung)
         btnNarahubung.setOnClickListener {
-            val wpurl = "https://wa.me/+6285346293404?text=Hai, saya tertarik untuk bergabung dengan Rumah BUMN Berau. \n" +
+            val wpurl = "https://wa.me/+6282298565774?text=Hai, saya tertarik untuk bergabung dengan Rumah BUMN Berau. \n" +
                     "\n" +
                     "Nama Pemilik :\nNama Usaha :\nJenis Usaha :\nAlasan Bergabung : \n" +
                     "\n" +
