@@ -28,32 +28,39 @@
             app:layout_constraintVertical_bias="0.0" />
 
 
-        <ImageButton
-            android:id="@+id/image_lokasi"
-            android:layout_width="180dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="16dp"
-            android:background="@drawable/lokasi_button_background"
-            android:scaleType="fitCenter"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.092"
-            app:layout_constraintStart_toStartOf="parent"
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@id/text_lokasi"
-            android:onClick="onLihatDetailClicked" />
+            android:id="@+id/klik_section"
+            android:layout_marginTop="15dp">
 
+            <ImageButton
+                android:id="@+id/image_lokasi"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/lokasi_button_background"
+                android:scaleType="fitCenter"
+                app:layout_constraintEnd_toStartOf="@+id/image_btntentang"
+                app:layout_constraintStart_toStartOf="parent"
+                android:onClick="onLihatDetailClicked" />
 
-        <ImageButton
-            android:id="@+id/image_btntentang"
-            android:layout_width="180dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="16dp"
-            android:background="@drawable/tentang_kami_putih"
-            android:scaleType="fitCenter"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.93"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/text_lokasi"
-            android:onClick="onLihatDetailClicked" />
+            <ImageButton
+                android:id="@+id/image_btntentang"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/tentang_kami_putih"
+                android:scaleType="fitCenter"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/image_lokasi"
+                android:onClick="onLihatDetailClicked" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
 
 
         <ImageView
@@ -64,7 +71,7 @@
             android:src="@drawable/line"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/image_lokasi" />
+            app:layout_constraintTop_toBottomOf="@id/klik_section" />
 
         <LinearLayout
             android:id="@+id/balikpapan_section"
@@ -117,13 +124,14 @@
 
                 <ImageButton
                     android:id="@+id/button_lokasi_balikpapan"
-                    android:layout_width="270dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="40dp"
+                    android:layout_marginEnd="12dp"
                     android:layout_marginTop="2dp"
                     android:background="@drawable/info_lokasi"
                     android:paddingStart="24dp"
                     android:paddingTop="1dp"
-                    android:paddingEnd="24dp"
+                    android:paddingEnd="4dp"
                     android:paddingBottom="1dp"
                     android:textStyle="bold"
                     android:gravity="center"
@@ -196,8 +204,9 @@
 
                 <ImageButton
                     android:id="@+id/button_lokasi_samarinda"
-                    android:layout_width="270dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="40dp"
+                    android:layout_marginEnd="12dp"
                     android:layout_marginTop="2dp"
                     android:background="@drawable/info_lokasi"
                     android:paddingStart="24dp"
@@ -275,8 +284,9 @@
 
                 <ImageButton
                     android:id="@+id/button_lokasi_berau"
-                    android:layout_width="270dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="40dp"
+                    android:layout_marginEnd="12dp"
                     android:layout_marginTop="2dp"
                     android:background="@drawable/info_lokasi"
                     android:paddingStart="24dp"
@@ -356,8 +366,9 @@
 
                 <ImageButton
                     android:id="@+id/button_lokasi_ppu"
-                    android:layout_width="270dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="40dp"
+                    android:layout_marginEnd="12dp"
                     android:layout_marginTop="2dp"
                     android:background="@drawable/info_lokasi"
                     android:paddingStart="24dp"
@@ -435,8 +446,9 @@
 
                 <ImageButton
                     android:id="@+id/button_lokasi_kukar"
-                    android:layout_width="270dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="40dp"
+                    android:layout_marginEnd="12dp"
                     android:layout_marginTop="2dp"
                     android:background="@drawable/info_lokasi"
                     android:paddingStart="24dp"

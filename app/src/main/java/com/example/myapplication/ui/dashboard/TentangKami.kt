@@ -9,6 +9,7 @@ import androidx.navigation.fragment.findNavController
 import com.example.myapplication.R
 import com.example.myapplication.databinding.TentangKamiBinding
 
+
 class TentangKami : Fragment() {
 
     private var _binding: TentangKamiBinding? = null
