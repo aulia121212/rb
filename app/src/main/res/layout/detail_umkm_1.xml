@@ -65,18 +65,28 @@
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@id/title_umkm1"
+                    android:id="@+id/klik_wa"
+                    android:layout_marginTop="5dp">
+
                 <ImageButton
                     android:id="@+id/button_wa"
-                    android:layout_width="200dp"
+                    android:layout_width="0dp"
                     android:layout_height="35dp"
                     android:layout_marginTop="5dp"
+                    android:layout_marginEnd="35dp"
                     android:background="@drawable/button_wa"
                     android:paddingStart="24dp"
                     android:gravity="center"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/title_umkm1" />
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
 
             </LinearLayout>
         </LinearLayout>
@@ -97,7 +107,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="16dp">
+            android:padding="6dp">
 
 
             <TextView
