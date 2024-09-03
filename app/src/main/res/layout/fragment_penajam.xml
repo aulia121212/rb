@@ -117,24 +117,31 @@
                         app:layout_constraintStart_toStartOf="parent"
                         android:text="Erlina" />
 
-                    <Button
-                        android:id="@+id/ppu_lihat_detail1"
-                        android:layout_width="130dp"
-                        android:layout_height="27dp"
-                        android:layout_marginTop="2dp"
-                        android:background="@drawable/button_background"
-                        android:paddingStart="12dp"
-                        android:paddingTop="0dp"
-                        android:paddingEnd="2dp"
-                        android:layout_marginStart="17dp"
-                        android:paddingBottom="1dp"
-                        android:textSize="10sp"
-                        android:text="Lihat Detail"
-                        android:textColor="@android:color/white"
-                        android:drawableEnd="@drawable/baseline_right_24"
-                        android:fontFamily="@font/poppins_bold"
-                        android:gravity="center"
-                        android:onClick="onLihatDetailClicked" />
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <Button
+                            android:id="@+id/ppu_lihat_detail1"
+                            android:layout_width="0dp"
+                            android:layout_height="27dp"
+                            android:background="@drawable/button_background"
+                            android:drawableEnd="@drawable/baseline_right_24"
+                            android:fontFamily="@font/poppins_bold"
+                            android:gravity="center"
+                            android:onClick="onLihatDetailClicked"
+                            android:paddingStart="12dp"
+                            android:paddingTop="0dp"
+                            android:paddingEnd="2dp"
+                            android:paddingBottom="1dp"
+                            android:text="Lihat Detail"
+                            android:textColor="@android:color/white"
+                            android:textSize="10sp"
+                            tools:layout_editor_absoluteX="22dp"
+                            tools:layout_editor_absoluteY="0dp" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
                 </LinearLayout>
@@ -182,24 +189,31 @@
                         android:text="Sundari" />
 
 
-                    <Button
-                        android:id="@+id/ppu_lihat_detail2"
-                        android:layout_width="130dp"
-                        android:layout_height="27dp"
-                        android:layout_marginTop="2dp"
-                        android:background="@drawable/button_background"
-                        android:paddingStart="12dp"
-                        android:paddingTop="0dp"
-                        android:paddingEnd="2dp"
-                        android:layout_marginStart="17dp"
-                        android:paddingBottom="1dp"
-                        android:textSize="10sp"
-                        android:text="Lihat Detail"
-                        android:textColor="@android:color/white"
-                        android:drawableEnd="@drawable/baseline_right_24"
-                        android:fontFamily="@font/poppins_bold"
-                        android:gravity="center"
-                        android:onClick="onLihatDetailClicked"/>
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <Button
+                            android:id="@+id/ppu_lihat_detail2"
+                            android:layout_width="0dp"
+                            android:layout_height="27dp"
+                            android:background="@drawable/button_background"
+                            android:drawableEnd="@drawable/baseline_right_24"
+                            android:fontFamily="@font/poppins_bold"
+                            android:gravity="center"
+                            android:onClick="onLihatDetailClicked"
+                            android:paddingStart="12dp"
+                            android:paddingTop="0dp"
+                            android:paddingEnd="2dp"
+                            android:paddingBottom="1dp"
+                            android:text="Lihat Detail"
+                            android:textColor="@android:color/white"
+                            android:textSize="10sp"
+                            tools:layout_editor_absoluteX="22dp"
+                            tools:layout_editor_absoluteY="0dp" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
                 </LinearLayout>
             </LinearLayout>
 
@@ -255,24 +269,31 @@
                         app:layout_constraintTop_toBottomOf="@id/text3" />
 
 
-                    <Button
-                        android:id="@+id/ppu_lihat_detail3"
-                        android:layout_width="130dp"
-                        android:layout_height="27dp"
-                        android:layout_marginTop="18dp"
-                        android:background="@drawable/button_background"
-                        android:paddingStart="12dp"
-                        android:paddingTop="0dp"
-                        android:paddingEnd="2dp"
-                        android:layout_marginStart="17dp"
-                        android:paddingBottom="1dp"
-                        android:textSize="10sp"
-                        android:text="Lihat Detail"
-                        android:textColor="@android:color/white"
-                        android:drawableEnd="@drawable/baseline_right_24"
-                        android:fontFamily="@font/poppins_bold"
-                        android:gravity="center"
-                        android:onClick="onLihatDetailClicked"/>
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <Button
+                            android:id="@+id/ppu_lihat_detail3"
+                            android:layout_width="0dp"
+                            android:layout_height="27dp"
+                            android:background="@drawable/button_background"
+                            android:drawableEnd="@drawable/baseline_right_24"
+                            android:fontFamily="@font/poppins_bold"
+                            android:gravity="center"
+                            android:onClick="onLihatDetailClicked"
+                            android:paddingStart="12dp"
+                            android:paddingTop="0dp"
+                            android:paddingEnd="2dp"
+                            android:paddingBottom="1dp"
+                            android:text="Lihat Detail"
+                            android:textColor="@android:color/white"
+                            android:textSize="10sp"
+                            tools:layout_editor_absoluteX="22dp"
+                            tools:layout_editor_absoluteY="0dp" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
                 </LinearLayout>
 
                 <LinearLayout
@@ -318,24 +339,31 @@
                         android:text="Sariah" />
 
 
-                    <Button
-                        android:id="@+id/ppu_lihat_detail4"
-                        android:layout_width="130dp"
-                        android:layout_height="27dp"
-                        android:layout_marginTop="18dp"
-                        android:background="@drawable/button_background"
-                        android:paddingStart="12dp"
-                        android:paddingTop="0dp"
-                        android:paddingEnd="2dp"
-                        android:layout_marginStart="17dp"
-                        android:paddingBottom="1dp"
-                        android:textSize="10sp"
-                        android:text="Lihat Detail"
-                        android:textColor="@android:color/white"
-                        android:drawableEnd="@drawable/baseline_right_24"
-                        android:fontFamily="@font/poppins_bold"
-                        android:gravity="center"
-                        android:onClick="onLihatDetailClicked"/>
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <Button
+                            android:id="@+id/ppu_lihat_detail4"
+                            android:layout_width="0dp"
+                            android:layout_height="27dp"
+                            android:background="@drawable/button_background"
+                            android:drawableEnd="@drawable/baseline_right_24"
+                            android:fontFamily="@font/poppins_bold"
+                            android:gravity="center"
+                            android:onClick="onLihatDetailClicked"
+                            android:paddingStart="12dp"
+                            android:paddingTop="0dp"
+                            android:paddingEnd="2dp"
+                            android:paddingBottom="1dp"
+                            android:text="Lihat Detail"
+                            android:textColor="@android:color/white"
+                            android:textSize="10sp"
+                            tools:layout_editor_absoluteX="22dp"
+                            tools:layout_editor_absoluteY="0dp" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
                 </LinearLayout>
             </LinearLayout>
 
@@ -393,24 +421,31 @@
                         app:layout_constraintTop_toBottomOf="@id/text3" />
 
 
-                    <Button
-                        android:id="@+id/ppu_lihat_detail5"
-                        android:layout_width="130dp"
-                        android:layout_height="27dp"
-                        android:layout_marginTop="18dp"
-                        android:background="@drawable/button_background"
-                        android:paddingStart="12dp"
-                        android:paddingTop="0dp"
-                        android:paddingEnd="2dp"
-                        android:layout_marginStart="17dp"
-                        android:paddingBottom="1dp"
-                        android:textSize="10sp"
-                        android:text="Lihat Detail"
-                        android:textColor="@android:color/white"
-                        android:drawableEnd="@drawable/baseline_right_24"
-                        android:fontFamily="@font/poppins_bold"
-                        android:gravity="center"
-                        android:onClick="onLihatDetailClicked"/>
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <Button
+                            android:id="@+id/ppu_lihat_detail5"
+                            android:layout_width="0dp"
+                            android:layout_height="27dp"
+                            android:background="@drawable/button_background"
+                            android:drawableEnd="@drawable/baseline_right_24"
+                            android:fontFamily="@font/poppins_bold"
+                            android:gravity="center"
+                            android:onClick="onLihatDetailClicked"
+                            android:paddingStart="12dp"
+                            android:paddingTop="0dp"
+                            android:paddingEnd="2dp"
+                            android:paddingBottom="1dp"
+                            android:text="Lihat Detail"
+                            android:textColor="@android:color/white"
+                            android:textSize="10sp"
+                            tools:layout_editor_absoluteX="22dp"
+                            tools:layout_editor_absoluteY="0dp" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
                 </LinearLayout>
 
                 <LinearLayout
@@ -456,24 +491,31 @@
                         android:text="Rempah Sakti" />
 
 
-                    <Button
-                        android:id="@+id/ppu_lihat_detail6"
-                        android:layout_width="130dp"
-                        android:layout_height="27dp"
-                        android:layout_marginTop="18dp"
-                        android:background="@drawable/button_background"
-                        android:paddingStart="12dp"
-                        android:paddingTop="0dp"
-                        android:paddingEnd="2dp"
-                        android:layout_marginStart="17dp"
-                        android:paddingBottom="1dp"
-                        android:textSize="10sp"
-                        android:text="Lihat Detail"
-                        android:textColor="@android:color/white"
-                        android:drawableEnd="@drawable/baseline_right_24"
-                        android:fontFamily="@font/poppins_bold"
-                        android:gravity="center"
-                        android:onClick="onLihatDetailClicked"/>
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <Button
+                            android:id="@+id/ppu_lihat_detail6"
+                            android:layout_width="0dp"
+                            android:layout_height="27dp"
+                            android:background="@drawable/button_background"
+                            android:drawableEnd="@drawable/baseline_right_24"
+                            android:fontFamily="@font/poppins_bold"
+                            android:gravity="center"
+                            android:onClick="onLihatDetailClicked"
+                            android:paddingStart="12dp"
+                            android:paddingTop="0dp"
+                            android:paddingEnd="2dp"
+                            android:paddingBottom="1dp"
+                            android:text="Lihat Detail"
+                            android:textColor="@android:color/white"
+                            android:textSize="10sp"
+                            tools:layout_editor_absoluteX="22dp"
+                            tools:layout_editor_absoluteY="0dp" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
                 </LinearLayout>
             </LinearLayout>
             <!-- UMKM 2 -->
@@ -528,24 +570,31 @@
                         app:layout_constraintTop_toBottomOf="@id/text3" />
 
 
-                    <Button
-                        android:id="@+id/ppu_lihat_detail7"
-                        android:layout_width="130dp"
-                        android:layout_height="27dp"
-                        android:layout_marginTop="18dp"
-                        android:background="@drawable/button_background"
-                        android:paddingStart="12dp"
-                        android:paddingTop="0dp"
-                        android:paddingEnd="2dp"
-                        android:layout_marginStart="17dp"
-                        android:paddingBottom="1dp"
-                        android:textSize="10sp"
-                        android:text="Lihat Detail"
-                        android:textColor="@android:color/white"
-                        android:drawableEnd="@drawable/baseline_right_24"
-                        android:fontFamily="@font/poppins_bold"
-                        android:gravity="center"
-                        android:onClick="onLihatDetailClicked"/>
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <Button
+                            android:id="@+id/ppu_lihat_detail7"
+                            android:layout_width="0dp"
+                            android:layout_height="27dp"
+                            android:background="@drawable/button_background"
+                            android:drawableEnd="@drawable/baseline_right_24"
+                            android:fontFamily="@font/poppins_bold"
+                            android:gravity="center"
+                            android:onClick="onLihatDetailClicked"
+                            android:paddingStart="12dp"
+                            android:paddingTop="0dp"
+                            android:paddingEnd="2dp"
+                            android:paddingBottom="1dp"
+                            android:text="Lihat Detail"
+                            android:textColor="@android:color/white"
+                            android:textSize="10sp"
+                            tools:layout_editor_absoluteX="22dp"
+                            tools:layout_editor_absoluteY="0dp" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
                 </LinearLayout>
 
                 <LinearLayout
@@ -591,24 +640,31 @@
                         android:text="Sulastri" />
 
 
-                    <Button
-                        android:id="@+id/ppu_lihat_detail8"
-                        android:layout_width="130dp"
-                        android:layout_height="27dp"
-                        android:layout_marginTop="18dp"
-                        android:background="@drawable/button_background"
-                        android:paddingStart="12dp"
-                        android:paddingTop="0dp"
-                        android:paddingEnd="2dp"
-                        android:layout_marginStart="17dp"
-                        android:paddingBottom="1dp"
-                        android:textSize="10sp"
-                        android:text="Lihat Detail"
-                        android:textColor="@android:color/white"
-                        android:drawableEnd="@drawable/baseline_right_24"
-                        android:fontFamily="@font/poppins_bold"
-                        android:gravity="center"
-                        android:onClick="onLihatDetailClicked"/>
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <Button
+                            android:id="@+id/ppu_lihat_detail8"
+                            android:layout_width="0dp"
+                            android:layout_height="27dp"
+                            android:background="@drawable/button_background"
+                            android:drawableEnd="@drawable/baseline_right_24"
+                            android:fontFamily="@font/poppins_bold"
+                            android:gravity="center"
+                            android:onClick="onLihatDetailClicked"
+                            android:paddingStart="12dp"
+                            android:paddingTop="0dp"
+                            android:paddingEnd="2dp"
+                            android:paddingBottom="1dp"
+                            android:text="Lihat Detail"
+                            android:textColor="@android:color/white"
+                            android:textSize="10sp"
+                            tools:layout_editor_absoluteX="22dp"
+                            tools:layout_editor_absoluteY="0dp" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
                 </LinearLayout>
             </LinearLayout>
 

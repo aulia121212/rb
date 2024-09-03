@@ -115,26 +115,33 @@
                         android:paddingTop="0dp"
                         android:layout_marginTop="0dp"
                         app:layout_constraintStart_toStartOf="parent"
-                        android:text="Hastari Kusumawardhani" />
+                        android:text="Hastari K" />
 
-                    <Button
-                        android:id="@+id/button_lihat_detail1"
-                        android:layout_width="130dp"
-                        android:layout_height="27dp"
-                        android:layout_marginTop="2dp"
-                        android:background="@drawable/button_background"
-                        android:paddingStart="12dp"
-                        android:paddingTop="0dp"
-                        android:paddingEnd="2dp"
-                        android:layout_marginStart="17dp"
-                        android:paddingBottom="1dp"
-                        android:textSize="10sp"
-                        android:text="Lihat Detail"
-                        android:textColor="@android:color/white"
-                        android:drawableEnd="@drawable/baseline_right_24"
-                        android:fontFamily="@font/poppins_bold"
-                        android:gravity="center"
-                        android:onClick="onLihatDetailClicked" />
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <Button
+                            android:id="@+id/button_lihat_detail1"
+                            android:layout_width="0dp"
+                            android:layout_height="27dp"
+                            android:background="@drawable/button_background"
+                            android:drawableEnd="@drawable/baseline_right_24"
+                            android:fontFamily="@font/poppins_bold"
+                            android:gravity="center"
+                            android:onClick="onLihatDetailClicked"
+                            android:paddingStart="12dp"
+                            android:paddingTop="0dp"
+                            android:paddingEnd="2dp"
+                            android:paddingBottom="1dp"
+                            android:text="Lihat Detail"
+                            android:textColor="@android:color/white"
+                            android:textSize="10sp"
+                            tools:layout_editor_absoluteX="22dp"
+                            tools:layout_editor_absoluteY="0dp" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
                 </LinearLayout>
@@ -179,27 +186,34 @@
                         android:paddingTop="0dp"
                         android:layout_marginTop="0dp"
                         app:layout_constraintStart_toStartOf="parent"
-                        android:text="Imroatun Sholihah Norah"
+                        android:text="Imroatun Sholihah N"
                        />
 
-                    <Button
-                        android:id="@+id/button_lihat_detail2"
-                        android:layout_width="130dp"
-                        android:layout_height="27dp"
-                        android:layout_marginTop="2dp"
-                        android:background="@drawable/button_background"
-                        android:paddingStart="12dp"
-                        android:paddingTop="0dp"
-                        android:paddingEnd="2dp"
-                        android:layout_marginStart="17dp"
-                        android:paddingBottom="1dp"
-                        android:textSize="10sp"
-                        android:text="Lihat Detail"
-                        android:textColor="@android:color/white"
-                        android:drawableEnd="@drawable/baseline_right_24"
-                        android:fontFamily="@font/poppins_bold"
-                        android:gravity="center"
-                        android:onClick="onLihatDetailClicked"/>
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <Button
+                            android:id="@+id/button_lihat_detail2"
+                            android:layout_width="0dp"
+                            android:layout_height="27dp"
+                            android:background="@drawable/button_background"
+                            android:drawableEnd="@drawable/baseline_right_24"
+                            android:fontFamily="@font/poppins_bold"
+                            android:gravity="center"
+                            android:onClick="onLihatDetailClicked"
+                            android:paddingStart="12dp"
+                            android:paddingTop="0dp"
+                            android:paddingEnd="2dp"
+                            android:paddingBottom="1dp"
+                            android:text="Lihat Detail"
+                            android:textColor="@android:color/white"
+                            android:textSize="10sp"
+                            tools:layout_editor_absoluteX="22dp"
+                            tools:layout_editor_absoluteY="0dp" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
                 </LinearLayout>
             </LinearLayout>
 
@@ -251,28 +265,35 @@
                         android:paddingTop="0dp"
                         android:layout_marginTop="0dp"
                         app:layout_constraintStart_toStartOf="parent"
-                        android:text="Asmita Nova Rachmayati"
+                        android:text="Asmita Nova R"
                         app:layout_constraintTop_toBottomOf="@id/text3" />
 
 
-                    <Button
-                        android:id="@+id/button_lihat_detail3"
-                        android:layout_width="130dp"
-                        android:layout_height="27dp"
-                        android:layout_marginTop="2dp"
-                        android:background="@drawable/button_background"
-                        android:paddingStart="12dp"
-                        android:paddingTop="0dp"
-                        android:paddingEnd="2dp"
-                        android:layout_marginStart="17dp"
-                        android:paddingBottom="1dp"
-                        android:textSize="10sp"
-                        android:text="Lihat Detail"
-                        android:textColor="@android:color/white"
-                        android:drawableEnd="@drawable/baseline_right_24"
-                        android:fontFamily="@font/poppins_bold"
-                        android:gravity="center"
-                        android:onClick="onLihatDetailClicked"/>
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <Button
+                            android:id="@+id/button_lihat_detail3"
+                            android:layout_width="0dp"
+                            android:layout_height="27dp"
+                            android:background="@drawable/button_background"
+                            android:drawableEnd="@drawable/baseline_right_24"
+                            android:fontFamily="@font/poppins_bold"
+                            android:gravity="center"
+                            android:onClick="onLihatDetailClicked"
+                            android:paddingStart="12dp"
+                            android:paddingTop="0dp"
+                            android:paddingEnd="2dp"
+                            android:paddingBottom="1dp"
+                            android:text="Lihat Detail"
+                            android:textColor="@android:color/white"
+                            android:textSize="10sp"
+                            tools:layout_editor_absoluteX="22dp"
+                            tools:layout_editor_absoluteY="0dp" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
                 </LinearLayout>
 
                 <LinearLayout
@@ -318,24 +339,31 @@
                         android:text="Gilang Ma’ruf Fauji"
                          />
 
-                    <Button
-                        android:id="@+id/button_lihat_detail4"
-                        android:layout_width="130dp"
-                        android:layout_height="27dp"
-                        android:layout_marginTop="18dp"
-                        android:background="@drawable/button_background"
-                        android:paddingStart="12dp"
-                        android:paddingTop="0dp"
-                        android:paddingEnd="2dp"
-                        android:layout_marginStart="17dp"
-                        android:paddingBottom="1dp"
-                        android:textSize="10sp"
-                        android:text="Lihat Detail"
-                        android:textColor="@android:color/white"
-                        android:drawableEnd="@drawable/baseline_right_24"
-                        android:fontFamily="@font/poppins_bold"
-                        android:gravity="center"
-                        android:onClick="onLihatDetailClicked"/>
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <Button
+                            android:id="@+id/button_lihat_detail4"
+                            android:layout_width="0dp"
+                            android:layout_height="27dp"
+                            android:background="@drawable/button_background"
+                            android:drawableEnd="@drawable/baseline_right_24"
+                            android:fontFamily="@font/poppins_bold"
+                            android:gravity="center"
+                            android:onClick="onLihatDetailClicked"
+                            android:paddingStart="12dp"
+                            android:paddingTop="0dp"
+                            android:paddingEnd="2dp"
+                            android:paddingBottom="1dp"
+                            android:text="Lihat Detail"
+                            android:textColor="@android:color/white"
+                            android:textSize="10sp"
+                            tools:layout_editor_absoluteX="22dp"
+                            tools:layout_editor_absoluteY="0dp" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
                 </LinearLayout>
             </LinearLayout>
 
@@ -389,24 +417,31 @@
                         android:text="Kusniwati Wahyu"
                       />
 
-                    <Button
-                        android:id="@+id/button_lihat_detail5"
-                        android:layout_width="130dp"
-                        android:layout_height="27dp"
-                        android:layout_marginTop="18dp"
-                        android:background="@drawable/button_background"
-                        android:paddingStart="12dp"
-                        android:paddingTop="0dp"
-                        android:paddingEnd="2dp"
-                        android:layout_marginStart="17dp"
-                        android:paddingBottom="1dp"
-                        android:textSize="10sp"
-                        android:text="Lihat Detail"
-                        android:textColor="@android:color/white"
-                        android:drawableEnd="@drawable/baseline_right_24"
-                        android:fontFamily="@font/poppins_bold"
-                        android:gravity="center"
-                        android:onClick="onLihatDetailClicked" />
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <Button
+                            android:id="@+id/button_lihat_detail5"
+                            android:layout_width="0dp"
+                            android:layout_height="27dp"
+                            android:background="@drawable/button_background"
+                            android:drawableEnd="@drawable/baseline_right_24"
+                            android:fontFamily="@font/poppins_bold"
+                            android:gravity="center"
+                            android:onClick="onLihatDetailClicked"
+                            android:paddingStart="12dp"
+                            android:paddingTop="0dp"
+                            android:paddingEnd="2dp"
+                            android:paddingBottom="1dp"
+                            android:text="Lihat Detail"
+                            android:textColor="@android:color/white"
+                            android:textSize="10sp"
+                            tools:layout_editor_absoluteX="22dp"
+                            tools:layout_editor_absoluteY="0dp" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
 
                 </LinearLayout>
 
@@ -452,24 +487,31 @@
                         app:layout_constraintStart_toStartOf="parent"
                         android:text="Intan Sari" />
 
-                    <Button
-                        android:id="@+id/button_lihat_detail6"
-                        android:layout_width="130dp"
-                        android:layout_height="27dp"
-                        android:layout_marginTop="18dp"
-                        android:background="@drawable/button_background"
-                        android:paddingStart="12dp"
-                        android:paddingTop="0dp"
-                        android:paddingEnd="2dp"
-                        android:layout_marginStart="17dp"
-                        android:paddingBottom="1dp"
-                        android:textSize="10sp"
-                        android:text="Lihat Detail"
-                        android:textColor="@android:color/white"
-                        android:drawableEnd="@drawable/baseline_right_24"
-                        android:fontFamily="@font/poppins_bold"
-                        android:gravity="center"
-                        android:onClick="onLihatDetailClicked" />
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <Button
+                            android:id="@+id/button_lihat_detail6"
+                            android:layout_width="0dp"
+                            android:layout_height="27dp"
+                            android:background="@drawable/button_background"
+                            android:drawableEnd="@drawable/baseline_right_24"
+                            android:fontFamily="@font/poppins_bold"
+                            android:gravity="center"
+                            android:onClick="onLihatDetailClicked"
+                            android:paddingStart="12dp"
+                            android:paddingTop="0dp"
+                            android:paddingEnd="2dp"
+                            android:paddingBottom="1dp"
+                            android:text="Lihat Detail"
+                            android:textColor="@android:color/white"
+                            android:textSize="10sp"
+                            tools:layout_editor_absoluteX="22dp"
+                            tools:layout_editor_absoluteY="0dp" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
 
                 </LinearLayout>
             </LinearLayout>
@@ -523,24 +565,31 @@
                         app:layout_constraintStart_toStartOf="parent"
                         android:text="Endah Purwaning"/>
 
-                    <Button
-                        android:id="@+id/button_lihat_detail7"
-                        android:layout_width="130dp"
-                        android:layout_height="27dp"
-                        android:layout_marginTop="18dp"
-                        android:background="@drawable/button_background"
-                        android:paddingStart="12dp"
-                        android:paddingTop="0dp"
-                        android:paddingEnd="2dp"
-                        android:layout_marginStart="17dp"
-                        android:paddingBottom="1dp"
-                        android:textSize="10sp"
-                        android:text="Lihat Detail"
-                        android:textColor="@android:color/white"
-                        android:drawableEnd="@drawable/baseline_right_24"
-                        android:fontFamily="@font/poppins_bold"
-                        android:gravity="center"
-                        android:onClick="onLihatDetailClicked" />
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <Button
+                            android:id="@+id/button_lihat_detail7"
+                            android:layout_width="0dp"
+                            android:layout_height="27dp"
+                            android:background="@drawable/button_background"
+                            android:drawableEnd="@drawable/baseline_right_24"
+                            android:fontFamily="@font/poppins_bold"
+                            android:gravity="center"
+                            android:onClick="onLihatDetailClicked"
+                            android:paddingStart="12dp"
+                            android:paddingTop="0dp"
+                            android:paddingEnd="2dp"
+                            android:paddingBottom="1dp"
+                            android:text="Lihat Detail"
+                            android:textColor="@android:color/white"
+                            android:textSize="10sp"
+                            tools:layout_editor_absoluteX="22dp"
+                            tools:layout_editor_absoluteY="0dp" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
 
                 </LinearLayout>
 
@@ -586,24 +635,31 @@
                         app:layout_constraintStart_toStartOf="parent"
                         android:text="Ika SW Dikromo" />
 
-                    <Button
-                        android:id="@+id/button_lihat_detail8"
-                        android:layout_width="130dp"
-                        android:layout_height="27dp"
-                        android:layout_marginTop="18dp"
-                        android:background="@drawable/button_background"
-                        android:paddingStart="12dp"
-                        android:paddingTop="0dp"
-                        android:paddingEnd="2dp"
-                        android:layout_marginStart="17dp"
-                        android:paddingBottom="1dp"
-                        android:textSize="10sp"
-                        android:text="Lihat Detail"
-                        android:textColor="@android:color/white"
-                        android:drawableEnd="@drawable/baseline_right_24"
-                        android:fontFamily="@font/poppins_bold"
-                        android:gravity="center"
-                        android:onClick="onLihatDetailClicked" />
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <Button
+                            android:id="@+id/button_lihat_detail8"
+                            android:layout_width="0dp"
+                            android:layout_height="27dp"
+                            android:background="@drawable/button_background"
+                            android:drawableEnd="@drawable/baseline_right_24"
+                            android:fontFamily="@font/poppins_bold"
+                            android:gravity="center"
+                            android:onClick="onLihatDetailClicked"
+                            android:paddingStart="12dp"
+                            android:paddingTop="0dp"
+                            android:paddingEnd="2dp"
+                            android:paddingBottom="1dp"
+                            android:text="Lihat Detail"
+                            android:textColor="@android:color/white"
+                            android:textSize="10sp"
+                            tools:layout_editor_absoluteX="22dp"
+                            tools:layout_editor_absoluteY="0dp" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
 
                 </LinearLayout>
             </LinearLayout>
@@ -657,24 +713,31 @@
                         app:layout_constraintStart_toStartOf="parent"
                         android:text="Nikimie" />
 
-                    <Button
-                        android:id="@+id/button_lihat_detail9"
-                        android:layout_width="130dp"
-                        android:layout_height="27dp"
-                        android:layout_marginTop="18dp"
-                        android:background="@drawable/button_background"
-                        android:paddingStart="12dp"
-                        android:paddingTop="0dp"
-                        android:paddingEnd="2dp"
-                        android:layout_marginStart="17dp"
-                        android:paddingBottom="1dp"
-                        android:textSize="10sp"
-                        android:text="Lihat Detail"
-                        android:textColor="@android:color/white"
-                        android:drawableEnd="@drawable/baseline_right_24"
-                        android:fontFamily="@font/poppins_bold"
-                        android:gravity="center"
-                        android:onClick="onLihatDetailClicked" />
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <Button
+                            android:id="@+id/button_lihat_detail9"
+                            android:layout_width="0dp"
+                            android:layout_height="27dp"
+                            android:background="@drawable/button_background"
+                            android:drawableEnd="@drawable/baseline_right_24"
+                            android:fontFamily="@font/poppins_bold"
+                            android:gravity="center"
+                            android:onClick="onLihatDetailClicked"
+                            android:paddingStart="12dp"
+                            android:paddingTop="0dp"
+                            android:paddingEnd="2dp"
+                            android:paddingBottom="1dp"
+                            android:text="Lihat Detail"
+                            android:textColor="@android:color/white"
+                            android:textSize="10sp"
+                            tools:layout_editor_absoluteX="22dp"
+                            tools:layout_editor_absoluteY="0dp" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
 
                 </LinearLayout>
 
@@ -720,24 +783,31 @@
                         app:layout_constraintStart_toStartOf="parent"
                         android:text="Ririn Triyanawati "/>
 
-                    <Button
-                        android:id="@+id/button_lihat_detail10"
-                        android:layout_width="130dp"
-                        android:layout_height="27dp"
-                        android:layout_marginTop="18dp"
-                        android:background="@drawable/button_background"
-                        android:paddingStart="12dp"
-                        android:paddingTop="0dp"
-                        android:paddingEnd="2dp"
-                        android:layout_marginStart="17dp"
-                        android:paddingBottom="1dp"
-                        android:textSize="10sp"
-                        android:text="Lihat Detail"
-                        android:textColor="@android:color/white"
-                        android:drawableEnd="@drawable/baseline_right_24"
-                        android:fontFamily="@font/poppins_bold"
-                        android:gravity="center"
-                        android:onClick="onLihatDetailClicked" />
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <Button
+                            android:id="@+id/button_lihat_detail10"
+                            android:layout_width="0dp"
+                            android:layout_height="27dp"
+                            android:background="@drawable/button_background"
+                            android:drawableEnd="@drawable/baseline_right_24"
+                            android:fontFamily="@font/poppins_bold"
+                            android:gravity="center"
+                            android:onClick="onLihatDetailClicked"
+                            android:paddingStart="12dp"
+                            android:paddingTop="0dp"
+                            android:paddingEnd="2dp"
+                            android:paddingBottom="1dp"
+                            android:text="Lihat Detail"
+                            android:textColor="@android:color/white"
+                            android:textSize="10sp"
+                            tools:layout_editor_absoluteX="22dp"
+                            tools:layout_editor_absoluteY="0dp" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
 
                 </LinearLayout>
             </LinearLayout>
@@ -791,24 +861,31 @@
                         app:layout_constraintStart_toStartOf="parent"
                         android:text="Nera Ramadhani"/>
 
-                    <Button
-                        android:id="@+id/button_lihat_detail11"
-                        android:layout_width="130dp"
-                        android:layout_height="27dp"
-                        android:layout_marginTop="18dp"
-                        android:background="@drawable/button_background"
-                        android:paddingStart="12dp"
-                        android:paddingTop="0dp"
-                        android:paddingEnd="2dp"
-                        android:layout_marginStart="17dp"
-                        android:paddingBottom="1dp"
-                        android:textSize="10sp"
-                        android:text="Lihat Detail"
-                        android:textColor="@android:color/white"
-                        android:drawableEnd="@drawable/baseline_right_24"
-                        android:fontFamily="@font/poppins_bold"
-                        android:gravity="center"
-                        android:onClick="onLihatDetailClicked" />
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <Button
+                            android:id="@+id/button_lihat_detail11"
+                            android:layout_width="0dp"
+                            android:layout_height="27dp"
+                            android:background="@drawable/button_background"
+                            android:drawableEnd="@drawable/baseline_right_24"
+                            android:fontFamily="@font/poppins_bold"
+                            android:gravity="center"
+                            android:onClick="onLihatDetailClicked"
+                            android:paddingStart="12dp"
+                            android:paddingTop="0dp"
+                            android:paddingEnd="2dp"
+                            android:paddingBottom="1dp"
+                            android:text="Lihat Detail"
+                            android:textColor="@android:color/white"
+                            android:textSize="10sp"
+                            tools:layout_editor_absoluteX="22dp"
+                            tools:layout_editor_absoluteY="0dp" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
 
                 </LinearLayout>
 
@@ -852,26 +929,33 @@
                         android:paddingTop="0dp"
                         android:layout_marginTop="0dp"
                         app:layout_constraintStart_toStartOf="parent"
-                        android:text="Muhammad Indrianto Rosani" />
+                        android:text="Muhammad Indrianto R" />
 
-                    <Button
-                        android:id="@+id/button_lihat_detail12"
-                        android:layout_width="130dp"
-                        android:layout_height="27dp"
-                        android:layout_marginTop="2dp"
-                        android:background="@drawable/button_background"
-                        android:paddingStart="12dp"
-                        android:paddingTop="0dp"
-                        android:paddingEnd="2dp"
-                        android:layout_marginStart="17dp"
-                        android:paddingBottom="1dp"
-                        android:textSize="10sp"
-                        android:text="Lihat Detail"
-                        android:textColor="@android:color/white"
-                        android:drawableEnd="@drawable/baseline_right_24"
-                        android:fontFamily="@font/poppins_bold"
-                        android:gravity="center"
-                        android:onClick="onLihatDetailClicked" />
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <Button
+                            android:id="@+id/button_lihat_detail12"
+                            android:layout_width="0dp"
+                            android:layout_height="27dp"
+                            android:background="@drawable/button_background"
+                            android:drawableEnd="@drawable/baseline_right_24"
+                            android:fontFamily="@font/poppins_bold"
+                            android:gravity="center"
+                            android:onClick="onLihatDetailClicked"
+                            android:paddingStart="12dp"
+                            android:paddingTop="0dp"
+                            android:paddingEnd="2dp"
+                            android:paddingBottom="1dp"
+                            android:text="Lihat Detail"
+                            android:textColor="@android:color/white"
+                            android:textSize="10sp"
+                            tools:layout_editor_absoluteX="22dp"
+                            tools:layout_editor_absoluteY="0dp" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
 
                 </LinearLayout>
             </LinearLayout>
@@ -925,24 +1009,31 @@
                         app:layout_constraintStart_toStartOf="parent"
                         android:text="Nanik Herlina"/>
 
-                    <Button
-                        android:id="@+id/button_lihat_detail13"
-                        android:layout_width="130dp"
-                        android:layout_height="27dp"
-                        android:layout_marginTop="18dp"
-                        android:background="@drawable/button_background"
-                        android:paddingStart="12dp"
-                        android:paddingTop="0dp"
-                        android:paddingEnd="2dp"
-                        android:layout_marginStart="17dp"
-                        android:paddingBottom="1dp"
-                        android:textSize="10sp"
-                        android:text="Lihat Detail"
-                        android:textColor="@android:color/white"
-                        android:drawableEnd="@drawable/baseline_right_24"
-                        android:fontFamily="@font/poppins_bold"
-                        android:gravity="center"
-                        android:onClick="onLihatDetailClicked" />
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <Button
+                            android:id="@+id/button_lihat_detail13"
+                            android:layout_width="0dp"
+                            android:layout_height="27dp"
+                            android:background="@drawable/button_background"
+                            android:drawableEnd="@drawable/baseline_right_24"
+                            android:fontFamily="@font/poppins_bold"
+                            android:gravity="center"
+                            android:onClick="onLihatDetailClicked"
+                            android:paddingStart="12dp"
+                            android:paddingTop="0dp"
+                            android:paddingEnd="2dp"
+                            android:paddingBottom="1dp"
+                            android:text="Lihat Detail"
+                            android:textColor="@android:color/white"
+                            android:textSize="10sp"
+                            tools:layout_editor_absoluteX="22dp"
+                            tools:layout_editor_absoluteY="0dp" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
 
                 </LinearLayout>
 
@@ -988,24 +1079,31 @@
                         app:layout_constraintStart_toStartOf="parent"
                         android:text="Septi Rahayu" />
 
-                    <Button
-                        android:id="@+id/button_lihat_detail14"
-                        android:layout_width="130dp"
-                        android:layout_height="27dp"
-                        android:layout_marginTop="18dp"
-                        android:background="@drawable/button_background"
-                        android:paddingStart="12dp"
-                        android:paddingTop="0dp"
-                        android:paddingEnd="2dp"
-                        android:layout_marginStart="17dp"
-                        android:paddingBottom="1dp"
-                        android:textSize="10sp"
-                        android:text="Lihat Detail"
-                        android:textColor="@android:color/white"
-                        android:drawableEnd="@drawable/baseline_right_24"
-                        android:fontFamily="@font/poppins_bold"
-                        android:gravity="center"
-                        android:onClick="onLihatDetailClicked" />
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <Button
+                            android:id="@+id/button_lihat_detail14"
+                            android:layout_width="0dp"
+                            android:layout_height="27dp"
+                            android:background="@drawable/button_background"
+                            android:drawableEnd="@drawable/baseline_right_24"
+                            android:fontFamily="@font/poppins_bold"
+                            android:gravity="center"
+                            android:onClick="onLihatDetailClicked"
+                            android:paddingStart="12dp"
+                            android:paddingTop="0dp"
+                            android:paddingEnd="2dp"
+                            android:paddingBottom="1dp"
+                            android:text="Lihat Detail"
+                            android:textColor="@android:color/white"
+                            android:textSize="10sp"
+                            tools:layout_editor_absoluteX="22dp"
+                            tools:layout_editor_absoluteY="0dp" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
 
                 </LinearLayout>
             </LinearLayout>
@@ -1045,7 +1143,7 @@
                         android:layout_marginBottom="0dp"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        android:text="Syifaus Food (Pikkong)"/>
+                        android:text="Syifaus Food"/>
 
                     <TextView
                         android:id="@+id/subtext15"
@@ -1059,24 +1157,31 @@
                         app:layout_constraintStart_toStartOf="parent"
                         android:text="Wahidah Sifa"/>
 
-                    <Button
-                        android:id="@+id/button_lihat_detail15"
-                        android:layout_width="130dp"
-                        android:layout_height="27dp"
-                        android:layout_marginTop="18dp"
-                        android:background="@drawable/button_background"
-                        android:paddingStart="12dp"
-                        android:paddingTop="0dp"
-                        android:paddingEnd="2dp"
-                        android:layout_marginStart="17dp"
-                        android:paddingBottom="1dp"
-                        android:textSize="10sp"
-                        android:text="Lihat Detail"
-                        android:textColor="@android:color/white"
-                        android:drawableEnd="@drawable/baseline_right_24"
-                        android:fontFamily="@font/poppins_bold"
-                        android:gravity="center"
-                        android:onClick="onLihatDetailClicked" />
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <Button
+                            android:id="@+id/button_lihat_detail15"
+                            android:layout_width="0dp"
+                            android:layout_height="27dp"
+                            android:background="@drawable/button_background"
+                            android:drawableEnd="@drawable/baseline_right_24"
+                            android:fontFamily="@font/poppins_bold"
+                            android:gravity="center"
+                            android:onClick="onLihatDetailClicked"
+                            android:paddingStart="12dp"
+                            android:paddingTop="0dp"
+                            android:paddingEnd="2dp"
+                            android:paddingBottom="1dp"
+                            android:text="Lihat Detail"
+                            android:textColor="@android:color/white"
+                            android:textSize="10sp"
+                            tools:layout_editor_absoluteX="22dp"
+                            tools:layout_editor_absoluteY="0dp" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
 
                 </LinearLayout>
 
@@ -1122,24 +1227,31 @@
                         app:layout_constraintStart_toStartOf="parent"
                         android:text="Lindawati"/>
 
-                    <Button
-                        android:id="@+id/button_lihat_detail16"
-                        android:layout_width="130dp"
-                        android:layout_height="27dp"
-                        android:layout_marginTop="18dp"
-                        android:background="@drawable/button_background"
-                        android:paddingStart="12dp"
-                        android:paddingTop="0dp"
-                        android:paddingEnd="2dp"
-                        android:layout_marginStart="17dp"
-                        android:paddingBottom="1dp"
-                        android:textSize="10sp"
-                        android:text="Lihat Detail"
-                        android:textColor="@android:color/white"
-                        android:drawableEnd="@drawable/baseline_right_24"
-                        android:fontFamily="@font/poppins_bold"
-                        android:gravity="center"
-                        android:onClick="onLihatDetailClicked" />
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <Button
+                            android:id="@+id/button_lihat_detail16"
+                            android:layout_width="0dp"
+                            android:layout_height="27dp"
+                            android:background="@drawable/button_background"
+                            android:drawableEnd="@drawable/baseline_right_24"
+                            android:fontFamily="@font/poppins_bold"
+                            android:gravity="center"
+                            android:onClick="onLihatDetailClicked"
+                            android:paddingStart="12dp"
+                            android:paddingTop="0dp"
+                            android:paddingEnd="2dp"
+                            android:paddingBottom="1dp"
+                            android:text="Lihat Detail"
+                            android:textColor="@android:color/white"
+                            android:textSize="10sp"
+                            tools:layout_editor_absoluteX="22dp"
+                            tools:layout_editor_absoluteY="0dp" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
 
                 </LinearLayout>
             </LinearLayout>
@@ -1192,24 +1304,31 @@
                         app:layout_constraintStart_toStartOf="parent"
                         android:text="Rabiah Vivo" />
 
-                    <Button
-                        android:id="@+id/button_lihat_detail17"
-                        android:layout_width="130dp"
-                        android:layout_height="27dp"
-                        android:layout_marginTop="18dp"
-                        android:background="@drawable/button_background"
-                        android:paddingStart="12dp"
-                        android:paddingTop="0dp"
-                        android:paddingEnd="2dp"
-                        android:layout_marginStart="17dp"
-                        android:paddingBottom="1dp"
-                        android:textSize="10sp"
-                        android:text="Lihat Detail"
-                        android:textColor="@android:color/white"
-                        android:drawableEnd="@drawable/baseline_right_24"
-                        android:fontFamily="@font/poppins_bold"
-                        android:gravity="center"
-                        android:onClick="onLihatDetailClicked" />
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <Button
+                            android:id="@+id/button_lihat_detail17"
+                            android:layout_width="0dp"
+                            android:layout_height="27dp"
+                            android:background="@drawable/button_background"
+                            android:drawableEnd="@drawable/baseline_right_24"
+                            android:fontFamily="@font/poppins_bold"
+                            android:gravity="center"
+                            android:onClick="onLihatDetailClicked"
+                            android:paddingStart="12dp"
+                            android:paddingTop="0dp"
+                            android:paddingEnd="2dp"
+                            android:paddingBottom="1dp"
+                            android:text="Lihat Detail"
+                            android:textColor="@android:color/white"
+                            android:textSize="10sp"
+                            tools:layout_editor_absoluteX="22dp"
+                            tools:layout_editor_absoluteY="0dp" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
 
                 </LinearLayout>
 
@@ -1255,24 +1374,31 @@
                         app:layout_constraintStart_toStartOf="parent"
                         android:text="Yenny Chulaila" />
 
-                    <Button
-                        android:id="@+id/button_lihat_detail18"
-                        android:layout_width="130dp"
-                        android:layout_height="27dp"
-                        android:layout_marginTop="18dp"
-                        android:background="@drawable/button_background"
-                        android:paddingStart="12dp"
-                        android:paddingTop="0dp"
-                        android:paddingEnd="2dp"
-                        android:layout_marginStart="17dp"
-                        android:paddingBottom="1dp"
-                        android:textSize="10sp"
-                        android:text="Lihat Detail"
-                        android:textColor="@android:color/white"
-                        android:drawableEnd="@drawable/baseline_right_24"
-                        android:fontFamily="@font/poppins_bold"
-                        android:gravity="center"
-                        android:onClick="onLihatDetailClicked" />
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <Button
+                            android:id="@+id/button_lihat_detail18"
+                            android:layout_width="0dp"
+                            android:layout_height="27dp"
+                            android:background="@drawable/button_background"
+                            android:drawableEnd="@drawable/baseline_right_24"
+                            android:fontFamily="@font/poppins_bold"
+                            android:gravity="center"
+                            android:onClick="onLihatDetailClicked"
+                            android:paddingStart="12dp"
+                            android:paddingTop="0dp"
+                            android:paddingEnd="2dp"
+                            android:paddingBottom="1dp"
+                            android:text="Lihat Detail"
+                            android:textColor="@android:color/white"
+                            android:textSize="10sp"
+                            tools:layout_editor_absoluteX="22dp"
+                            tools:layout_editor_absoluteY="0dp" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
 
                 </LinearLayout>
             </LinearLayout>
@@ -1325,24 +1451,31 @@
                         app:layout_constraintStart_toStartOf="parent"
                         android:text="Go Yunita" />
 
-                    <Button
-                        android:id="@+id/button_lihat_detail19"
-                        android:layout_width="130dp"
-                        android:layout_height="27dp"
-                        android:layout_marginTop="18dp"
-                        android:background="@drawable/button_background"
-                        android:paddingStart="12dp"
-                        android:paddingTop="0dp"
-                        android:paddingEnd="2dp"
-                        android:layout_marginStart="17dp"
-                        android:paddingBottom="1dp"
-                        android:textSize="10sp"
-                        android:text="Lihat Detail"
-                        android:textColor="@android:color/white"
-                        android:drawableEnd="@drawable/baseline_right_24"
-                        android:fontFamily="@font/poppins_bold"
-                        android:gravity="center"
-                        android:onClick="onLihatDetailClicked" />
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <Button
+                            android:id="@+id/button_lihat_detail19"
+                            android:layout_width="0dp"
+                            android:layout_height="27dp"
+                            android:background="@drawable/button_background"
+                            android:drawableEnd="@drawable/baseline_right_24"
+                            android:fontFamily="@font/poppins_bold"
+                            android:gravity="center"
+                            android:onClick="onLihatDetailClicked"
+                            android:paddingStart="12dp"
+                            android:paddingTop="0dp"
+                            android:paddingEnd="2dp"
+                            android:paddingBottom="1dp"
+                            android:text="Lihat Detail"
+                            android:textColor="@android:color/white"
+                            android:textSize="10sp"
+                            tools:layout_editor_absoluteX="22dp"
+                            tools:layout_editor_absoluteY="0dp" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
 
                 </LinearLayout>
 
@@ -1388,24 +1521,31 @@
                         app:layout_constraintStart_toStartOf="parent"
                         android:text="Nurlinda" />
 
-                    <Button
-                        android:id="@+id/button_lihat_detail20"
-                        android:layout_width="130dp"
-                        android:layout_height="27dp"
-                        android:layout_marginTop="18dp"
-                        android:background="@drawable/button_background"
-                        android:paddingStart="12dp"
-                        android:paddingTop="0dp"
-                        android:paddingEnd="2dp"
-                        android:layout_marginStart="17dp"
-                        android:paddingBottom="1dp"
-                        android:textSize="10sp"
-                        android:text="Lihat Detail"
-                        android:textColor="@android:color/white"
-                        android:drawableEnd="@drawable/baseline_right_24"
-                        android:fontFamily="@font/poppins_bold"
-                        android:gravity="center"
-                        android:onClick="onLihatDetailClicked" />
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <Button
+                            android:id="@+id/button_lihat_detail20"
+                            android:layout_width="0dp"
+                            android:layout_height="27dp"
+                            android:background="@drawable/button_background"
+                            android:drawableEnd="@drawable/baseline_right_24"
+                            android:fontFamily="@font/poppins_bold"
+                            android:gravity="center"
+                            android:onClick="onLihatDetailClicked"
+                            android:paddingStart="12dp"
+                            android:paddingTop="0dp"
+                            android:paddingEnd="2dp"
+                            android:paddingBottom="1dp"
+                            android:text="Lihat Detail"
+                            android:textColor="@android:color/white"
+                            android:textSize="10sp"
+                            tools:layout_editor_absoluteX="22dp"
+                            tools:layout_editor_absoluteY="0dp" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
 
                 </LinearLayout>
             </LinearLayout>
