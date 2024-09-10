@@ -57,13 +57,21 @@
             android:orientation="vertical"
             android:padding="16dp">
 
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
             <ImageView
                 android:id="@+id/image_logo"
-                android:layout_width="380dp"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
                 android:scaleType="fitCenter"
-                android:src="@drawable/tanya_f" />
+                android:src="@drawable/tanya_new" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
 
             <TextView
                 android:id="@+id/text_balikpapan"
@@ -74,7 +82,7 @@
                 android:textColor="@color/black"
                 android:justificationMode="inter_word"
                 android:fontFamily="@font/poppins_regular"
-                android:text="Untuk bergabung dengan aplikasi Rumah BUMN maka anda cukup mendaftar melalui link goggle form yang tersedia di Bio Instagram masing-masing Instagram Rumah BUMN Kalimantan Timur."
+                android:text="Untuk bergabung dengan aplikasi Rumah BUMN,maka anda cukup mendaftar melalui link google form yang tersedia di aplikasi Rumah BUMN Kalimantan Timur pada fitur Info Detail di masing-masing Rumah BUMN Kalimantan Timur"
                 />
             <TextView
                 android:id="@+id/tekskosong_balikpapan"

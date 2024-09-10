@@ -97,21 +97,30 @@
                     android:textColor="@color/black"
                     android:gravity="center_vertical" />
 
-                <ImageButton
-                    android:id="@+id/button_lihat_katalog"
-                    android:layout_width="250dp"
-                    android:layout_height="33dp"
-                    android:layout_marginTop="2dp"
-                    android:background="@drawable/button_lihat_katalog"
-                    android:paddingStart="24dp"
-                    android:paddingTop="1dp"
-                    android:paddingEnd="24dp"
-                    android:paddingBottom="1dp"
-                    android:gravity="center"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/alamat_bpp" />
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@id/text_lokasi"
+                    android:id="@+id/klik_section"
+                    android:layout_marginTop="15dp">
+
+                    <ImageButton
+                        android:id="@+id/button_lihat_katalog"
+                        android:layout_width="0dp"
+                        android:layout_height="33dp"
+                        android:background="@drawable/button_lihat_katalog"
+                        android:gravity="center"
+                        android:paddingTop="1dp"
+                        android:paddingEnd="24dp"
+                        android:layout_marginEnd="25dp"
+                        android:paddingBottom="1dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
 
 
             </LinearLayout>
@@ -176,21 +185,31 @@
                     android:textColor="@color/black"
                     android:gravity="center_vertical" />
 
-                <ImageButton
-                    android:id="@+id/button_lihat_katalog2"
-                    android:layout_width="250dp"
-                    android:layout_height="33dp"
-                    android:layout_marginTop="22dp"
-                    android:background="@drawable/button_lihat_katalog"
-                    android:paddingStart="24dp"
-                    android:paddingTop="1dp"
-                    android:paddingEnd="24dp"
-                    android:paddingBottom="1dp"
-                    android:gravity="center"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/alamat_smd" />
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@id/text_lokasi"
+                    android:id="@+id/klik_section2"
+                    android:layout_marginTop="15dp">
+
+                    <ImageButton
+                        android:id="@+id/button_lihat_katalog2"
+                        android:layout_width="0dp"
+                        android:layout_height="33dp"
+                        android:background="@drawable/button_lihat_katalog"
+                        android:gravity="center"
+                        android:paddingStart="24dp"
+                        android:paddingTop="1dp"
+                        android:layout_marginEnd="25dp"
+                        android:paddingEnd="24dp"
+                        android:paddingBottom="1dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
 
             </LinearLayout>
         </LinearLayout>
@@ -254,21 +273,31 @@
                     android:textColor="@color/black"
                     android:gravity="center_vertical" />
 
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@id/text_lokasi"
+                    android:id="@+id/klik_section3"
+                    android:layout_marginTop="15dp">
+
                 <ImageButton
                     android:id="@+id/button_lihat_katalog3"
-                    android:layout_width="250dp"
+                    android:layout_width="0dp"
                     android:layout_height="33dp"
                     android:layout_marginTop="2dp"
                     android:background="@drawable/button_lihat_katalog"
                     android:paddingStart="24dp"
                     android:paddingTop="1dp"
+                    android:layout_marginEnd="25dp"
                     android:paddingEnd="24dp"
                     android:paddingBottom="1dp"
                     android:gravity="center"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/alamat_berau" />
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
 
 
 
@@ -334,21 +363,31 @@
                     android:textColor="@color/black"
                     android:gravity="center_vertical" />
 
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@id/text_lokasi"
+                    android:id="@+id/klik_section4"
+                    android:layout_marginTop="15dp">
+
                 <ImageButton
                     android:id="@+id/button_lihat_katalog4"
-                    android:layout_width="250dp"
+                    android:layout_width="0dp"
                     android:layout_height="33dp"
                     android:layout_marginTop="2dp"
                     android:background="@drawable/button_lihat_katalog"
                     android:paddingStart="24dp"
                     android:paddingTop="1dp"
+                    android:layout_marginEnd="25dp"
                     android:paddingEnd="24dp"
                     android:paddingBottom="1dp"
                     android:gravity="center"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/alamat_ppu" />
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
 
             </LinearLayout>
         </LinearLayout>
@@ -412,21 +451,31 @@
                     android:textColor="@color/black"
                     android:gravity="center_vertical" />
 
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@id/text_lokasi"
+                    android:id="@+id/klik_section5"
+                    android:layout_marginTop="15dp">
+
                 <ImageButton
                     android:id="@+id/button_lihat_katalog5"
-                    android:layout_width="250dp"
+                    android:layout_width="0dp"
                     android:layout_height="33dp"
                     android:layout_marginTop="2dp"
                     android:background="@drawable/button_lihat_katalog"
                     android:paddingStart="24dp"
                     android:paddingTop="1dp"
                     android:paddingEnd="24dp"
+                    android:layout_marginEnd="25dp"
                     android:paddingBottom="1dp"
                     android:gravity="center"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/alamat_kutai" />
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
 
             </LinearLayout>
         </LinearLayout>
